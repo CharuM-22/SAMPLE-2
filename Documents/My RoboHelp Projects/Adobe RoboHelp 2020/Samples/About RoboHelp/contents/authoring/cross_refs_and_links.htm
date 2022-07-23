@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <title>Cross References and Hyperlinks</title>
+  <meta name="topic-status" content="Complete" />
+  <meta name="rh-authors" content="Ann Author" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/rh_standard_2020_03.css" />
+  <meta name="rh-index-keywords" content="Cross References,Links and Cross References" />
+</head>
+<body>
+  <h1>Cross References and Hyperlinks</h1>
+  <p>Hyperlinks from topic to topic or to bookmarks have been part of <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> from the first versions. Cross References can be thought of as links on steroids.</p>
+  <ul class="disc">
+    <li>Using hyperlinks, the text of the link never changes. If, for example, you change the name of the target topic, the link remains unchanged.</li>
+    <li>Not so with cross references, they update automatically. If you create a cross reference to a heading, for example, and then the heading changes, so does the link to it.</li>
+  </ul>
+  <p class="emphasis1"><img src="../assets/images/BadgeTip.png" /> Cross references give more functionality than hyperlinks but link only to targets within the project. Hyperlinks can link to internal or external content.</p>
+  <p>Looking at how to set them up shows just how much more cross references give.</p>
+  <h2>Setting Up Cross References and Links</h2>
+  <p>The link icon on the toolbar has two options.</p>
+  <p><img src="../assets/images/authoring/crossref01.png" style="cursor: nwse-resize;" /></p>
+  <h3>Insert a Cross Reference</h3>
+  <p>Insert Cross Reference gives more specific targeting than hyperlinks.</p>
+  <h3>Insert a Link</h3>
+  <p>Insert Link enables you to link to topics, bookmarks and external content with options as to whether or not they appear in a popup.</p>
+  <h2>Cross References</h2>
+  <p>When you click Cross Reference a dialog will appear allowing you to choose the topic containing whatever you want to cross reference. Then you will see the Cross Reference dialog shown below.</p>
+  <h3>Select Topic</h3>
+  <p>This will show the topic chosen and give you the option to change it. </p>
+  <p><img src="../assets/images/authoring/crossref02.png" /></p>
+  <h3>Type</h3>
+  <p>In this example Heading has been chosen. The headings in the selected topic are then displayed in Targets. The other options are:-</p>
+  <h4>Bookmark</h4>
+  <p>The Targets panel will display every bookmark in the selected topic.</p>
+  <h4>Description</h4>
+  <p>The Targets panel will display what has been entered in the topic&#39;s Description field in its Properties.</p>
+  <h4>Figure</h4>
+  <p>The Targets panel will display every figure with a caption applied in the selected topic. You can include a caption when adding a figure or you can add it later in Properties.</p>
+  <h4>Paragraph</h4>
+  <p>The Targets panel will display every paragraph in the selected topic. Select the required paragraph.</p>
+  <h4>Table</h4>
+  <p>The Targets panel will display every table with a caption applied in the selected topic. Tables without captions will not appear. You can include a caption when adding a table or you can add it later in Properties.</p>
+  <p class="emphasis1"><img src="../assets/images/BadgeTip.png" /> HTML5 rules require the table to have a caption to make this work. What if you don&#39;t want a caption showing above or below you table? Format the caption text to be the same color as your background.</p>
+  <h4>Title</h4>
+  <p>The Targets panel will display the Title of the topic. Remember this is not necessarily the same as the topic&#39;s heading.</p>
+  <h3>Format</h3>
+  <p>Here you select how you want the cross reference to appear, the heading type has four options.</p>
+  <ul class="disc">
+    <li><strong>Heading Text</strong> - Use this if you want the text only in all outputs.</li>
+    <li><strong>Page Number</strong> - Use this if the text in the topic is to show the page number only. This would only be used where the cross reference would only appear in PDF and Word outputs.</li>
+    <li><strong>Chapter Number</strong> - Use this only in cross references that are to appear in PDF and Word outputs. You will need to apply a condition tag to the cross reference and use a condition expression in online outputs.</li>
+    <li><strong>Heading Text with Page Number</strong> - This option will give the heading text only in online outputs but in PDF and Word outputs it will add the page number.</li>
+  </ul>
+  <h3>Targets</h3>
+  <p>This field will show the options for the Type you selected, in this example the headings in the topic. If, for example, you later change a heading that is targeted from within the topic or from another topic, the text of the link will automatically be changed. If you selected to use page numbers, next time you generate a PDF or Word document, the page numbers will automatically refresh. You cannot edit the text as you can with hyperlinks as the whole point is to automatically keep the text of the link in sync.</p>
+  <h3>Preview</h3>
+  <p>In the Preview field you will see what will be shown in the topic based on the Format option you have selected and you can add a Screen Tip that will be seen when the user hovers the mouse over the cross reference. </p>
+  <h3>Screen Tip</h3>
+  <p>Enter any text to be shown when the user hovers the mouse over the cross reference.</p>
+  <h3>Display In</h3>
+  <p>Select how the target is to be displayed</p>
+  <h2>Hyperlinks</h2>
+  <p>Hyperlinks have the advantage of also being able to link to external content such as web pages and create a link that opens a preformatted email in the user&#39;s default email client.</p>
+  <p>By default when you drag a topic from the Contents panel to a topic, it will be created as a hyperlink. In Edit &gt; Preferences you can change the default so that a cross reference is created.</p>
+  <p><img class="spacing_top_only" src="../assets/images/authoring/crossref04.png" style="cursor: nesw-resize;" /></p>
+  <h2>Converting Hyperlinks to Cross References</h2>
+  <p>If you have an older project and want to convert the hyperlinks to cross references, there is a <a href="scripts.htm">script</a> that will do that for you.</p>
+  <p> </p>
+</body>
+</html>

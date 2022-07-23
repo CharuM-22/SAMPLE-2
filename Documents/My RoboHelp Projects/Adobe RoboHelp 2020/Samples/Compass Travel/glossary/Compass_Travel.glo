@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>        
+
+<glossgroup id="Compass_Travel">          
+<title>Glossary Definitions</title>        
+<glossentry id="CRM">
+<glossterm>CRM</glossterm>
+<glossdef>Customer relationship management (CRM) is a widely-implemented strategy for managing a company’s interactions with customers, clients and sales prospects. It involves using technology to organize, automate, and synchronize business processes—principally sales activities, but also those for marketing, customer service, and technical support. The overall goals are to find, attract, and win new clients, nurture and retain those the company already has, entice former clients back into the fold, and reduce the costs of marketing and client service. Customer relationship management describes a company-wide business strategy including customer-interface departments as well as other departments.</glossdef></glossentry>
+<glossentry id="CSH">
+<glossterm>CSH</glossterm>
+<glossdef>(Context-sensitive Help)</glossdef></glossentry>
+<glossentry id="Opportunity">
+<glossterm>Opportunity</glossterm>
+<glossdef>Any contact with a customer (or potential customer) is generically known as an opportunity. This is because you have an opportunity to convert a potential customer to an actual customer. Or an opportunity to deepen and strengthen the existing customer experience.</glossdef></glossentry>
+<glossentry id="PDF">
+<glossterm>PDF</glossterm>
+<glossdef>(Adobe System&#39;s Portable Document Format)</glossdef></glossentry>
+<glossentry id="Pipeline">
+<glossterm>Pipeline</glossterm>
+<glossdef>A Pipeline is defined as a sales process. This is also known as a sales tunnel or a sales funnel and is a systematic approach to selling a product or service.</glossdef></glossentry>
+<glossentry id="Project_Bubble">
+<glossterm>Project Bubble</glossterm>
+<glossdef>In the My Pipeline view each project is represented as a circular bubble. These are called Project Bubbles. They may be clicked and dragged to change their data on the My Pipeline screen.</glossdef></glossentry>
+<glossentry id="SFA">
+<glossterm>SFA</glossterm>
+<glossdef>A Sales Force Automation System (SFA), typically a part of a company’s customer relationship management system, is a system that automatically records all the stages in a sales process. SFA includes a contact management system  which tracks all contact that has been made with a given customer, the purpose of the contact, and any follow up that might be required. This ensures that sales efforts are not duplicated, reducing the risk of irritating customers. SFA also includes a sales lead tracking system, which lists potential customers through paid phone lists, or customers of related products. Other elements of an SFA system can include sales forecasting, order management and product knowledge. More developed SFA systems have features where customers can actually model the product to meet their required needs through online product building systems. This is becoming more and more popular in the automobile industry, where patrons can customize various features such as color and interior features such as leather vs. upholstered seats.</glossdef></glossentry>
+<glossentry id="SSL">
+<glossterm>SSL</glossterm>
+<glossdef>(Single Source Layout)</glossdef></glossentry>
+<glossentry id="UDV">
+<glossterm>UDV</glossterm>
+<glossdef>User Defined Variable</glossdef></glossentry></glossgroup>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<roboml>
+  <project_info>
+    <name value="first project" />
+  </project_info>
+<project_files>
+      <toc url="default_toc.xml" />
+</project_files>
+<topics>  
+  <topic url="5.1_Advantages.htm" title="4. Foreign policy" /> 
+  <topic url="4.htm" title="5.1 Advantages of AI" /> 
+  <topic url="5.htm" title="5. Uses of AI" /> 
+</topics>
+</roboml>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>        
+
+<keywords>        
+<keyword>
+<name>API</name>
+<conditions>Others:Developer</conditions></keyword>
+<keyword>
+<name>Map IDs</name>
+<conditions>Others:Developer</conditions></keyword>
+<keyword>
+<name>Context Sensitive Help</name>
+<conditions>Others:Developer</conditions>
+<keywords>
+<keyword>
+<name>CSH - How it&#39;s done</name>
+<conditions>Others:Developer</conditions></keyword>
+<keyword>
+<name>How to use CSH APIs</name>
+<conditions>Others:Developer</conditions></keyword>
+<keyword>
+<name>Creating Map IDs</name>
+<conditions>Others:Developer</conditions></keyword>
+<keyword>
+<name>Testing CSH Help</name>
+<conditions>Others:Developer</conditions></keyword>
+<keyword>
+<name>Context-sensitive help for mobile apps</name>
+<conditions>Others:Developer</conditions></keyword></keywords></keyword>
+<keyword>
+<name>Contact - New</name>
+<conditions>Others:Sales</conditions>
+<seealso>New Contact</seealso></keyword>
+<keyword>
+<name>New Contact</name>
+<conditions>Others:Sales</conditions>
+<keywords>
+<keyword>
+<name>Notes</name>
+<conditions>Others:Sales</conditions></keyword>
+<keyword>
+<name>Activities</name>
+<conditions>Others:Sales</conditions></keyword>
+<keyword>
+<name>General</name>
+<conditions>Others:Sales</conditions></keyword></keywords></keyword>
+<keyword>
+<name>General - New Contact</name>
+<conditions>Others:Sales</conditions></keyword>
+<keyword>
+<name>Activities - New Contact</name>
+<conditions>Others:Sales</conditions></keyword>
+<keyword>
+<name>Notes - New Contact</name>
+<conditions>Others:Sales</conditions></keyword>
+<keyword>
+<name>Configuration</name>
+<conditions>Others:Sales</conditions></keyword>
+<keyword>
+<name>Opportunities</name>
+<conditions>Others:Sales</conditions></keyword>
+<keyword>
+<name>Accounts</name>
+<conditions>Others:Sales</conditions></keyword>
+<keyword>
+<name>My Pipeline</name>
+<conditions>Others:Sales</conditions></keyword>
+<keyword>
+<name>How Do I</name>
+<keywords>
+<keyword>
+<name>Implement CSH</name>
+<conditions>Others:Developer</conditions></keyword>
+<keyword>
+<name>Test CSH Help</name>
+<conditions>Others:Developer</conditions></keyword></keywords></keyword>
+<keyword>
+<name>Travel</name>
+<keywords>
+<keyword>
+<name>Leisure</name>
+<conditions>Others:LeisureTravel</conditions>
+<keywords>
+<keyword>
+<name>How Whirl the World Travel sets itself apart from other Leisure Travel</name>
+<conditions>Others:LeisureTravel</conditions></keyword>
+<keyword>
+<name>What is Leisure Travel?</name>
+<conditions>Others:LeisureTravel</conditions></keyword>
+<keyword>
+<name>What services do we offer the Leisure Client?</name>
+<conditions>Others:LeisureTravel</conditions></keyword>
+<keyword>
+<name>How Whirl the World Travel entered the Leisure Travel market</name>
+<conditions>Others:LeisureTravel</conditions></keyword></keywords></keyword></keywords></keyword>
+<keyword>
+<name>Leisure Travel</name>
+<conditions>Others:LeisureTravel</conditions>
+<keywords>
+<keyword>
+<name>How Whirl the World Travel sets itself apart from other Leisure Travel</name>
+<conditions>Others:LeisureTravel</conditions></keyword>
+<keyword>
+<name>What services do we offer the Leisure Client?</name>
+<conditions>Others:LeisureTravel</conditions></keyword>
+<keyword>
+<name>What is Leisure Travel?</name>
+<conditions>Others:LeisureTravel</conditions></keyword>
+<keyword>
+<name>How Whirl the World Travel entered the Leisure Travel market</name>
+<conditions>Others:LeisureTravel</conditions></keyword></keywords></keyword></keywords>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>    
+<expr>    
+<group flag="Include" op="AND">
+<tag name="Others" value="UK" flag="Include" op="AND"></tag>
+<tag name="Others" value="Mode_RAIL" flag="Include" op="OR"></tag>
+<tag name="Others" value="UK" flag="Include" op="AND"></tag>
+<tag name="Others" value="Mode_SEA" flag="Include" op="OR"></tag>
+<tag name="Others" value="UK" flag="Include" op="AND"></tag>
+<tag name="Others" value="Mode_AIR" flag="Include" op="OR"></tag>
+<tag name="Others" value="UK" flag="Include" op="AND"></tag>
+<tag name="Others" value="Canada" flag="Exclude" op="AND"></tag></group>    </expr>

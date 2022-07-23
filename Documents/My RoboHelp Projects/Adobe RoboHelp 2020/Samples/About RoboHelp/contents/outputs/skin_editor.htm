@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="topic-status" content="Complete" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <title>The Skin Editor</title>
+  <meta name="rh-index-keywords" content="Skin Editor" />
+  <meta name="rh-authors" content="Ann Author" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/rh_standard_2020_03.css" />
+</head>
+<body>
+  <h1>The Skin Editor</h1>
+  <p>The skin editor now allows changes to all skins.</p>
+  <p>There is also a change in terminology.</p>
+  <ul class="Standard_Bullet">
+    <li class="Standard_Bullet">Previously, the design was referred to as the layout. There were also problems when the functionality needed to be changed that resulted in the loss of customization.</li>
+    <li class="Standard_Bullet">Now &quot;layout&quot; refers to the structure and &quot;skin&quot; refers to the appearance.</li>
+  </ul>
+  <p>The changes mean the terminology for both outputs is now the same and Adobe can change the underpinning code of the layout without any loss of customization.</p>
+  <p>Click Output &gt; Output Settings and then click Skins. When you select what you want to edit, a preview will display on the right along with the Skin Components you can customize. As you click each component, its properties will be displayed on the left of the preview for editing.</p>
+  <p>Because the Logo setting has focus, the preview on the right has a red square showing what will be affected by any changes made.</p>
+  <p><img alt="" border="0" class="spacing_top_only" src="../assets/images/outputs/skin_editor01.png" style="cursor: nwse-resize;" /></p>
+  <h2>Duplicate Skins</h2>
+  <p>You might want to make some changes to a skin either because corporate branding is about to change or you just feel that some tweaks are needed. You don&#39;t want to play with the current skin though until the new one is ready. Use the context menu to duplicate a skin or export one.</p>
+  <h2>Editing Skins</h2>
+  <p>The Skin Editor offers many more options to customize a skin than in Classic versions. This section is a guide to what the options are but does not describe each option in detail.</p>
+  <h3>Skins with Home Pages</h3>
+  <p>The home page shows icons to access the top level books in the table of contents.</p>
+  <p><img alt="" border="0" src="../assets/images/outputs/orange01.png" style="border: none;" /></p>
+  <p>All the books above are shown with the default images. You can change them in the skin editor. In the Layout Page tab go to TOC Tile Images to set your default images. If you set just two images, the images will be applied to every other book. If you set three or more, they will be applied in series.</p>
+  <p>In the skin editor you can set your image to cover the whole area and have the text sit on top of the image. In the skin editor Home Page tab, set the background opacity for tile-details-box to zero and the font color to whatever you require.</p>
+  <p>Alternatively, you can manage the tiles from the <a href="../toc_index_glossary/toc.htm">Table of Contents</a>. In the Layout tab &gt; Home Page options select Manage Tiles from TOC and the tiles you define in the TOC will be used instead. If you do not define a tile for a specific section or topic in the TOC, there will be no tile for that section or topic enabling you to control which sections appear as tiles.</p>
+  <h4>Using This Type of Skin Without the Home Page</h4>
+  <p>This will open with the default topic displayed and work more like traditional help. Note though, no frames! It&#39;s all done with DIV tags. Each topic has a simple URL.</p>
+  <p><img alt="" border="0" src="../assets/images/outputs/frameless_02.png" style="border: none;" /></p>
+  <h4>Home Page and Default Topic</h4>
+  <p>This is simply the home page you see in the first image with your default topic below it. That can be configured in the skin editor.</p>
+  <h2>Configuring the Skin</h2>
+  <p>The options vary according to the skin selected. The screens below are for the frameless Orange skin but all skins broadly follow the same layout</p>
+  <p>The skin editor has many more options than ever before and you will likely find you can create whatever you want by digging into the editing tabs. As you drill down through the various options, the image will be highlighted to show the area you are working on.</p>
+  <h3>The Preview</h3>
+  <p>The skin editor shows a live skin.</p>
+  <p class="null">Note that Container has been selected and Default Topic has no icon shown to the left of the text. It has not been clicked on so it is displaying as an unselected topic.</p>
+  <p><img src="../assets/images/outputs/skin_editor02.png" /></p>
+  <p class="null">By clicking on Default Topic, the icon is then displayed as that has become the selected topic and displays with the icon for a selected topic.</p>
+  <p class="null"><img src="../assets/images/outputs/skin_editor03.png" /></p>
+  <p class="null">Similarly, click on other areas such as the search icon top right to see what a user would see if they click on that icon.</p>
+  <h3>The Layout Tab</h3>
+  <p><img alt="" border="0" class="spacing_none" src="../assets/images/outputs/frameless_03.png" /></p>
+  <h4>User Assets</h4>
+  <p>In a preset you can select a script that is to run when the output is generated. In User Assets you need to select that script defined in the preset along with any assets it requires such as a CSS file.</p>
+  <h3>The Home Page Tab</h3>
+  <p><img alt="" border="0" class="spacing_none" src="../assets/images/outputs/frameless_04.png" style="border: none;" /></p>
+  <h3>The Topic Page Tab</h3>
+  <p><img alt="" border="0" class="spacing_none" src="../assets/images/outputs/frameless_05.png" style="border: none; cursor: nesw-resize;" /></p>
+  <h3>The Options</h3>
+  <p>There are more options than ever before and it is beyond the scope of this sample project to cover them all.</p>
+  <h4>Some Highlights</h4>
+  <ul class="Standard_Bullet">
+    <li class="Standard_Bullet">All the text can be set to your preferred fonts, weights and colors.</li>
+    <li class="Standard_Bullet">Colors and images can all be changed.</li>
+    <li class="Standard_Bullet">The size of different areas can be set as required.</li>
+    <li class="Standard_Bullet">Borders can be set to whatever width you want and have square or round corners.</li>
+    <li class="Standard_Bullet">The skins have a Download PDF button. In the preset layout tab you can define the path enabling users to download a PDF of the help. If you don&#39;t want to use that option, delete the button from the skin.</li>
+    <li class="Standard_Bullet">In Frameless outputs the header and footer can be made static. Layout &gt; Topic Page &gt; Static Header/Footer.</li>
+    <li class="Standard_Bullet">The skin is created from the DIVs defined in the EJS and the supporting CSS files. Expert users can edit those as well but the skin editor should cover most requirements.</li>
+  </ul>
+  <h2>508 and WCAG Compliance</h2>
+  <p>All frameless skins and the Azure Blue and Indigo HTML5 skins added to projects in this version are 508 and WCAG compliant as supplied.</p>
+  <p class="emphasis1"><img alt="" border="0" src="../assets/images/BadgeWarning.png" style="border: none;" /> <span style="font-weight: bold;">Customization and Compliance</span><br />
+    If you apply any customization, then you must ensure that too is compliant. Your customization could break compliance if, for example, you define colors that do not have the necessary contrast.<br />
+    You must also ensure that your content is compliant.</p>
+  <p class="emphasis1"><img src="../assets/images/BadgeTip.png" /> If your project has been upgraded from any earlier version, it is recommended that you add one of the above skins.</p>
+  <p> </p>
+  <p> </p>
+</body>
+</html>

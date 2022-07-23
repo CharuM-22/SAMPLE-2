@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>    
+<filter displayname="Select the options" multiple="yes" withingroup="yes">    
+<group displayname="global" name="global"></group>
+<group displayname="Audience" name="Audience">
+<condition name="Audience" value="CHINA" displayname="CHINA" default="no"></condition>
+<condition name="Audience" value="JAPAN" displayname="JAPAN" default="no"></condition>
+<condition name="Audience" value="INDIA" displayname="INDIA" default="no"></condition></group>
+<group displayname="COUNTRIES" name="New Group"></group></filter>

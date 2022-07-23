@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  
+<map>
+    
+<title>Variables</title>
+  
+<keydef keys="RoboHelpVersion">
+<topicmeta>
+<keywords>
+<keyword>Adobe RoboHelp (2015 release)</keyword></keywords></topicmeta></keydef>
+<keydef keys="ApplicationName">
+<topicmeta>
+<keywords>
+<keyword>SalesBuilder</keyword></keywords></topicmeta></keydef>
+<keydef keys="Filter">
+<topicmeta>
+<keywords>
+<keyword>Dynamic Content Filters</keyword></keywords></topicmeta></keydef>
+<keydef keys="CSH_Abbr">
+<topicmeta>
+<keywords>
+<keyword>CSH</keyword></keywords></topicmeta></keydef>
+<keydef keys="CompanyName">
+<topicmeta>
+<keywords>
+<keyword>Compass Travel</keyword></keywords></topicmeta></keydef>
+<keydef keys="CSH_Lowercase">
+<topicmeta>
+<keywords>
+<keyword>context-sensitive Help</keyword></keywords></topicmeta></keydef>
+<keydef keys="CSH_Title_case">
+<topicmeta>
+<keywords>
+<keyword>Context-sensitive Help</keyword></keywords></topicmeta></keydef>
+<keydef keys="Select_Lowercase">
+<topicmeta>
+<keywords>
+<keyword>tap</keyword></keywords></topicmeta></keydef>
+<keydef keys="Select_Title_case">
+<topicmeta>
+<keywords>
+<keyword>Tap</keyword></keywords></topicmeta></keydef></map>

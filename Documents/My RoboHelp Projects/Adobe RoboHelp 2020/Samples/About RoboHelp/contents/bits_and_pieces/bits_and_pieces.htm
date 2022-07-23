@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="topic-status" content="Complete" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <title>Bits and Pieces</title>
+  <meta name="rh-index-keywords" content="Language File,Underscores,Synonyms,Stop Words,Paragraph Markers,Mini TOC,Breadcrumbs" />
+  <meta name="rh-authors" content="Ann Author" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/rh_standard_2020_03.css" />
+</head>
+<body>
+  <h1>Bits and Pieces</h1>
+  <p>This is the home for those little bits and pieces of information that don&#39;t warrant a topic of their own but are still important.</p>
+  <h2>Auto Save</h2>
+  <p>In Preferences you can now set an Auto Save interval.</p>
+  <p><img alt="" border="0" src="../assets/images/multi_folder/autosave.png" style="border: none;" /></p>
+  <p><span data-keyref="ProdName_Generic">Adobe RoboHelp</span> will auto save at the specified interval. Whilst the topic remains open in the authoring area, you can use Undo/Redo or CTRL Z/CTRL Y through all the autosaves made in that session. Once the topic is closed, the changes are committed.</p>
+  <p>You can also use Undo/Redo or CTRL Z/CTRL Y with Auto Save deselected whilst a topic is open even though you have saved.</p>
+  <p>In all cases, once you have closed the topic, the undo options are no longer available.</p>
+  <h2>Breadcrumbs &gt; Home</h2>
+  <p>By default the Home breadcrumb will take users to the default topic. If you want that part of the link to be simple text you need to edit the skin. Go to the Layout Tab &gt; Topic Page and deselect Breadcrumbs Home Hyperlinks.</p>
+  <h2>Closing Tabs in the Authoring Area</h2>
+  <p>As well as clicking the X on the tab, you can middle click your mouse.</p>
+  <h2>Columns</h2>
+  <p>You can set up a topic you can set up a specific style to have columns OR you can set things up so that all of the content or a specific section has columns with multiple styles within.</p>
+  <h3>Style with Columns</h3>
+  <p>Either edit an existing style or create a new one such as p.columns and locate Multiple Columns in Properties. Set the required number of columns in the Column Count field and the other properties as required. As you type your content it will show in columns until you return to another style. You can apply the style to existing content.</p>
+  <p><img alt="" border="0" src="../assets/images/miscellaneous/multiple_cols.png" style="border: none;" /></p>
+  <h3>All Content or Specific Sections containing Multiple Styles</h3>
+  <p>To achieve this you need to create a div tag. The opening tag is put at the beginning of the topic after the body tag or section and the closing tag is put at the end of the topic before the closing body tag or section.</p>
+  <p>Using the <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> CSS editor create a Div tag with your preferred name, for example create a Div class named twocolumns.</p>
+  <p>Currently you cannot apply that to your topics in Author mode so switch to Source mode.</p>
+  <ol class="Decimal">
+    <li>Enter &lt;div class=&quot;twocolumns&quot;&gt; either after the body tag if the whole topic is to be in columns or where you want the section to start.</li>
+    <li>When you type the closing bracket <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> will automatically enter the closing tag. You may need to move that if there is already content in the topic.</li>
+    <li>Remain in Source mode.</li>
+    <li>In the blank line between the opening and closing tags, enter &lt;p&gt;. <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> will create the closing tag.</li>
+    <li>Return to Author mode.</li>
+  </ol>
+  <p>You can enter content between those div tags and use multiple styles within.</p>
+  <h2>File Association</h2>
+  <p>You can associate various file types with your preferred editor.</p>
+  <p>Click Edit &gt; Preferences and then File Association.</p>
+  <p>Enter the file extension and then browse the exe file of your preferred editor, then click the + icon to see that in the row below.</p>
+  <p>Click Done when you have added the required editors.</p>
+  <p><img alt="" border="0" src="../assets/images/miscellaneous/file_assoc_01.png" style="border: none;" /></p>
+  <h2>Hyperlinks</h2>
+  <p>When you add a link in a topic using the Link icon, you can add a screen tip to give the user more information. If you drag topics to create a link in another topic, right click the link to add the screen tip.</p>
+  <p>Right click a hyperlink to edit it or open the target.</p>
+  <h2>Keyboard Shortcuts</h2>
+  <p>With each update more and more keyboard shortcuts are being added. See the <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> online help for the current shortcuts. <a href="https://helpx.adobe.com/robohelp/using/keyboard-shortcuts.html" target="_blank">Click here.</a></p>
+  <h2>Labels / Language File</h2>
+  <p>The LNG file as it was known in Classic versions allowed you to make many changes to terms the end user sees. Later it was renamed Labels but it was still deep in the Project Settings. Now Labels are easily found in Output Presets.</p>
+  <p>Hover over an existing set to edit or delete it.</p>
+  <p class="emphasis1"><img alt="" border="0" src="../assets/images/BadgeNew.png" style="border: none;" /> Now you can import and export sets between projects. Great news for anyone who works with multiple languages as that can save on costs.</p>
+  <p><img alt="" border="0" class="spacing_top_only" src="../assets/images/miscellaneous/labels.png" /></p>
+  <h2>Markdown</h2>
+  <p>Import options include the import of markdown files.</p>
+  <h2>Mini TOCs</h2>
+  <p>A mini TOC lists the headings in a topic.</p>
+  <ul>
+    <li>In frameless skins it appears automatically in the right hand panel.</li>
+    <li>In responsive skins you can add a mini TOC to individual topics or to a <a href="../authoring/master_pages.htm">Master Page</a>.</li>
+    <li>If you use both in a project, add the mini TOC to the required topics or a master page and apply a condition tag to exclude it from frameless outputs. It will get automatically hidden without the tag but the user may see it flash up before it hides. </li>
+  </ul>
+  <h3>Adding the mini TOC</h3>
+  <p>To add a mini TOC place the cursor where you want the mini TOC and click the icon shown.</p>
+  <p><img alt="" border="0" class="spacing_bottom_only" height="37" src="../assets/images/miscellaneous/top_toolbar_minitoc.png" width="451" /><br />
+    In the author view it will look like this with some formatting applied. In this example, it has been set to show up to six levels of heading. The heading shows here as Mini TOC (placeholder) but in preview it will show whatever you set in Properties.</p>
+  <p><img alt="" border="0" class="spacing_bottom_only" src="../assets/images/miscellaneous/minitoc_source.png" /></p>
+  <p>In the preview, it will look like this.</p>
+  <p><img alt="" border="0" class="spacing_bottom_only" src="../assets/images/miscellaneous/minitoc_output.png" /></p>
+  <h3>Formatting the Mini TOC Caption</h3>
+  <p>Click in the placeholder line and go to Properties. Here you can define the caption users will see, with different captions dependent on whether the list is expanded or contracted if you choose that option. You can also change the font by selecting a style from your CSS or applying inline formatting.</p>
+  <h3>Formatting the Mini TOC Links</h3>
+  <p>To change the default appearance of the list of topics, click next to list and go to Properties &gt; Styles &gt; Lists.</p>
+  <p>Select one of your pre-existing list styles or create a new one with a name such as minitoc-list-item to clearly identify its purpose. To change the appearance of that list style, click the pencil icon alongside to open the CSS editor. Set the appearance for each level.</p>
+  <p class="emphasis1"><img alt="" border="0" src="../assets/images/BadgeWarning.png" style="border: none;" /> At the moment, you can only apply one font style, color, size and weight to the whole list.</p>
+  <h2>Paragraph Markers</h2>
+  <p>Technically &quot;pilcrows&quot;. If you want to see your paragraph markers, go to View &gt; Show &gt; Paragraph Markers to toggle them on or off.</p>
+  <h2>Quick Ways to Find a File</h2>
+  <ol class="Decimal">
+    <li>Use the Search field at the top of the Contents panel. Enter any part of the file name or topic title.</li>
+    <li>Use the menu File &gt; Recent Files (Alt + CTRL + F). The dialog will allow you to search and it also shows all recently used files.</li>
+    <li>Open the Topic List report. You can locate and open the topic from there.</li>
+  </ol>
+  <h2>Remove Text Attributes</h2>
+  <p>Within a paragraph you may have added hyperlinks, applied inline formatting such as bold text or a color and so on. You can remove these by selecting each one but there is also an option to bulk remove them across a section of your content.</p>
+  <p>Select the text where you want to remove the attributes in bulk. This can be part of a paragraph, a whole paragraph or across a number of paragraphs and headings. Then right click and select Remove Text Attributes. All the attributes applied in the selection and you can either select all or just those you want removed.</p>
+  <p><img src="../assets/images/miscellaneous/remove_attributes.png" /></p>
+  <h2>Resource Linking</h2>
+  <p>Resource Manager has been replaced by <a href="../authoring/resource_linking.htm">Resource Linking</a>.</p>
+  <h2>Rounded Corners</h2>
+  <p>When applying a border or a background color in the style editor you can now set a radius so that the corners are rounded rather than square. The setting is in the Border options but applies to both border and background.</p>
+  <h2>Ruler</h2>
+  <p>The authoring area includes a horizontal ruler. By default it is set to inch but this can be changed to centimeter, pica, pixel or point. You can turn the ruler on and off in the View menu.</p>
+  <p>Use the sliders to adjust the margins.</p>
+  <p>It is recommended that you stick to one unit of measurement in a project but if you do change the setting, <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> will adjust the code in the output. There may be some minor rounding differences in the calculation.</p>
+  <p>There is not an Indent First Line slider as there was in Classic versions as that is little used now. If you do need <span style="font-size:11.0pt"><span style="font-family:&quot;Calibri&quot;,sans-serif">to indent the first line of a paragraph, </span></span>simply add the text-indent declaration to a style or create a class as shown.</p>
+  <p>p.First-Line-Indent{<br />
+        text-indent: 10pt;<br />
+    }</p>
+  <h2>Single Tab Mode</h2>
+  <p>In Preferences &gt; General you can now select Use Single Tab to Open Files. If you have a topic open in the Authoring area, when you open another topic, it will close the open topic unless it has unsaved changes. That allows you to open another file you want to look at to check something without forcing you to save first.</p>
+  <p>If you need to keep another tab open but otherwise continue in Single Tab mode, right click the topic tab and select Keep Open.</p>
+  <p>You can also have the TOC open in the authoring area at the same time.</p>
+  <h2>Special Characters</h2>
+  <p>The toolbar icon accesses a dialog with categories of special characters to make it easier to find and insert a wide range of special characters.</p>
+  <p><img alt="" border="0" src="../assets/images/miscellaneous/symbols.png" style="border: none;" /></p>
+  <p><img alt="" border="0" src="../assets/images/miscellaneous/symbols_cats.png" style="border: none;" /></p>
+  <h2>Spell Check</h2>
+  <p>Click Edit &gt; Spell Check to see the options for spell checking along with their keyboard shortcuts. The spell check panel appears alongside Properties and the Settings icon lets you edit your saved spellings.</p>
+  <h2>Split View</h2>
+  <p>Right click a tab for any topic and various split screen options will be shown. That topic will be displayed top, bottom, left or right according to you choice and all others will opposite. If you need more screen space, hide the other panels.</p>
+  <p><img alt="" border="0" src="../assets/images/miscellaneous/splitscreen.png" style="border: none; cursor: nesw-resize;" /></p>
+  <h2>Stop Words</h2>
+  <p>Stop Words have been moved, they are now in Output Presets.</p>
+  <p>Simply select a language and edit the supplied list.</p>
+  <p>When you generate an output, the language you choose for the output will use the appropriate list.</p>
+  <h2>Synonyms</h2>
+  <p>Synonyms have been moved, they are now in Output Presets.</p>
+  <p>Synonyms are a useful way of allowing your users to enter say <span style="font-weight: bold;">car</span> and find any topic with the word <span style="font-weight: bold;">automobile</span> in it.</p>
+  <p>Simply select a language and create your synonyms for that language.</p>
+  <p>When you generate an output, the language you choose for the output will use the appropriate list.</p>
+  <h2>Underscores in File Names</h2>
+  <p>For folders and topics in particular, it is recommended that you avoid spaces in the names. In Project Settings there is now an option so that underscores are automatically added if you enter a space.</p>
+  <p>This does not affect images to avoid issues with linked resources where you cannot control the naming convention.</p>
+  <p> </p>
+  <p> </p>
+</body>
+</html>

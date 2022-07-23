@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map type="toc">
+<title>Customer_C</title>
+<page href="../contents/5.htm" format="html" processing-role="normal"></page>
+<page href="../contents/5.2_Development.htm" format="html" processing-role="normal"></page>
+<page href="../contents/5.1_Structure.htm" format="html" processing-role="normal"></page>
+</map>

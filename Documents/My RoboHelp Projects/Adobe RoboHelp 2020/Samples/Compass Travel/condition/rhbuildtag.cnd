@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<val>
+  <prop att="Others" val="Adventure" backcolor="#F44336" color="#ffffff"></prop>
+  <prop att="Others" val="ALL" backcolor="#EF5350" color="#ffffff"></prop>
+  <prop att="Others" val="AuthorContent" backcolor="#E57373" color="#ffffff"></prop>
+  <prop att="Others" val="Canada" backcolor="#EF9A9A" color="#ffffff"></prop>
+  <prop att="Others" val="Content" backcolor="#2196F3" color="#ffffff"></prop>
+  <prop att="Others" val="CorporateTravel" backcolor="#42A5F5" color="#ffffff"></prop>
+  <prop att="Others" val="Developer" backcolor="#64B5F6" color="#ffffff"></prop>
+  <prop att="Others" val="DHTML" backcolor="#90CAF9" color="#ffffff"></prop>
+  <prop att="Others" val="Dynamic_Filters" backcolor="#FFEB3B" color="#000000"></prop>
+  <prop att="Others" val="Dynamic_Only" backcolor="#FFEE58" color="#000000"></prop>
+  <prop att="Others" val="eBookOnly" backcolor="#FFF176" color="#000000"></prop>
+  <prop att="Others" val="EndUser" backcolor="#FFF59D" color="#000000"></prop>
+  <prop att="Others" val="Explanations" backcolor="#4CAF50" color="#ffffff"></prop>
+  <prop att="Others" val="LeisureTravel" backcolor="#66BB6A" color="#ffffff"></prop>
+  <prop att="Others" val="Marketing" backcolor="#81C784" color="#ffffff"></prop>
+  <prop att="Others" val="Mode_AIR" backcolor="#A5D6A7" color="#ffffff"></prop>
+  <prop att="Others" val="Mode_RAIL" backcolor="#9C27B0" color="#ffffff"></prop>
+  <prop att="Others" val="Mode_SEA" backcolor="#AB47BC" color="#ffffff"></prop>
+  <prop att="Others" val="MultipleFilter" backcolor="#BA68C8" color="#ffffff"></prop>
+  <prop att="Others" val="Not_eBook" backcolor="#CE93D8" color="#ffffff"></prop>
+  <prop att="Others" val="Online" backcolor="#FF9800" color="#ffffff"></prop>
+  <prop att="Others" val="Online_Only" backcolor="#FFA726" color="#ffffff"></prop>
+  <prop att="Others" val="Print" backcolor="#FFB74D" color="#ffffff"></prop>
+  <prop att="Others" val="Sales" backcolor="#FFCC80" color="#ffffff"></prop>
+  <prop att="Others" val="SingleFilter" backcolor="#424242" color="#ffffff"></prop>
+  <prop att="Others" val="Tip" backcolor="#616161" color="#ffffff"></prop>
+  <prop att="Others" val="UK" backcolor="#757575" color="#ffffff"></prop>
+  <prop att="Others" val="US" backcolor="#9E9E9E" color="#ffffff"></prop>
+  <prop att="Others" val="Videos" backcolor="#BDBDBD" color="#ffffff"></prop>
+</val>

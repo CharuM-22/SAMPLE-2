@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="topic-status" content="Complete" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <title>Single Sourcing. Tags and Expressions</title>
+  <meta name="rh-index-keywords" content="Condition Tags and Expressions,Single Sourcing" />
+  <meta name="rh-authors" content="Ann Author" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/rh_standard_2020_03.css" />
+</head>
+<body>
+  <h1>Single Sourcing, Tags and Expressions</h1>
+  <p>Single sourcing is a method of applying condition tags to topics, content in topics, toc books and pages and index entries so that the tag can be included in a condition expression to exclude that content from a chosen output. For example, a single topic could contain additional information that is only to be seen in certain outputs, perhaps a printed output needs an image not required in online versions. Essentially it means a single project (source) can produce multiple outputs, each with different content. This is done by using Condition Tags.</p>
+  <h2>How Do Condition Tags Work?</h2>
+  <p>The concept is best explained using an example. Let&#39;s say you are producing a knowledge base for your company with some content that applies to everyone, some applies only US readers, some only applies to UK readers and some only applies to Canadian readers. Also end users must not see each others content. In that scenario <a href="../outputs/dynamic_content.htm">Dynamic Content Filtering</a> would not work as they could all see the content for the others. You need to generate separate outputs for each group.</p>
+  <p>In this example you would create three condition tags labelled US, UK and Canada.</p>
+  <p><img src="../assets/images/single_sourcing/tags01.png" /></p>
+  <p>The screenshot shows those condition tag groups have been set up here by clicking the + icon and creating them in the Audience Group. There are default groups that you can remove or add to in Project Settings.</p>
+  <p>Here Audience suits our purpose and the predefined Platform condition tags have been left in. Any group that does not have a condition tag defined will not be shown in the window below.</p>
+  <p class="emphasis1"><img alt="" border="0" src="../assets/images/BadgeTip.png" style="border: none;" /> When you set the color for any tag, also set the opacity to low so that the text is still legible. Note how the content for Canada and UK is easier to read than the content for the US in the image below.</p>
+  <p>With the required tags set up, you now create your content. Here paragraphs have been set up with content for a specific audience.</p>
+  <p>Simply select the text to which the condition tag is to be applied, right click and select Apply Condition Tags. To apply a tag to a whole paragraph, click in the paragraph and then apply the tag.<br />
+    <img alt="" border="0" class="spacing_top_only" src="../assets/images/single_sourcing/tags03.png" />
+  </p>
+  <p class="emphasis1"><img alt="" border="0" src="../assets/images/BadgeWarning.png" style="border: none;" /> In the Preview you can select specific condition tags and expressions to see the effect of using the condition tags and expressions. Be careful applying condition tags to both the topic and to content. Test that thoroughly as it can have unintended results.</p>
+  <h2>Using Condition Tags In an Expression</h2>
+  <p>In Output &gt; Output Settings, click Condition Expressions, then click the + icon to create an expression.</p>
+  <p><img alt="" border="0" class="spacing_top_and_bottom" src="../assets/images/single_sourcing/tags04.png" style="cursor: nwse-resize;" /></p>
+  <p>As you drag tags, by default <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> will set the tag to be excluded and additional tags will be set to be AND.</p>
+  <p>Thus if you drag both UK and Canada, by default the expression will be Exclude UK AND Exclude Canada so the output will exclude anything that has the UK or Canada condition tag applied. It will include content that has no tags or other tags.</p>
+  <p>For other purposes, you can easily change Exclude to Include and you can change AND to OR.</p>
+  <h2>Generating an Output</h2>
+  <p>By using different expressions, you can generate different outputs for different audiences, such as in the example above, or you could apply the Print condition tag to images and then exclude the images from online help but include them in Printed Documentation and so on.</p>
+  <p>In the Output Presets you can either select the required expression each time you generate or you can create one or more presets and set each one up with a specific expression. In this example you might set up Responsive HTML5 US, Responsive HTML5 UK and Responsive HTML5 Canada.</p>
+  <p> </p>
+  <p> </p>
+  <p> </p>
+</body>
+</html>

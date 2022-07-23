@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="topic-check-list" content="Ran Smart Index" />
+  <meta name="topic-status" content="Complete" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <title>Importing/Linking Word/Fm Docs</title>
+  <meta name="rh-index-keywords" content="Linking,Word and FrameMaker Linking,Importing,FrameMaker,Word Documents" />
+  <meta name="rh-authors" content="Ann Author" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/rh_standard_2020_03.css" />
+</head>
+<body>
+  <h1>Importing/Linking Word and FrameMaker Docs</h1>
+  <p class="emphasis1"><img alt="" border="0" src="../assets/images/BadgeNew.png" style="border: none;" /> Both Importing and Linking have been greatly simplified.</p>
+  <h2>Importing Word Documents</h2>
+  <p>Click File &gt; Import or right click in the Contents Panel and select Import &gt; Word Document, then browse to the document you want to import to start the process.</p>
+  <p class="emphasis1"><img alt="" border="0" src="../assets/images/BadgeNew.png" style="border: none;" /> You don&#39;t have to have any version of Word installed on your computer. You can import any Word document created in Word 2013 or higher and saved in DOCX format.</p>
+  <p>Configure the settings as below.</p>
+  <h2>General Settings</h2>
+  <table cellpadding="1" cellspacing="1" class="blue" style="border-collapse:collapse;" width="100%">
+    <colgroup>
+      <col style="width: 35%;" />
+      <col style="width: 65%;" />
+    </colgroup>
+    <tbody>
+      <tr>
+        <td>
+          <p class="tabletext"><img alt="" border="0" class="spacing_none" src="../assets/images/authoring/word_general.png" /></p>
+        </td>
+        <td>
+          <p class="tableheading">Word Document</p>
+          <p class="tabletext">As soon as you have selected the document, in the bottom right corner of the window you will see <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> reads the document after which you can proceed with the other settings.</p>
+          <p class="tabletext">You can only import documents in DOCX format. If they are in DOC format, you need to upgrade them first.</p>
+          <p class="tableheading">Load Settings</p>
+          <p>The default WSF (Word Settings File) set in Project Settings will be displayed. Use the search icon to change to another WSF file if required.</p>
+          <p class="tableheading">CSS<span style="color: rgb(0, 84, 159); font-size: 10pt; font-weight: bold;"> File For Style Mapping</span></p>
+          <p class="tabletext">Select the CSS file to be used for mapping.</p>
+          <p class="emphasis1"><img alt="" border="0" src="../assets/images/BadgeTip.png" style="border: none;" /> If you use one CSS file for your topics, automapping (described below) works best if you use that CSS file here.</p>
+          <p class="tableheading">Start New Topic From Style</p>
+          <p class="tabletext">If you want to break your document into a number of topics, set the style(s) to be used here. Click the dropdown and select the styles required. Click to the right of the dropdown to close it.</p>
+          <p class="tabletext">If you want to use the TOC hierarchy in Advanced settings (Add Generated Topics to Table of Contents, you need to split the document using the same styles.</p>
+          <p class="tableheading">Topic Name Pattern</p>
+          <p class="tabletext">Set the Topic Name Pattern if you want something other than the default.</p>
+          <p class="tableheading">Use Only ASCII characters</p>
+          <p class="tabletext">Tick this option if your file names or the styles to be used for setting the Topic Name Pattern have any characters that might cause problems after import. Generally it can be left blank.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>Advanced Settings</h2>
+  <table cellpadding="1" cellspacing="1" class="blue" style="border-collapse:collapse;" width="100%">
+    <colgroup>
+      <col style="width: 35%;" />
+      <col style="width: 65%;" />
+    </colgroup>
+    <tbody>
+      <tr>
+        <td>
+          <p class="tabletext"><img alt="" border="0" src="../assets/images/authoring/word_advanced.png" style="border: none;" /></p>
+        </td>
+        <td>
+          <p class="null">LIsts can be a problem with any Word documents imported into any HTML editor. The underlying reason is that in Word the list styles are not truly lists in the HTML sense, they are in fact paragraph styles with autonumbering applied. That means the conversion is trying to map two incompatible styles. Now two options are provided to give a better import.</p>
+          <p class="tableheading">Convert Word Lists to HTML Lists</p>
+          <p class="tabletext">This is the default as in most cases it is best to select the Convert Word Lists to HTML Lists check box. Your lists may not be exactly as you want them until you have made the changes described in Post Import. If they are still not right then you could try the next option.</p>
+          <p class="tableheading">Convert to Autonumber</p>
+          <p class="tabletext">This option will convert the list to an <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> generated autonumber style. In topics with two or more lists the number will be continuous on import but you can restart each list as required.</p>
+          <p class="emphasis1"><img src="../assets/images/BadgeNote.png" /> A list in Word is not a true list in the HTML sense, it is an autonumbered paragraph. This can cause issues when importing and Convert to Autonumber may help. Note however that autonumbered styles may not meet accessibility requirements. See the <a href="lists.htm#autonumber_accessibility" title="autonumber accessibility">Lists topic</a></p>
+          <p class="tableheading">Import Inline Styles</p>
+          <p class="tabletext">If the document has content where text has been selected and then some formatting such as a color or bold has been applied from the Word toolbar rather than by applying a character style, select this check box if you want that styling to appear in your topics.</p>
+          <p class="tabletext"><img src="../assets/images/authoring/word_toolbar_styles.png" /></p>
+          <p class="tableheading">Add Topics to Table of Contents</p>
+          <p class="tabletext">If you select Add Topics to Table of Contents, you will be able to create a new TOC or add to an existing TOC. A page will be created in the TOC for each topic created on import.</p>
+          <p class="tabletext">By default all the topics will be at the same level. However, there is a check box you can select so that the TOC follows the hierarchy of the styles and you can set which styles are to be used for the TOC hierarchy.</p>
+          <p class="tabletext">The Word Style(s) shown on the left will be whatever you have defined in General Settings to split the document. On the right you select the TOC heading level for that Word style.</p>
+          <p class="tableheading">
+            <font color="#ff00ff"><span style="font-weight: 400;"><i></i></span></font>Post Import Script
+          </p>
+          <p class="tabletext">Supplied scripts or your own scripts can be set to run automatically after import.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>Automapping</h2>
+  <p>Before looking at the remaining settings, you need to understand how automapping works as this applies to the Paragraph, Character, Hyperlink and Table Settings.</p>
+  <p><span data-keyref="ProdName_Generic">Adobe RoboHelp</span> attempts to automap styles where it can match the name in the Word document with a style in the CSS defined for style mapping. Against each style in Character, Paragraph and Table settings you will see how the styles have been mapped.</p>
+  <p>You then have the option to change any of the mappings by clicking the dropdowns.</p>
+  <p><img alt="" border="0" class="spacing_bottom_only" src="../assets/images/authoring/word_mapping.png" /></p>
+  <p>Using the dropdowns, you can change the styles that automapping has applied.</p>
+  <ul style="list-style: disc;">
+    <li>Import Style will create the style in a second CSS with the name in the format &lt;word_doc_name.css&gt;.</li>
+    <li>Discard Style maps any style in Word, including headings, to the &lt;p&gt; tag in the CSS used for style mapping.</li>
+    <li>Discard Content allows you to discard any content with the selected Word style.</li>
+    <li>Map to Style, you will see the styles defined in your CSS. You can map to any of those.</li>
+    <li>There is also an option to map to Pre to format text that looks like code.</li>
+  </ul>
+  <p>The styles that can be mapped will be applied in the topic(s) created and will use the definitions in the style mapping CSS that will be linked to the topic. Going forward, any changes to your CSS would then be applied to the mapped styles in the imported topic(s) in the same way as all other topics.</p>
+  <p>If you want the topic(s) that will be created to look the same as they did in Word, set the Mapped Style to Import Style for each style.</p>
+  <p class="emphasis1"><img alt="" border="0" src="../assets/images/BadgeTip.png" style="border: none;" /> If you have styles in Word and want to change them in RoboHelp <span style="font-style: italic;">after</span> importing, add a style to your CSS with a name such as Reformat and set the font for that with a garish color. Then map those styles to Reformat. After the import you can go through the topic(s) created and apply different styles as required. The garish color will make them easy to find.</p>
+  <h2>Paragraph Settings</h2>
+  <table cellpadding="1" cellspacing="1" class="blue" style="border-collapse:collapse;" width="100%">
+    <colgroup>
+      <col style="width: 35%;" />
+      <col style="width: 65%;" />
+    </colgroup>
+    <tbody>
+      <tr>
+        <td>
+          <p class="tabletext"><img alt="" border="0" class="spacing_none" src="../assets/images/authoring/word_paragraph.png" /></p>
+        </td>
+        <td>
+          <p class="tabletext">On the left you will see the Paragraph styles found in the Word document in the Word Style column with RoboHelp&#39;s automapping on the right.</p>
+          <p class="tabletext">For the document being imported here, <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> has automapped Heading 1, Heading 2 and Normal.</p>
+          <p class="tabletext">CSSTest has not been found in the CSS file used for style mapping so Import Word Style has been suggested. You can change that as required.</p>
+          <p class="tabletext">If your document has ordered and/or unordered lists you will see one Word style, ListParagraph. That is because the way Word creates lists makes it impossible to map the individual lists. Here you should select Import Style.</p>
+          <p class="tabletext">See Post Import below for more about lists.</p>
+          <p class="emphasis1"><img alt="" border="0" src="../assets/images/BadgeNew.png" style="border: none;" /> <span>Word documents retain many styles that are not used in the document, especially documents that have been worked on by many people. Previously all the style would have appeared here for mapping. Now only the styles in use will appear.</span></p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>Character Settings</h2>
+  <table cellpadding="1" cellspacing="1" class="blue" style="border-collapse:collapse;" width="100%">
+    <colgroup>
+      <col style="width: 35%;" />
+      <col style="width: 65%;" />
+    </colgroup>
+    <tbody>
+      <tr>
+        <td>
+          <p class="tabletext"><img alt="" border="0" src="../assets/images/authoring/word_character.png" style="border: none;" /></p>
+        </td>
+        <td>
+          <p class="tabletext">This works in the same way as Paragraph Settings but for any Character styles found in the Word document. Character styles are shown in Word&#39;s style pod and should not be confused with styling applied from Word&#39;s toolbar icons.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>Hyperlink Settings</h2>
+  <table cellpadding="1" cellspacing="1" class="blue" style="border-collapse:collapse;" width="100%">
+    <colgroup>
+      <col style="width: 35%;" />
+      <col style="width: 65%;" />
+    </colgroup>
+    <tbody>
+      <tr>
+        <td>
+          <p class="tabletext"><img alt="" border="0" src="../assets/images/authoring/word_hyperlinks.png" style="border: none;" /></p>
+        </td>
+        <td>
+          <p class="tabletext">Hyperlinks can be imported or mapped to an existing hyperlink style in your CSS.</p>
+          <p> </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>Table Settings</h2>
+  <table cellpadding="1" cellspacing="1" class="blue" style="border-collapse:collapse;" width="100%">
+    <colgroup>
+      <col style="width: 35%;" />
+      <col style="width: 65%;" />
+    </colgroup>
+    <tbody>
+      <tr>
+        <td>
+          <p class="tabletext"><img alt="" border="0" src="../assets/images/authoring/word_table.png" style="border: none; cursor: nesw-resize;" /></p>
+        </td>
+        <td>
+          <p class="tabletext">Any tables in your Word document can be mapped to table styles defined in your CSS.</p>
+          <p> </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>Saving Your Settings</h2>
+  <p>Before you click Import, if you have made any changes to the settings that you want to use again, click Save Settings. You can select any saved WSF file whenever you import.</p>
+  <h2>Post Import</h2>
+  <h3>The Styles as Imported</h3>
+  <p>On import, <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> will apply the CSS used for Style Mapping to the topic(s) created, as far as the settings allow. It will not make any changes to that CSS file. Where the mapping settings require some additional style definitions, they will be created in the &lt;word_doc_name.css&gt; file that is described under Automapping above.</p>
+  <p>Look in Properties &gt; Topic &gt; Style Sheets and you will see two style sheets applied. &lt;word_doc_name.css&gt; contains the definitions that were not in the CSS used for style mapping.</p>
+  <p><img alt="" border="0" src="../assets/images/authoring/topic_css.png" style="border: none; cursor: nwse-resize;" /></p>
+  <p>You can leave the imported topics with those two CSS files applied and for many users that will be a perfectly acceptable way of working.</p>
+  <h3>Getting All Styles Into Your Main CSS</h3>
+  <p>Some users however will want to ensure that any future changes they make to the CSS file used for style mapping will also work in the topic(s) created by the import. To do that it is necessary to take a look at what is in &lt;word_doc_name.css&gt;.</p>
+  <ul style="list-style: disc;">
+    <li>If there is no &lt;word_doc_name.css&gt;, then everything was mapped with no need for additional style definitions.</li>
+    <li>If there is a &lt;word_doc_name.css&gt;, then some additional CSS was needed and you need to consider moving that to your main CSS.</li>
+  </ul>
+  <p>In the image under Paragraph Settings above, you will see CSSTest could not be mapped so the setting was &quot;Import Word Style&quot;. That style will have been created in &lt;word_doc_name.css&gt;. You can cut it from there and paste it in to your main CSS. If that was the only style in &lt;word_doc_name.css&gt; you could delete that CSS and the topic would still show correctly.</p>
+  <p>You then repeat that for everything in &lt;word_doc_name.css&gt; until there is nothing left and the file can be deleted.</p>
+  <h3>Lists</h3>
+  <p>Because of the way Word creates lists, they cannot be mapped to any list styles in your CSS. Each ordered (numbered) and unordered (bulleted) lists will have a list style created in the &lt;word_doc_name.css&gt; file.</p>
+  <ul style="list-style: disc;">
+    <li>If the appearance of the topic is what you want and you are OK with retaining the extra CSS file, you can accept the topic as it is.</li>
+    <li>If you want change the lists to whatever is defined your main CSS then go to Properties &gt; Styles and select Lists. Click in a list and you will see which list style has been created. Apply the list style you want to use. Repeat for all the lists until they all use a style from your main CSS. With that done, you can delete that list style from &lt;word_doc_name.css&gt;.</li>
+    <li>Alternatively you can apply one of the predefined list styles in the toolbar.</li>
+  </ul>
+  <h2>Linking Word Documents</h2>
+  <div class="WordSection1">
+    <ul>
+      <li>Link to File is the first step in linking Word documents. Select Link &gt; Link File and browse to any DOCX file. A copy of the document is made within the project and <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> monitors both the source and the copy for changes. At this point the document will show a <strong>green</strong> arrow.</li>
+      <li>Having created the link to the document, you then use Create/Update to create the topics. When the DOCX file is displayed in the Contents Panel, hover over it and select Create Topic(s) in the Options menu and your topic(s) will be created. The settings for the linked document will be whatever is defined in the default wsf file selected in Project Settings. There is a menu option Edit Settings as below. Click that to change the settings that will be applied to the default wsf file as defined in Project Settings.</li>
+      <li>Later if the original document you have linked to is amended, the arrow will be <strong>red </strong>and you need to decide whether you want to update the project or leave it as it is. </li>
+      <li>If you want to update the topics with the changes that have been made in Word, click Sync&gt;Source to Project so that the arrow changes to <strong>green</strong>, then click Create&gt;Update.</li>
+      <li>The Sync options are otherwise for linked files that can be modified in <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> and that would include images as you can set up a third party app to modify what is in <span data-keyref="ProdName_Generic">Adobe RoboHelp</span>. Any changed image(s) that are linked can then be copied back to source. </li>
+      <li>
+        <p style="margin:0cm">You should not edit the topics created from linked Word files. These changes would be lost when you again create/update the topics for your updated Word file.</p>
+      </li>
+      <li>As you cannot edit Word documents in <span data-keyref="ProdName_Generic">Adobe RoboHelp</span>, Sync&gt;Project to Source should not be used. You change the topic(s) but next time you Create/Update those changes will be lost. It is not intended that you edit such topics.</li>
+    </ul>
+    <p class="emphasis1"><img src="../assets/images/BadgeWarning.png" /> It is possible to edit the copy within the project using Word or any tool that will edit a DOCX file. If that copy is changed the arrow will change to <strong>orange </strong>and Sync &gt; Project to Source can be used. However, it is recommended that all editing is done directly to the source file, not the copy within  <span data-keyref="ProdName_Generic">Adobe RoboHelp</span>.</p>
+  </div>
+  <p><img alt="" border="0" class="spacing_top_only" src="../assets/images/authoring/link01.png" /></p>
+  <p class="emphasis1"><img alt="" border="0" src="../assets/images/BadgeWarning.png" style="border: none; cursor: nwse-resize;" /> You can make changes to the topics created when you click Create/Update Topics and they will be in the output you generate. Note though that the changes will all be lost next time you update.</p>
+  <h2>FrameMaker Documents</h2>
+  <p>FrameMaker import and linking is included with <span data-keyref="ProdName_Generic">Adobe RoboHelp</span>. You need FrameMaker 2020 Update 2. It works in broadly the same way as Word described above.</p>
+  <p>FrameMaker documents cannot be imported into or linked to <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> in the Mac version as FrameMaker is not available on the Mac operating system.</p>
+  <p> </p>
+</body>
+</html>

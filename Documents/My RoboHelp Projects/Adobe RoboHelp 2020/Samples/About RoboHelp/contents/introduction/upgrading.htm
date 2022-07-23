@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="topic-status" content="Complete" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <title>Upgrading from Classic Versions</title>
+  <meta name="rh-index-keywords" content="Upgrading" />
+  <meta name="rh-authors" content="Ann Author" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/rh_standard_2020_03.css" />
+</head>
+<body>
+  <h1>Upgrading from Classic Versions</h1>
+  <p>There are big changes to the code in <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> as it is HTML5 and CSS3 based. Projects created in earlier versions will not be truly upgraded in the normal sense, instead your old project is left untouched and a copy is made on the fly. It is that copy that is upgraded. That means that you retain your project in its old format by way of a backup.</p>
+  <p class="emphasis1"><img src="../assets/images/BadgeTip.png" /> You are nonetheless recommended to retain a backup copy in either source control and/or a zipped copy.<br />
+    A zipped copy prevents you opening it accidentally and working on it before you realize it was the backup. Also you always have a clean backup that can be used to create a new clean copy time after time. Prefixing the zip file with the date is good practice. YYMMDD_MyProject.zip.</p>
+  <h2>Before You Proceed</h2>
+  <p>A few things you need to be aware of before you upgrade.</p>
+  <table cellpadding="1" cellspacing="1" class="blue" style="border-collapse: collapse; width: 100%;" width="100%">
+    <colgroup>
+      <col style="width: 25%;" />
+      <col style="width: 75%;" />
+    </colgroup>
+    <tbody>
+      <tr>
+        <td style="background-color: #e5eaf9">
+          <p class="tableheading">Broken Links</p>
+        </td>
+        <td>
+          <p class="tabletext">If you break any links there will not be an immediate warning as in the Classic versions of <span data-keyref="ProdName_Generic">Adobe RoboHelp</span>. You can either go the Edit menu and select Fix Broken Links or run the Broken Links report, which has tools to fix the broken links. Topic Properties also shows incoming and outgoing links. Broken links are shown in red.</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color: #e5eaf9">
+          <p class="tableheading">Converting WebHelp to CHMs</p>
+        </td>
+        <td>
+          <p class="tabletext">If you created WebHelp in Classic versions and then used the WebHelp to CHM script, that script is not supported in <span data-keyref="ProdName_Generic">Adobe RoboHelp</span>.</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color: #e5eaf9">
+          <p class="tableheading">DUCC - Dynamic User Centric Content</p>
+        </td>
+        <td>
+          <p class="tabletext">This was a WebHelp only feature in earlier versions and in <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> it is replaced by Dynamic Content Filtering, which was previously a Responsive HTML5 only feature.</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color: #e5eaf9">
+          <p class="tableheading">Dynamic Content Filtering</p>
+        </td>
+        <td>
+          <p class="tabletext">In <span data-keyref="ProdName_Generic">Adobe RoboHelp</span>, Dynamic Content Filtering is controlled by condition tags alone. Some reworking will be required if you have used build expressions for filtering.</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color: #e5eaf9">
+          <p class="tableheading">External Content Search</p>
+        </td>
+        <td>
+          <p class="tabletext">External Content Search is not be supported.</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color: #e5eaf9">
+          <p class="tableheading">Index</p>
+        </td>
+        <td>
+          <p class="tabletext">Index keywords will be stored in topics rather than in a separate file. If you had more than one index in your Classic project, they will be merged on upgrade. See <a href="../toc_index_glossary/index.htm">The Index</a> to find out how <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> ensures only keywords relevant to the output are included.</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color: #e5eaf9">
+          <p class="tableheading">Multiscreen</p>
+        </td>
+        <td>
+          <p class="tabletext">Frameless and Responsive HTML5 outputs have proved much more popular and multiscreen outputs have not been continued.</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color: #e5eaf9">
+          <p class="tableheading">Output Content</p>
+        </td>
+        <td>
+          <p class="tabletext">How you define what goes into your outputs is different in <span data-keyref="ProdName_Generic">Adobe RoboHelp</span>. It is important that you understand the difference before you generate an output. It is described in <a href="../toc_index_glossary/toc.htm">The Table of Contents</a>.</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color: #e5eaf9">
+          <p class="tableheading">Resource Manager</p>
+        </td>
+        <td>
+          <p class="tabletext">Resource Manager has been replaced by Resource Linking. When you upgrade, any resources that you are using will be in your upgraded project and still be linked to the original file(s).</p>
+          <p class="tabletext"><a href="../authoring/resource_linking.htm">Resource Linking</a> explains this in more detail.</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color: #e5eaf9">
+          <p class="tableheading">Scripting</p>
+        </td>
+        <td>
+          <p class="tabletext">Scripting has changed. See <a href="../authoring/scripts.htm">Scripts</a></p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color: #e5eaf9">
+          <p class="tableheading">WebHelp</p>
+        </td>
+        <td>
+          <p class="tabletext">In the Output Presets it may appear that WebHelp has been dropped. It hasn&#39;t! The change is explained in <a href="../outputs/outputs_webhelp.htm">WebHelp Output</a>.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <p> </p>
+  <h2>Converting the Project to <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> Format</h2>
+  <p>When you are ready to convert your project created in any earlier version of RoboHelp, then on the Starter Screen click Upgrade Project or Click File &gt; Upgrade RoboHelp Classic Project and browse to the main folder of your existing project.</p>
+  <p>Click Open to display the New Project dialog.</p>
+  <p><img alt="" border="0" class="spacing_bottom_only" src="../assets/images/introduction/new_project_dialog.png" style="cursor: nesw-resize;" /></p>
+  <p>Complete as required and click Create.</p>
+  <p class="emphasis1"><img src="../assets/images/BadgeNew.png" /> When you upgrade, any image, media and CSS files in the root folder of your project will be moved from their existing locations into the &quot;assets&quot; folder you see below. This is a change in <span data-keyref="ProdName_2020">Adobe RoboHelp 2020</span> Update 1 as prior to that, all such files were moved to assets regardless of location.<br />
+    After the upgrade, Assets is the default folder but you can choose to save such files wherever you prefer.</p>
+  <h2>Upgrading Customized Skins</h2>
+  <ul class="Disc">
+    <li>When you upgrade any responsive skin that you applied in a Classic version of RoboHelp, any customization you applied using the skin editor will be applied. </li>
+    <li>Any customization you applied other than through the skin editor will be lost on upgrade. What you can try is importing your responsive skin using the Import dialog. Make sure you click the Keep Using Older Layout of the Skin check box.</li>
+    <li>Webhelp skins will not be upgraded. By default the Indigo responsive skin will be applied but you can change that to any of the supplied frameless or responsive skins after the upgrade.</li>
+  </ul>
+  <h2>The Upgrade</h2>
+  <p>In <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> your project will look like this. You will see the same folders as before but with the addition of the &quot;assets&quot; folder.</p>
+  <p class="caption"><img src="../assets/images/multi_folder/contents_01.png" /></p>
+  <p class="emphasis1"><img alt="" border="0" src="../assets/images/BadgeNew.png" style="border: none;" /> <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> lets you change folder and file names in File Explorer and it will be immediately reflected in <span data-keyref="ProdName_Generic">Adobe RoboHelp</span>. The change will show as soon as you put focus back on <span data-keyref="ProdName_Generic">Adobe RoboHelp</span>. Careful though, it can break links.</p>
+  <p> </p>
+  <p> </p>
+</body>
+</html>

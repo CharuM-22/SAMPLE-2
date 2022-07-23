@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="topic-comment" content=""/>
+<meta name="generator" content="Adobe RoboHelp 2020"/>
+<title>United Kingdom</title>
+</head>
+
+<body>
+<table cellspacing="0" data-condition="Others:UK;Others:Sales;Others:CTYLON;Others:CTYMAN" style="border-collapse:collapse;" width="100%" cellpadding="1">
+	<colgroup><col/>
+	<col/>
+	</colgroup><tbody><tr>
+		<td data-condition="Others:Sales;Others:UK;Others:CTYLON;Others:CTYMAN"><p data-condition="Others:CTYLON;Others:Sales;Others:UK;Others:CTYMAN"><img src="../images/Flag-UK.png" alt="" style="border: none;" border="0" data-condition="Others:CTYMAN;Others:CTYLON;Others:Sales;Others:UK"/></p></td>
+		<td data-condition="Others:Sales;Others:UK;Others:CTYLON;Others:CTYMAN"><p data-condition="Others:CTYLON;Others:Sales;Others:UK;Others:CTYMAN"><span style="font-weight: bold;" data-condition="Others:CTYMAN;Others:CTYLON;Others:Sales;Others:UK">United Kingdom</span> 
+		 </p>
+		<p data-condition="Others:CTYLON;Others:Sales;Others:UK;Others:CTYMAN">High 
+		 Street</p>
+		<p data-condition="Others:CTYLON;Others:Sales;Others:UK;Others:CTYMAN">Anytown</p>
+		<p data-condition="Others:CTYLON;Others:Sales;Others:UK;Others:CTYMAN">U.K.</p></td>
+	</tr>
+</tbody></table>
+
+
+</body></html>

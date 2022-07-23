@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+  <name>WS1</name>
+  <caption></caption>
+  <tocfile></tocfile>
+  <indexfile></indexfile>
+  <defaultfile></defaultfile>
+  <homefile></homefile>
+  <jump1filename></jump1filename>
+  <jump1text></jump1text>
+  <jump2filename></jump2filename>
+  <jump2text></jump2text>
+  <flags>1074267424</flags>
+  <navpanewidth>0</navpanewidth>
+  <buttons>12390</buttons>
+  <windowplacement>
+    <left>5</left>
+    <top>5</top>
+    <right>512</right>
+    <bottom>384</bottom>
+  </windowplacement>
+  <windowstyle>131072</windowstyle>
+  <windowstyleex>0</windowstyleex>
+  <expandedstate>0</expandedstate>
+  <defaulttab>0</defaulttab>
+  <tabposition>1</tabposition>
+  <showwindow>1</showwindow>
+  <glossary>1</glossary>
+</window>

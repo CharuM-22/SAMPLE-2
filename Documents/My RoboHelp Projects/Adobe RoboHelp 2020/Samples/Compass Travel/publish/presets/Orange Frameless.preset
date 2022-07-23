@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <title>Compass Travel</title>
+  <content>
+    <toc>
+      <path>../../toc/Compass_Travel.toc</path>
+      <name>Compass_Travel</name>
+    </toc>
+    <index type="boolean">true</index>
+    <brs type="array">
+      <brsitem>
+        <path>../browsesequence/Compass_Travel.brs</path>
+        <name>Compass_Travel</name>
+      </brsitem>
+    </brs>
+    <includeExpandingText type="boolean">true</includeExpandingText>
+    <includeDropdownText type="boolean">true</includeDropdownText>
+  </content>
+  <type>frameless</type>
+  <glosstermEffect type="number">0</glosstermEffect>
+  <name>Orange Frameless</name>
+  <starterPage>index.htm</starterPage>
+  <chatbot>
+    <displayName>Google Dialogflow</displayName>
+    <name>dialogflow</name>
+  </chatbot>
+  <mobileapp>
+    <android type="boolean">true</android>
+    <iOS type="boolean">false</iOS>
+  </mobileapp>
+  <search>
+    <suggestion type="boolean">true</suggestion>
+    <context type="boolean">false</context>
+    <contextLimit type="number">100</contextLimit>
+    <maxSearchresults type="number">20</maxSearchresults>
+    <glossary type="boolean">true</glossary>
+    <showSpeclChars type="boolean">false</showSpeclChars>
+    <speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
+    <fuzzy type="boolean">true</fuzzy>
+  </search>
+  <sitemap>
+    <use type="boolean">false</use>
+  </sitemap>
+  <skin>
+    <name>frameless</name>
+    <path>../skins/Orange/frameless.skn</path>
+  </skin>
+  <createThumbNails type="boolean">false</createThumbNails>
+  <use_thumbnails type="boolean">true</use_thumbnails>
+  <patchHomepage type="boolean">true</patchHomepage>
+  <gdprCompliance type="boolean">true</gdprCompliance>
+  <dgflowApiClientKey></dgflowApiClientKey>
+  <dgflowApiDevKey></dgflowApiDevKey>
+</preset>

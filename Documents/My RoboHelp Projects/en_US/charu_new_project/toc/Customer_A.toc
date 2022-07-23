@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map type="toc">
+<title>Customer_A</title>
+<page href="../contents/First_Topic.htm" format="html" processing-role="normal"></page>
+<page href="../contents/2.2_Design_of_template.htm" format="html" processing-role="normal"></page>
+<page href="../contents/21_Creation_of_image.htm" format="html" processing-role="normal"></page>
+<page href="../contents/2.htm" format="html" processing-role="normal"></page>
+<page href="../contents/1.2_Adding_navigation.htm" format="html" processing-role="normal"></page>
+<page href="../contents/1.htm" format="html" processing-role="normal"></page>
+</map>

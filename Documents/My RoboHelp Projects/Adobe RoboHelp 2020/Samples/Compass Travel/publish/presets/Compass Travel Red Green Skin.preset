@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <content>
+    <conditional>
+      <name>Exclude_from_all_other_filter_options</name>
+      <path>../expressions/Exclude_from_all_other_filter_options.expn</path>
+    </conditional>
+    <toc>
+      <name>Compass_Travel</name>
+      <path>../../toc/Compass_Travel.toc</path>
+    </toc>
+    <index type="boolean">true</index>
+    <glossary>
+      <name>Compass_Travel</name>
+      <path>../../glossary/Compass_Travel.glo</path>
+    </glossary>
+    <brs type="array">
+      <brsitem>
+        <name>Compass_Travel</name>
+        <path>../browsesequence/Compass_Travel.brs</path>
+      </brsitem>
+    </brs>
+    <mapFiles type="array">
+      <mapFilesitem>
+        <name>travel_the_whirls</name>
+        <path>../mapfiles/travel_the_whirls.ali</path>
+      </mapFilesitem>
+    </mapFiles>
+    <includeExpandingText type="boolean">true</includeExpandingText>
+    <includeDropdownText type="boolean">true</includeDropdownText>
+  </content>
+  <title>Compass Travel Knowledge Base</title>
+  <type>html5</type>
+  <glosstermEffect type="number">0</glosstermEffect>
+  <name>Compass Travel Red Green Skin</name>
+  <starterPage>index.htm</starterPage>
+  <defaultTopic>
+    <name>For_sales/Touring_by_air,_rail_or_sea.htm</name>
+    <path>../../contents/For_sales/Touring_by_air,_rail_or_sea.htm</path>
+  </defaultTopic>
+  <lowercasenames type="number">0</lowercasenames>
+  <mobileapp>
+    <android type="boolean">true</android>
+    <iOS type="boolean">false</iOS>
+  </mobileapp>
+  <search>
+    <suggestion type="boolean">true</suggestion>
+    <context type="boolean">true</context>
+    <contextLimit>100</contextLimit>
+    <maxSearchresults type="number">20</maxSearchresults>
+    <glossary type="boolean">true</glossary>
+    <showSpeclChars type="boolean">false</showSpeclChars>
+    <speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
+    <fuzzy type="boolean">true</fuzzy>
+  </search>
+  <filter>
+    <name>RedGreen Dynamic Content Filter Multiple</name>
+    <path>../filters/RedGreen Dynamic Content Filter Multiple.filter</path>
+  </filter>
+  <sitemap>
+    <use type="boolean">true</use>
+    <helpBaseURL></helpBaseURL>
+    <changeFrequency>Monthly</changeFrequency>
+  </sitemap>
+  <skin>
+    <path>../skins/Responsive_Red_Green/html5.skn</path>
+  </skin>
+  <createThumbNails type="boolean">false</createThumbNails>
+  <favicon></favicon>
+  <patchHomepage type="boolean">true</patchHomepage>
+  <gdprCompliance type="boolean">true</gdprCompliance>
+  <serversStatus type="array">
+    <serversStatusitem>
+      <name>Profile_1</name>
+    </serversStatusitem>
+  </serversStatus>
+</preset>

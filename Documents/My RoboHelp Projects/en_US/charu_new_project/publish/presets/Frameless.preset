@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <chatbotWelcomeText>Welcome! How may I help you?</chatbotWelcomeText>
+  <chatbotDefaultText>Sorry, I do not have an answer for that.</chatbotDefaultText>
+  <retryMsg>Hold on a minute...</retryMsg>
+  <placeholderText>Type your message here.</placeholderText>
+  <errorMsg>There seems to be a problem, please contact the administrator.</errorMsg>
+  <content>
+    <variable>
+      <path>../variablesets/WIPRO.var</path>
+    </variable>
+    <conditional>
+      <path>../expressions/NOT_INDIA.expn</path>
+      <name>NOT_INDIA</name>
+    </conditional>
+    <toc>
+      <path>../../toc/Customer_A.toc</path>
+    </toc>
+    <relativeOutputPath type="boolean">false</relativeOutputPath>
+    <index type="boolean">true</index>
+    <glossary>
+      <path>../../glossary/G2.glo</path>
+      <name>G2</name>
+    </glossary>
+    <brs type="array"></brs>
+    <language>
+      <name>en_US</name>
+      <code type="number">1033</code>
+      <displayName>English (US)</displayName>
+    </language>
+    <masterpage>
+      <path>../../contents/assets/masterpages/M1.htt</path>
+      <name>M1</name>
+    </masterpage>
+    <mapFiles type="array"></mapFiles>
+    <includeExpandingText type="boolean">true</includeExpandingText>
+    <includeDropdownText type="boolean">true</includeDropdownText>
+  </content>
+  <title>charu new project</title>
+  <type>frameless</type>
+  <glosstermEffect type="number">0</glosstermEffect>
+  <outputPath>C:/Users/charu/Documents/My RoboHelp Projects/outputs/charu new project/Frameless/</outputPath>
+  <name>Frameless</name>
+  <starterPage>I.htm</starterPage>
+  <defaultTopic>
+    <name>First_Topic</name>
+    <path>../../contents/First_Topic.htm</path>
+  </defaultTopic>
+  <chatbot>
+    <name>dialogflow</name>
+    <displayName>Google Dialogflow</displayName>
+  </chatbot>
+  <mobileapp>
+    <android type="boolean">true</android>
+    <iOS type="boolean">false</iOS>
+  </mobileapp>
+  <search>
+    <suggestion type="boolean">true</suggestion>
+    <context>keyword</context>
+    <contextLimit>100</contextLimit>
+    <maxSearchresults type="number">20</maxSearchresults>
+    <glossary type="boolean">true</glossary>
+    <showSpeclChars type="boolean">false</showSpeclChars>
+    <speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
+    <fuzzy type="boolean">true</fuzzy>
+  </search>
+  <sitemap>
+    <use type="boolean">false</use>
+    <helpBaseURL></helpBaseURL>
+    <changeFrequency></changeFrequency>
+  </sitemap>
+  <createThumbNails type="boolean">false</createThumbNails>
+  <patchHomepage type="boolean">true</patchHomepage>
+  <gdprCompliance type="boolean">true</gdprCompliance>
+  <dgflowApiClientKey></dgflowApiClientKey>
+  <dgflowApiDevKey></dgflowApiDevKey>
+</preset>

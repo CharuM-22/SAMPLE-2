@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<val>
+  <prop att="Others" val="Exclude" backcolor="rgba(0, 0, 255, 0.30)" color="#000000"></prop>
+  <prop att="Others" val="Online_Only" backcolor="#00ff00"></prop>
+  <prop att="Others" val="Print_Only" backcolor="#ff0000" color="#000000"></prop>
+</val>

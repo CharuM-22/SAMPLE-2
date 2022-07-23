@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <title>Knowledge Base Output</title>
+  <meta name="topic-status" content="Complete" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/rh_standard_2020_03.css" />
+  <meta name="rh-authors" content="Ann Author" />
+  <meta name="rh-index-keywords" content="Knowledge Base" />
+</head>
+<body>
+  <h1>Knowledge Base Output</h1>
+  <p class="emphasis1"><img src="../assets/images/BadgeNote.png" /> The <a href="outputs_knowledge_base.htm">Knowledge Base Output</a> replaces the Content Only output for generating Salesforce, Servicenow, Zendesk, Zoho and Adobe Experience Manager (AEM) outputs. Content Only remains for XHTML outputs.</p>
+  <p class="emphasis2"><img src="../assets/images/BadgeWarning.png" /> Before creating any of the Knowledge Base output types, you must have an account set up with whichever service you use. Setting up those accounts is outside the scope of this topic.</p>
+  <h2>Creating a Knowledge Base Preset</h2>
+  <div data-conref="../assets/snippets/New_Outputs_New_Preset_Types.hts"> </div>
+  <p>When you create the preset, you will need to select the target type, Salesforce, Servicenow, Zendesk or Zoho. You will then see that target in the options on the left and in the Target dropdown. If you will be generating to more than one knowledge base service, create a separate Knowledge Base preset for each type.</p>
+  <h2>Before Configuring the Preset</h2>
+  <p>You will need to have a Publish Profile set up for whichever service(s) you use. <a href="publishing.htm">Publish Profiles</a> are set up from the Edit menu.</p>
+  <h2>General Settings</h2>
+  <p><img height="342" src="../assets/images/outputs/kb_general.png" width="738" /></p>
+  <p>According to which Knowledge Base type you selected when creating the preset, you will see that type where Salesforce is shown above. The different types are described below.</p>
+  <div data-conref="../assets/snippets/Path.hts"> </div>
+  <h2>Content</h2>
+  <p><img src="../assets/images/outputs/kb_content.png" /></p>
+  <h3>AEM</h3>
+  <p>AEM will show the TOC as designed in <span data-keyref="ProdName_Generic">Adobe RoboHelp</span>.</p>
+  <h3>Salesforce and Servicenow</h3>
+  <ul class="disc">
+    <li>Do not have a concept of levels so any structure in the TOC will be ignored and the topics will be presented as a straight list.</li>
+    <li>Do not permit the use of javascript within articles so your content must not use dropdown text, expanding text or thumbnail images. Dropdown and Expanding Text content will be preserved but not in that format.</li>
+  </ul>
+  <h3>Zoho</h3>
+  <p>Zoho allows 5 levels of nesting in the TOC.</p>
+  <p>On the Zoho site, a section (book) in the TOC can contain either articles or other sections but not both.</p>
+  <h4>Allowed</h4>
+  <p>Section(Book)1<br />
+       Section(Book)2<br />
+          Topic 1<br />
+       Book3<br />
+          Topic 2</p>
+  <h4>Not Allowed</h4>
+  <p>Section(Book)1<br />
+       Topic 1<br />
+       Section(Book)3<br />
+          Topic 2</p>
+  <h3>Zendesk</h3>
+  <p>Topics <strong>must </strong>be at Level 2 in the TOC. You cannot include topics under top level books.</p>
+  <p>Section(Book)1<br />
+      Section(Book)2<br />
+        Topic 1<br />
+    Section(Book)3<br />
+        Section(Book)4<br />
+          Topic 2</p>
+  <h2>Layout</h2>
+  <p><img src="../assets/images/outputs/kb_layout.png" /></p>
+  <p>Select the required Master Page.</p>
+  <h2>Adobe Experience Manager (AEM)</h2>
+  <p>AEM is an Enterprise level solution that you can learn about <a href="https://business.adobe.com/products/experience-manager/adobe-experience-manager.html">here</a>. There is also a <a href="https://robohelp-2020-update-6.meetus.adobeevents.com/" title="AEM Webinar">recording of a webinar</a> showing how AEM works with <span data-keyref="ProdName_Generic">Adobe RoboHelp</span>.</p>
+  <p>If your organisation is already using AEM then you might want to discuss outputting your project to this knowledge base. It provides analytics and real time dynamic content widgets.</p>
+  <p><img src="../assets/images/outputs/kb_aem.png" /></p>
+  <p><b>Publish Profile</b> - Select the required profile.</p>
+  <p><strong>Site</strong> - Select the AEM Site to which the articles are to published.</p>
+  <p><b>Category </b>- Select the Category in the AEM Site in which the articles are to published. A single AEM site can have multiple categories.</p>
+  <div class="WordSection1"><span style="page:WordSection1"></span>
+    <p><b>Section Template </b>- Select the AEM template to be applied for the published books (sections) in TOC.</p>
+  </div>
+  <p><b>Article Template </b>- Select the AEM template to be applied to the articles that are about to be published.</p>
+  <p><b>Asset Upload Path </b>- Select the path, where all the assets of the articles such as images and pdfs are to be uploaded.</p>
+  <p><b>Remove Topic Heading from the Article Body </b>- Removes the topic title if styled as H1 in the topic body. The title of the topic is available as part of template so if this option is not selected, two titles will appear in the published article</p>
+  <p><strong>Upload Images</strong> - Select this checkbox to include images in the upload.</p>
+  <p><strong>Upload Linked Documents</strong> - Select this checkbox to include documents in the upload.</p>
+  <p><b>Republish All Assets </b>- Select this checkbox to update all assets, not just those that have changed</p>
+  <h2>Salesforce Knowledge Base</h2>
+  <p><img src="../assets/images/outputs/kb_salesforce.png" /></p>
+  <p><b>Publish Profile</b> - Select the required profile.</p>
+  <p><strong>Record Type</strong> - Record Types are configured in Salesforce and define how and which records should be displayed. The topics configured for this preset will be published to the selected Record Type.</p>
+  <p><strong>Categories</strong> - Categories are a way to group topics and set who can use them. The dropdown will display what has been set up in Salesforce.</p>
+  <p><strong>Convert All Styles to Inline Styles</strong> - All required styling needs to be inline as Salesforce will not apply any CSS styling.</p>
+  <p><strong>Remove Topic Heading From the Article Body</strong> - Salesforce shows the Topic Title at the top as a heading. The topic will include your Topic Heading.Select this checkbox to avoid duplication.</p>
+  <p><strong>Upload As Draft</strong> - Select this so that the upload can be checked before making it available to end users.</p>
+  <p><strong>Upload Images</strong> - Select this checkbox to include images in the upload.</p>
+  <p><strong>Upload Linked Documents</strong> - Select this checkbox to include documents in the upload.</p>
+  <h2>ServiceNow Knowledge Base</h2>
+  <p><img src="../assets/images/outputs/kb_servicenow.png" /></p>
+  <p><b></b></p>
+  <p><strong>Publish All Articles In The Same Category</strong> - By default, the selected articles are published to the site and the <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> TOC is maintained.</p>
+  <p>The sample <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> TOC below will be the same on Zoho if this check box <em>is not</em> selected.</p>
+  <p>CatA<br />
+        SecA<br />
+           Article1<br />
+    CatB<br />
+        SecB<br />
+           Article2</p>
+  <p>If this check box <em>is</em> selected, two further fields will be displayed. If say the default category, default section are entered as DefaultCat and DefaultSec respectively the TOC on the site display as</p>
+  <p>DefaultCat<br />
+       DefaultSec<br />
+        Article1<br />
+        Article2<br />
+    <strong>Convert All Styles to Inline Styles</strong>  -  All required styling needs to be inline as Servicenow will ignore any CSS styling
+  </p>
+  <p><strong>Use Search Keywords From Topic As Article Tags</strong> - ServiceNow uses Article Tags, Your search keywords can be used for tagging.</p>
+  <p><strong>Upload As Draft</strong> - Select this so that the upload can be checked before making it available to end users.</p>
+  <p><strong></strong></p>
+  <p><strong>Upload Images</strong> - Select this checkbox to include images in the upload.</p>
+  <p><strong>Upload Linked Documents</strong> - Select this checkbox to include documents in the upload.</p>
+  <h2> <span style="background-color: transparent; color: rgb(0, 84, 159); font-size: 14pt; font-weight: bold; font-family: Verdana, sans-serif;">Zendesk Help Center</span></h2>
+  <p><img src="../assets/images/outputs/kb_zendesk.png" /></p>
+  <p><b>Publish Profile</b> - Select the required profile.</p>
+  <p><strong>Visible To</strong> - The options shown here are configured in Zendesk and define who can view the topics.</p>
+  <p><strong>Managed By</strong> - The options shown here are configured in Zendesk and define who can update or delete the topics.</p>
+  <p><strong>Publish All Articles In The Same Category</strong> - Select this option to display two dropdown lists. Select the required Category and Section.</p>
+  <p><strong>Convert All Styles to Inline Styles</strong>  -  All required styling needs to be inline as Zendesk will ignore any CSS styling.</p>
+  <p><strong></strong></p>
+  <p><strong>Upload Images</strong> - Select this checkbox to include images in the upload.</p>
+  <p><strong>Upload As Draft</strong> - Select this so that the upload can be checked before making it available to end users.<strong></strong></p>
+  <p><strong>Upload Linked Documents</strong> - Select this checkbox to include documents in the upload.</p>
+  <p><strong>Include Javascript</strong> - Unlike Salesforce and Servicenow, Zendesk does permit the use of javascript in topics You must select it here and also enable it in your Zendesk configuration. If not enable there, the javascript will be shown as text.</p>
+  <h2>Zoho</h2>
+  <p><img src="../assets/images/outputs/kb_zoho.png" /></p>
+  <p><b>Publish Profile</b> - Select the required profile.</p>
+  <p><b>Department</b> - Select one of your pre-existing departments. Click the refresh icon to update the list.</p>
+  <p><strong>Display Information</strong> - Any groups that you have set up in Zoho will be displayed here. Select as required. Click the refresh icon to update the list.</p>
+  <p><strong>Article View for New Categories</strong> - Select List View or Quick Navigation. Click the refresh icon to update the list.</p>
+  <p><strong>Publish All Articles In The Same Category</strong> - Select this option to display two dropdown lists. Select the required Category and Section.</p>
+  <p><strong>Convert All Styles to Inline Styles</strong>  -  All required styling needs to be inline as Zoho will ignore any CSS styling.</p>
+  <p><strong>Upload As Draft</strong> - Select this so that the upload can be checked before making it available to end users.<strong></strong></p>
+  <p><strong></strong></p>
+  <p><strong>Upload Images</strong> - Select this checkbox to include images in the upload.</p>
+  <p><strong>Upload Linked Documents</strong> - Select this checkbox to include documents in the upload.</p>
+  <h2>Articles</h2>
+  <p><img src="../assets/images/outputs/kb_articles2.png" /></p>
+  <p>This screen displays all the topics in the TOC selected in the Content screen. Here you select the Articles check box to select all or you can select specific topics. Topics selected will show a menu icon when scrolled over and you can select the Preview option to see how the topic will appear in the knowledge base.</p>
+  <h2>Publish</h2>
+  <p>See the <a data-xref="{title}" href="publishing.htm">Publishing</a> topic.</p>
+  <p> </p>
+  <p> </p>
+</body>
+</html>

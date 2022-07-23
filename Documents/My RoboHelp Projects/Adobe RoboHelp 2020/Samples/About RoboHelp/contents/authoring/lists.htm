@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="topic-status" content="Complete" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <title>Lists and Autonumbering</title>
+  <meta name="rh-index-keywords" content="Lists" />
+  <meta name="rh-authors" content="Ann Author" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/rh_standard_2020_03.css" />
+</head>
+<body>
+  <h1>Lists and Autonumbering</h1>
+  <p class="emphasis1"><img src="../assets/images/BadgeTip.png" /> There is an important change in Update 6. See <a data-xref="{text}" href="lists.htm#h">Standard or Advanced Formatting?</a>.</p>
+  <p>The standard toolbar has three list options, unordered lists (bullets), ordered lists (single level numbering) and multilevel lists.</p>
+  <p><img alt="" border="0" class="spacing_none" src="../assets/images/authoring/top_toolbar_lists.png" /></p>
+  <h2>Unordered Lists - Bullets</h2>
+  <p>Click the Bulleted List Styles icon on the toolbar and start writing your list or select existing content and then click the icon to convert the list.</p>
+  <p>To revert a list item to an ordinary paragraph, click the icon again and select the None option.</p>
+  <h2>Ordered Lists - Numbered</h2>
+  <p>Click the Numbered List Styles icon on the toolbar and start writing your list or select existing content and then click the icon to convert the list.</p>
+  <p>To revert a list item to an ordinary paragraph, click the icon again and select the None option.</p>
+  <p>When you start a second list in a topic, the numbering will automatically start at 1. If you want the numbering to continue, click in the list and in Content Properties you will see Restart Numbering.</p>
+  <h2>Multilevel Lists</h2>
+  <p>Click the Multilevel List Styles icon on the toolbar and start writing your list or select existing content and then click the icon to convert the list. Use the Tab key to indent a paragraph and change its bullet or number.</p>
+  <p>To revert a list item to an ordinary paragraph, click the icon again and select the None option.</p>
+  <p class="emphasis1"><img src="../assets/images/BadgeWarning.png" /> CSS3 enforces a strict interpretation of the different levels in the list. You cannot have a Level 3 item immediately after a Level 1 item. The order must always be Level 1, Level 2, Level 3 etc. There is a workaround for this as below.</p>
+  <h3>How to Add an Out of Order Level</h3>
+  <p>Create an li style such as this where the list style is whatever you want, a, b, c in this example.</p>
+  <p>li.alpha1 {<br />
+      list-style: lower-alpha;<br />
+      margin-left: 11pt;<br />
+    }<br />
+    li.alpha1::before {<br />
+      content: none !important;<br />
+    }</p>
+  <p>Apply that style where you want the out of order level. Here this list requires an indented paragraph with a bullet at Level2 but here lower-alpha letters are required. After entering Item 2, the Enter key was pressed and then the li.alpha1 class was applied.</p>
+  <p><img class="spacing_none" src="../assets/images/authoring/lists10.png" /></p>
+  <p><img src="../assets/images/authoring/lists11.png" /></p>
+  <h2 id="h">Standard or Advanced Formatting?</h2>
+  <p>On opening the style editor for a list style, you will see an Advanced Formatting option. Next to it is an information icon and on selecting/deselecting the check box, an information dialog will display.</p>
+  <p><img class="spacing_top_and_bottom" src="../assets/images/authoring/lists12.png" /></p>
+  <p>Earlier versions of 2020 did not separate the advanced settings resulting in some users reporting that their lists did not appear the same in all browsers. The reason for this is the impact a browser&#39;s own CSS has on the list formatting. All browsers apply their own CSS so theoretically any content can display diferently in different browsers. Normally the CSS you apply will override the browser CSS and the content will look the same of be very close. Lists are a little more tricky.</p>
+  <h3>Standard Formatting</h3>
+  <p>The various setting available in Standard Formatting have been selected to ensure consistency as far as possible. Any styling applied with the Standard Formatting should work consistently in the main browsers.</p>
+  <h3>Advanced Formatting</h3>
+  <p>When you select the Advanced Formatting check box you will see the additional fields highlighted below. You can set the fields here separately for each level, also note the Apply Styling To dropdown as with Advanced Formatting you can define, for example, one colour for your bullets and another for the content.</p>
+  <p><img class="spacing_top_and_bottom" src="../assets/images/authoring/lists13.png" /></p>
+  <p>Whilst you apply these settings for each level, note that if you choose to return to Standard Formatting, the settings for these fields will be removed for all levels. If you are having a problem with one level only, you can try to fix that by clicking the Clear Level Formatting next to the Bullet Format field.</p>
+  <h3>Upgrading a Project</h3>
+  <p>When you upgrade a project to <span data-keyref="ProdName_2020">Adobe RoboHelp 2020</span> to this version and select a list style to edit, the CSS will be scanned and the check box will be selected or not to indicate whether or not any advanced formatting has been applied.</p>
+  <p class="emphasis1"><img src="../assets/images/BadgeTip.png" style="cursor: nwse-resize;" /> <strong>If you do want to revert to the standard settings it is recommended that you create a backup before proceeding.</strong><br />
+    Select the CSS in the Contents panel, right click and select Duplicate to duplicate the whole CSS file.</p>
+  <h2>Autonumbering</h2>
+  <h3>Ordered Lists and Autonumber - What&#39;s the difference?</h3>
+  <p>By default a second ordered list within a topic will start again at 1 whereas all instances of an autonumbered style will be sequential throughout a topic.</p>
+  <p>In both cases though, you can change the numbering in Properties.</p>
+  <h3>Creating an Autonumbered Style</h3>
+  <p>Double click your CSS file in <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> to open it in the CSS editor.</p>
+  <p>Select an existing style or create a new one.</p>
+  <p><img class="spacing_bottom_only" src="../assets/images/authoring/autonumber_add.png" /></p>
+  <p>Select the Autonumber check box in the Properties to display the additional fields highlighted below. Set the format you want including images. Note the Apply Formatting To dropdown that enables you to apply different formatting to the numbering and the content.</p>
+  <p><img alt="" border="0" class="spacing_top_only" src="../assets/images/authoring/autonumber.png" /></p>
+  <h3>Default Autonumbering Style</h3>
+  <p>By default the text will wrap around the number as shown below. Also if you create a Word output, the paragraphs will be indented much further than in an online output.</p>
+  <p><img src="../assets/images/authoring/autonumber01.png" /></p>
+  <p>If you want the style to look like the image below and appear the same way in Word, some additional steps are needed.</p>
+  <p><img src="../assets/images/authoring/autonumber02.png" /></p>
+  <ol class="Decimal">
+    <li>
+      <p>Set &quot;Apply Formatting To&quot; to Numbering. </p>
+    </li>
+    <li>
+      <p>Set the numbering to Decimal or whatever format you prefer.</p>
+    </li>
+    <li>
+      <p>Go to Layout Settings and select Absolute in the Position dropdown. At this point the numbering will disappear from the preview.</p>
+    </li>
+    <li>
+      <p>Repeatedly click the indent icon until you see the numbering return, approximately ten clicks.</p>
+    </li>
+    <li>
+      <p>See how the style aligns in a topic and make further adjustments as required.</p>
+    </li>
+  </ol>
+  <h3 style="margin-bottom: 0pt">How To Use Autonumbering and How Not To</h3>
+  <ul class="Disc">
+    <li>Autonumbering is intended mainly for numbering Images, Headings and paragraphs throughout a document. For example in legal documents.</li>
+    <li>Various levels would be set for say the Heading 1 style so that Level 2 for example would look like it is a Heading 2 but with 1.1 numbering.</li>
+    <li>Lists set up using multilevel list styles must follow the structure so Level 2 must follow Level 1 and so on, you cannot skip to Level 3 to get the appearance you want. Autonumbering can skip levels but there are considerations.
+      <ul>
+        <li>In a PDF output the numbering will be continuous throughout the document unless you set every topic to restart at 1.</li>
+        <li>In a Word output, indentation may be completely wrong.</li>
+        <li style="margin-bottom: 0pt"><a id="autonumber_accessibility"></a>Accessibility requirements will not be met. Screen readers advise the user that a list has been reached when they get to content formatted as a true list. When they reach content formatted with autonumbering, they will announce a paragraph.</li>
+      </ul>
+    </li>
+  </ul>
+  <h2 style="margin-bottom: 10pt;margin-left: -0.5pt;margin-top: 0pt">List Styles</h2>
+  <p><span data-keyref="ProdName_Generic">Adobe RoboHelp</span> comes with default list styles. You can use any of the default lists as supplied or you can customize them or you can create new list styles. Start by selecting the required list style from the toolbar. Here the numbered list icon has been selected and below the default styles are shown below. For the purposes of showing the options, the first option Decimal List is selected.</p>
+  <p><img alt="" border="0" class="spacing_bottom_only" src="../assets/images/authoring/lists01.png" /></p>
+  <p>In your topic it will look like this.</p>
+  <p><img alt="" border="0" class="spacing_bottom_only" src="../assets/images/authoring/lists02.png" /></p>
+  <p>The Multilevel list toolbar icon displays this list that includes a list with black circled numbers.</p>
+  <p><img alt="" border="0" class="spacing_bottom_only" src="../assets/images/authoring/multilevel_lists.png" style="border: none;" /></p>
+  <h3>Customized List Styles</h3>
+  <p>If you make changes to the supplied Decimal style, all Decimal lists will have your customization applied when you select Decimal on the toolbar in future. If that is not what you want, create a new style first as shown later.</p>
+  <p>Open the CSS file by double clicking it in the Contents panel.</p>
+  <h4>To Modify An Existing Style</h4>
+  <p>Click on the style and follow the steps under Properties.</p>
+  <p><img alt="" border="0" class="spacing_bottom_only" src="../assets/images/authoring/lists07.png" /></p>
+  <h4>To Create a New Style Based On An Existing Style</h4>
+  <p>In the context menu click the style and select Duplicate.</p>
+  <p>Put focus on the new style and follow the steps under Properties.</p>
+  <h4>To Create a New Style From Scratch</h4>
+  <p>In the context menu click List Styles or any existing list style and select New.</p>
+  <p>Put focus on the new style and follow the steps under Properties.</p>
+  <h3>Example</h3>
+  <p>To create the style shown here, the settings would be as below. Many other styles can be created.</p>
+  <p><img alt="" border="0" class="spacing_bottom_only" src="../assets/images/authoring/lists06.png" /></p>
+  <p>Create a copy of an existing list style and name it as required. With focus on the new style to be edited in the list of styles, make sure Level is set to Level 1, Style is set to Decimal, Applying Formatting To is set to prefix and remove the full stop after &lt;x&gt; in the Format field.</p>
+  <p class="emphasis1"><img alt="" border="0" src="../assets/images/BadgeTip.png" style="border: none;" /> The Apply Formatting To dropdown controls whether your changes apply to the Numbering / Bullets or the Content. Make sure the required option is selected.</p>
+  <p><img alt="" border="0" class="spacing_bottom_only" src="../assets/images/authoring/lists04.png" /></p>
+  <p>Below those settings are the various options for customizing.</p>
+  <p><img alt="" border="0" class="spacing_bottom_only" src="../assets/images/authoring/lists05.png" /></p>
+  <p>In this example, it is decided the required style is as below. The settings for that are as below.</p>
+  <table cellpadding="1" cellspacing="1" class="blue" style="border-collapse:collapse;" width="100%">
+    <colgroup>
+      <col style="width: 20%;" />
+      <col style="width: 60%;" />
+    </colgroup>
+    <tbody>
+      <tr>
+        <td>
+          <p class="tabletext">Font</p>
+        </td>
+        <td>
+          <p class="tabletext">Click Bold</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="tabletext">Alignment</p>
+        </td>
+        <td>
+          <p class="tabletext">Set the spacing to 2</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="tabletext">Border</p>
+        </td>
+        <td>
+          <p class="tabletext">Set the color and width required. The border here is 2px.</p>
+          <p class="tabletext">Set the radius if you want rounded corners rather than square corners. The radius shown is 5px.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="tabletext">Layout</p>
+        </td>
+        <td>
+          <p class="tabletext">Set the margins and padding as required.</p>
+          <p class="tabletext">The settings shown are 10px right margin and 4px left padding.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="tabletext">Background</p>
+        </td>
+        <td>
+          <p class="tabletext">Set the fill color required.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <p> </p>
+  <h3>Alignment</h3>
+  <p>When a numbered list reaches double digits, the supplied styles will keep the text in line with the items above. It also works with triple digits if you get that far!</p>
+  <p>There are also controls to set the position of the number or bullet and the gap between that and the list content.</p>
+  <p><img alt="" border="0" src="../assets/images/authoring/lists08.png" style="border: none;" /></p>
+  <h2>Restart Numbering</h2>
+  <p>If you need to restart numbering, click in the list where you want the numbering to restart. In Properties &gt; General tab you will see a field where you can set the number to what you want. The field will not show unless the list item has some content in it.</p>
+  <p><img src="../assets/images/authoring/restart.png" /></p>
+  <h2>Upgrading Lists From <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> Classic Versions</h2>
+  <p>Lists upgraded from Classic versions of Adobe RoboHelp may not look quite the same in <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> as CSS3 rules are applied. You may need to edit your list styles to meet your requirements under CSS3 rules. The simpler your lists in Classic versions, the more likely the lists will upgrade as required.</p>
+  <p>If you have applied inlne styling to any numbered or bulleted lists (ordered or unordered lists) in Classic versions, it will remain applied in <span data-keyref="ProdName_Generic">Adobe RoboHelp</span>. However, inline styling applied to multi-level lists will not carry through.</p>
+  <p data-rhtags="0">It is worth viewing the<span> </span><span><a href="https://bluejeans.com/s/6Kt0e/" target="_blank">List and Table Style Editing</a><span> </span></span>video to see how to edit your list styles in RoboHelp 2019, the steps are the same. </p>
+  <h3 data-rhtags="0">Lists With Paragraph Styles Superimposed</h3>
+  <p>In Classic versions many authors created a list and then added a paragraph style to the list as well. It was a quick way of getting the desired appearance. The change to CSS3 and HTML5 can create issues on upgrading with that method.</p>
+  <h4>Correcting the Issues</h4>
+  <p>Before following these steps create a backup copy of your project.</p>
+  <p>Select all the contents of a single list, then click the None icon in any of the list style icons on the toolbar.</p>
+  <p data-rhtags="0"><img src="../assets/images/authoring/lists09.png" style="cursor: nesw-resize;" /></p>
+  <p>Your list should now just have P tags applied. Check that in the source code.</p>
+  <p>Next in Author view select the whole list and apply your list style from the Styles panel.</p>
+  <p>If it still does not look correct:-</p>
+  <ol class="decimal">
+    <li>Check the code to ensure only LI tags have been applied and there is no inline styling. If there is some inline styling affecting the appearance, go back to Author view and select the list, then go to Content Properties and click the Clear Formatting icon.<br />
+      <br />
+      <img src="../assets/images/authoring/clear_formatting.png" />
+    </li>
+    <li>Create a new topic and create a new list in using your list style. If that is not the desired appearance your list style needs modifying. Open your CSS in the CSS editor and make changes there. You should find that once you have the new list working as desired, the old lists are correct and the new topic can be deleted.</li>
+  </ol>
+  <p data-rhtags="0"> </p>
+  <p data-rhtags="0"> </p>
+  <p data-rhtags="0"> </p>
+  <p data-rhtags="0"> </p>
+  <p data-rhtags="0"> </p>
+  <p data-rhtags="0"> </p>
+  <p data-rhtags="0"> </p>
+</body>
+</html>

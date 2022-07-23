@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<val>
+  <prop att="Audience" val="CHINA" backcolor="#C0C0C0" color="#000000"></prop>
+  <prop att="Audience" val="INDIA" backcolor="#008080" color="#000000"></prop>
+  <prop att="Audience" val="JAPAN" backcolor="#00FF00" color="#000000"></prop>
+  <prop att="Platform" val="Online" backcolor="#00ff00"></prop>
+  <prop att="Platform" val="Print" backcolor="#ff0000"></prop>
+</val>

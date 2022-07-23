@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta name="template" content="../../assets/masterpages/Compass_Travel_NoBreadcrumbs.htt" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="condition-tags" content="Others:Developer;Others:EndUser" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <title>Implementing Web fonts with Typekit</title>
+  <link rel="stylesheet" type="text/css" href="../../assets/css/studio.css" />
+</head>
+<body>
+  <h1><span data-field="title" data-format="default">Implementing Web fonts with Typekit</span></h1>
+  <p>Web fonts such as those provided by <a href="https://fonts.adobe.com/" target="_blank">Adobe Fonts</a> can be used in RoboHelp projects. Simply find your favourite font from the Adobe Fonts library, copy the unique URL, and then apply the font in your
+    stylesheet.</p>
+  <h4>To use a web font:</h4>
+  <ol class="list-ordered">
+    <li class="list-ordered">Go to <span style="font-weight: bold;">Adobe Fonts</span>, and search for the desired font, e.g. Gilbert.</li>
+    <li class="list-ordered">At the right-hand side of the fonts you want to use, click <span style="font-weight: bold;">Activate font</span>.</li>
+    <li class="list-ordered">Click <span style="font-weight: bold;">Add to Web Project</span> and in the dialog that appears create a name for the new project and click <span style="font-weight: bold;">Create</span>.</li>
+    <li class="list-ordered">A unique URL will be created for you to place into your HTML. This can be done by either pasting the default embed code into the &lt;head&gt; of each topic (or the master page if you are using one) or by pasting the @import link into your CSS.
+      <ul class="list-unordered-condensed">
+        <li class="list-unordered-condensed"><span style="font-weight: bold;">Default embed code</span>: &lt;link rel=&quot;stylesheet&quot; href=&quot;https://use.typekit.net/pgf6joz.css&quot;&gt; <span style="font-weight: bold;">OR</span></li>
+        <li class="list-unordered-condensed"><span style="font-weight: bold;">Import link</span>: @import url(&quot;https://use.typekit.net/pgf6joz.css&quot;);</li>
+      </ul>
+    </li>
+    <li class="list-ordered">Next, in your CSS add the desired <strong>font-family</strong>, <strong>font-weight</strong>, and <strong>font-style</strong>.</li>
+  </ol>
+  <p style="margin-left: 80px;">p.gilbert {<br/> font-family: gilbert-color, sans-serif;<br/> font-weight: 700;<br/> font-style: normal;<br/> }
+  </p>
+  <p class="gilbert" style="margin-left: 80px;">This font is called Gilbert and it&#39;s being powered by Typekit.</p>
+  <p> </p>
+</body>
+</html>

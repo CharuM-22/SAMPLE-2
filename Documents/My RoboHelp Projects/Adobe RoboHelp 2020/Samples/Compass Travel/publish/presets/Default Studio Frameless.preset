@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <title>Compass Travel</title>
+  <content>
+    <toc>
+      <name>Compass_Travel</name>
+      <path>../../toc/Compass_Travel.toc</path>
+    </toc>
+    <index type="boolean">true</index>
+    <glossary>
+      <name>Compass_Travel</name>
+      <path>../../glossary/Compass_Travel.glo</path>
+    </glossary>
+    <brs type="array">
+      <brsitem>
+        <name>Compass_Travel</name>
+        <path>../browsesequence/Compass_Travel.brs</path>
+      </brsitem>
+    </brs>
+    <includeExpandingText type="boolean">true</includeExpandingText>
+    <includeDropdownText type="boolean">true</includeDropdownText>
+  </content>
+  <type>frameless</type>
+  <glosstermEffect type="number">0</glosstermEffect>
+  <name>Default Studio Frameless</name>
+  <starterPage>index.htm</starterPage>
+  <defaultTopic>
+    <name>Introduction</name>
+    <path>../../contents/Introduction.htm</path>
+  </defaultTopic>
+  <hpTopicPath>Featured.htm</hpTopicPath>
+  <layout>
+    <tpFooterTopicPath>Footer.htm</tpFooterTopicPath>
+  </layout>
+  <downloadPDF>assets/docs/Compass_Travel.pdf</downloadPDF>
+  <chatbot>
+    <displayName>Google Dialogflow</displayName>
+    <name>dialogflow</name>
+  </chatbot>
+  <mobileapp>
+    <android type="boolean">true</android>
+    <iOS type="boolean">false</iOS>
+  </mobileapp>
+  <search>
+    <suggestion type="boolean">true</suggestion>
+    <context type="boolean">false</context>
+    <contextLimit type="number">100</contextLimit>
+    <maxSearchresults type="number">20</maxSearchresults>
+    <glossary type="boolean">true</glossary>
+    <showSpeclChars type="boolean">false</showSpeclChars>
+    <speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
+    <fuzzy type="boolean">true</fuzzy>
+  </search>
+  <filter>
+    <name>Dynamic Content Filter Multiple</name>
+    <path>../filters/Dynamic Content Filter Multiple.filter</path>
+  </filter>
+  <sitemap>
+    <use type="boolean">false</use>
+  </sitemap>
+  <skin>
+    <name>frameless</name>
+    <path>../skins/Studio_Compass_Travel/frameless.skn</path>
+  </skin>
+  <createThumbNails type="boolean">false</createThumbNails>
+  <use_thumbnails type="boolean">true</use_thumbnails>
+  <favicon>
+    <name>compass-favicon</name>
+    <path>../../contents/assets/images/compass-favicon.png</path>
+  </favicon>
+  <patchHomepage type="boolean">true</patchHomepage>
+  <gdprCompliance type="boolean">true</gdprCompliance>
+  <dgflowApiClientKey></dgflowApiClientKey>
+  <dgflowApiDevKey></dgflowApiDevKey>
+  <serversStatus type="array">
+    <serversStatusitem>
+      <name>RhServer11</name>
+    </serversStatusitem>
+  </serversStatus>
+</preset>

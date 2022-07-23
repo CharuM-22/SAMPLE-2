@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>        
+
+<glossgroup id="G2">          
+<title>Glossary Definitions</title>        
+<glossentry id="G2_IDP">
+<glossterm>IDP</glossterm>
+<glossdef>Internally displaced people</glossdef></glossentry>
+<glossentry id="G2_DPA">
+<glossterm>DPA</glossterm>
+<glossdef>Digital personal assistants</glossdef></glossentry></glossgroup>

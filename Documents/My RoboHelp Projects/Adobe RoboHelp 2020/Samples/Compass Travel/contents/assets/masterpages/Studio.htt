@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="topic-comment" content="Header" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <title>Studio</title>
+  <link rel="stylesheet" type="text/css" href="../css/studio-pdf.css" />
+</head>
+<body>
+  <div data-region="header">
+    <p class="even-pages-header"><span data-field="chapter-title" data-format="default">Studio Even Pages</span></p>
+  </div>
+  <div data-region="topic">
+    <p> </p>
+  </div>
+  <div data-region="footer">
+    <p class="even-pages-footer"><span data-field="page-number" data-format="default">1</span></p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <content>
+    <variable>
+      <path>../variablesets/INFOSYS.var</path>
+      <name>INFOSYS</name>
+    </variable>
+    <conditional>
+      <path>../expressions/NOT_CHINA-NOT_INDIA.expn</path>
+      <name>NOT_CHINA-NOT_INDIA</name>
+    </conditional>
+    <toc>
+      <path>../../toc/2._Information_in_user_manual.toc</path>
+      <name>2._Information_in_user_manual</name>
+    </toc>
+    <relativeOutputPath type="boolean">false</relativeOutputPath>
+    <index type="boolean">true</index>
+    <glossary>
+      <path>../../glossary/G1.glo</path>
+      <name>G1</name>
+    </glossary>
+    <brs type="array"></brs>
+    <language>
+      <name>en_US</name>
+      <code type="number">1033</code>
+      <displayName>English (US)</displayName>
+    </language>
+    <masterpage></masterpage>
+    <mapFiles type="array"></mapFiles>
+  </content>
+  <title>Blank Project</title>
+  <type>caas</type>
+  <glosstermEffect type="number">0</glosstermEffect>
+  <outputPath>C:/Users/charu/Documents/My RoboHelp Projects/outputs/charu new project/Microcontent</outputPath>
+  <name>Microcontent</name>
+  <starterPage>index.htm</starterPage>
+  <defaultTopic>
+    <name>First_Topic</name>
+    <path>../../contents/First_Topic.htm</path>
+  </defaultTopic>
+  <trainPhraseFiles type="array">
+    <trainPhraseFilesitem>
+      <path>../../contents/microcontent/MC1.mc</path>
+    </trainPhraseFilesitem>
+  </trainPhraseFiles>
+  <outputFormat>
+    <name>htmlcss</name>
+    <displayName>HTML5 + CSS3</displayName>
+  </outputFormat>
+  <search>
+    <suggestion type="boolean">true</suggestion>
+    <context type="boolean">false</context>
+    <contextLimit>100</contextLimit>
+    <glossary type="boolean">true</glossary>
+    <showSpeclChars type="boolean">false</showSpeclChars>
+    <speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
+    <fuzzy type="boolean">true</fuzzy>
+  </search>
+  <sitemap>
+    <use type="boolean">false</use>
+    <helpBaseURL></helpBaseURL>
+    <changeFrequency></changeFrequency>
+  </sitemap>
+  <createThumbNails type="boolean">false</createThumbNails>
+  <patchHomepage type="boolean">true</patchHomepage>
+  <gdprCompliance type="boolean">true</gdprCompliance>
+  <dgflowApiClientKey></dgflowApiClientKey>
+  <dgflowApiDevKey></dgflowApiDevKey>
+</preset>

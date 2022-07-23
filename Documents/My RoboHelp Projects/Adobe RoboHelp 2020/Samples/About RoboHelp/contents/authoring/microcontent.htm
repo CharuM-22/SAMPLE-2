@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <title>Microcontent</title>
+  <meta name="topic-status" content="Complete" />
+  <meta name="rh-authors" content="Ann Author" />
+  <meta name="rh-index-keywords" content="Microcontent" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/rh_standard_2020_03.css" />
+</head>
+<body>
+  <h1>Microcontent</h1>
+  <h2>What is Microcontent?</h2>
+  <p>This Answer Box is one example of microcontent that you will be familiar with from using Google</p>
+  <p><img src="../assets/images/authoring/microcontent01.png" style="cursor: nesw-resize;" /></p>
+  <p>It is also used to create questions and answers for chatbot engines such as this.</p>
+  <p><img src="../assets/images/authoring/microcontent10.png" /></p>
+  <h2>What Can I Use it for in RoboHelp?</h2>
+  <h3>Within Your Project</h3>
+  <p>Microcontent can be used to create FAQ topics for all outputs and to create Answer Boxes similar to the one above when users search.</p>
+  <h3>Microhelp</h3>
+  <p>Microcontent can create small files that developers can access in an app, with or without links to the main help. The files can be in various formats as described in <a href="../outputs/outputs_microhelp.htm">Microhelp Output</a>.</p>
+  <h3>Chatbots</h3>
+  <p>You can create content for a chatbot engine.</p>
+  <h2>Terminology</h2>
+  <p><strong>Microcontent </strong>- There are many definitions that can be found but what they all boil down to is, not surprisingly, small pieces of information that assist readers.</p>
+  <p><strong>Intents </strong>- Each <em>intent </em>is a piece of information <em>intended </em>to assist the user. The term comes from the chatbot world. It might be the answer to a question entered as a search or included in an FAQ page or it might be a small HTM file created for a developer to include in their software.</p>
+  <p><strong>Microcontent Groups</strong> are groups of intents (pieces of information) that address similar areas.</p>
+  <h2>Microcontent Within a Project</h2>
+  <p>This section will describe creating microcontent for FAQ pages and Answer Boxes. There are two ways to create a Microcontent Group.</p>
+  <h3>Method 1</h3>
+  <ol class="decimal">
+    <li>Click Microcontent in the Project Toolbar on the left.</li>
+    <li>Click the + icon.</li>
+    <li>The New Microcontent Group dialog will open. Enter the required name, FAQs for this example.</li>
+    <li>Click Done.</li>
+    <li>The editing table will open in the authoring area. See The Editing Table below.</li>
+  </ol>
+  <p>Using this method, <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> will add the group to the Microcontent folder. This folder will be created the first time you create a group, as shown next to Using Method 1.</p>
+  <h3>Method 2</h3>
+  <ol class="decimal">
+    <li>Click in the blank area of the Contents panel or on any folder.</li>
+    <li>Right click and select New Microcontent Group.</li>
+    <li>The New Microcontent Group dialog will open. Enter the required name, FAQs for this example.</li>
+    <li>Click Done.</li>
+    <li>The editing table will open in the authoring area. See The Editing Table below.</li>
+  </ol>
+  <p>Using this method, <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> will add the FAQs group wherever you chose to add it, as shown next to Using Method 2.</p>
+  <p><img class="spacing_top_and bottom" src="../assets/images/authoring/microcontent11.png" /></p>
+  <h2>Creating the Intents and the Responses</h2>
+  <p>The authoring area will have a single row table by default where you enter the intents for the microcontent group. In this example an FAQ page is being created. You can also create Answer Boxes as described later in this topic.</p>
+  <p><img class="spacing_bottom_only" src="../assets/images/authoring/microcontent03.png" /></p>
+  <p>In a new group, click in the left column of the table and enter the name of the intent.For this purpose it will be the question you want to appear in the FAQ topic, such as &quot;Do I get paid when I am ill?&quot;</p>
+  <p>In the right column, enter the response (answer). Whilst the left column is text only, the response on the right can be formatted in the same way as any topic. Note though that if you will be using the group for any other purpose such as Microhelp or Chatbot outputs, you must respect their requirements.</p>
+  <p>You can add dropdowns, expanding text, variables and snippets. You can include cross references and hyperlinks to topics but do not link to other microcontent.</p>
+  <p>The key thing is to keep it brief. There is no limit imposed but it should not be more than a sentence or two.</p>
+  <p class="emphasis1"><img src="../assets/images/BadgeTip.png" /> As the intents and responses are within a table, you may have border formatting issues if you also use tables within a response. Unless you have advanced CSS skills, it may be easier not to use tables within the responses.<br />
+    Enclose snippets in a P tag to see the content.</p>
+  <p>To add further intents to the group, tab from the right column to add further rows or use the context menu which has other options such as Insert Above.</p>
+  <h3>Using Existing Topic Content</h3>
+  <p>Create a new intent as above leaving the right column blank, then select the required content in a topic and right click. Select Add to Microcontent from the context menu and select the required group and intent.</p>
+  <p>If the content within the selected area of the topic later changes, that automatically gets picked up in the intent.</p>
+  <p>You will not be able to edit that in the microcontent table. Changes must be made in the source topic.</p>
+  <p><img src="../assets/images/authoring/microcontent07.png" /></p>
+  <h2>The Intent Properties</h2>
+  <ul class="disc">
+    <li>With the cursor in a row in the Intent column on the left. the properties of the intent will be shown on the right.</li>
+    <li>With the cursor in a row in the Response column on the right. the properties of the response will be shown on the right.</li>
+  </ul>
+  <h4>Name</h4>
+  <p>This will be whatever is entered in the left column.</p>
+  <ul class="disc">
+  </ul>
+  <h4>Phrases</h4>
+  <p>Any phrases you enter will be used in search to find the intent in addition to the text of the intent.</p>
+  <h4>Keywords</h4>
+  <p>Any keywords you enter will be used in search to find the intent in addition to the text of the intent.</p>
+  <h4>ID</h4>
+  <p>You can enter an alpha numeric id for use with the Microhelp output. The format will be as required by your developer.</p>
+  <h4>Condition Tags</h4>
+  <p>You can apply condition tags so that a particular intent within a group is not included when the output has the selected tag(s) applied.</p>
+  <h2>Adding the FAQ Page to a Frameless Output</h2>
+  <p>Locate the required microcontent. Add the MC file to the TOC.</p>
+  <p>Using this group shown above, when you generate the FAQs will appear in the TOC and will be shown as below.</p>
+  <p><img src="../assets/images/authoring/microcontent17.png" /></p>
+  <h2>Answer Boxes</h2>
+  <p>By using a single row intent and response such as this where dropdown text and twisties have been used, you can create an answer box.</p>
+  <h3>In Microcontent</h3>
+  <ol class="decimal">
+    <li>Create a group with one intent and response as shown below using dropdown. In this example twisties have been added to the style.</li>
+    <li>Select the properties of the group and select the Hide from Search check box.</li>
+    <li>Add the group to the TOC and select the Hide in Output check box.</li>
+  </ol>
+  <p><img class="spacing_top_and bottom" src="../assets/images/authoring/microcontent18.png" /></p>
+  <p>By selecting those options, the Answer Box will only be shown in response to a search.</p>
+  <p><img src="../assets/images/authoring/microcontent20.png" /></p>
+  <h2>Creating Microhelp</h2>
+  <p>You can create small files that your developers can link to within the app. These will be very small and sit standalone on a server.</p>
+  <p>This output does not require phrases and keywords added. If they are defined because the Intents are used for a chatbot output, they will be ignored for this purpose.</p>
+  <p><a href="../outputs/outputs_microhelp.htm">Microhelp Output</a> describes how this is done and the file types that can be created.</p>
+  <h2>Creating Content For Chatbots</h2>
+  <p>You can create responses that can be integrated with whichever chatbot engine you use.</p>
+  <p>This output does require phrases and and may need keywords depending on the chatbot engine used. If keywords are defined because the intents are used for other chatbot engines that do require them, they will be ignored for engines that do not require them.</p>
+  <p><a href="../outputs/outputs_chatbot.htm">Chatbot Output</a> describes how the content is generated for your chatbot engine.</p>
+  <h2>Video</h2>
+  <p>Beth Gerber of Lightext presented a webinar covering Microcontent. You can view by clicking <a href="https://microcontent-application-for-a-financial-institution.meetus.adobeevents.com/" target="_blank">this link</a>.</p>
+  <p> </p>
+  <p> </p>
+  <p> </p>
+</body>
+</html>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <content>
+    <variable>
+      <path>../variablesets/SIEMENS.var</path>
+    </variable>
+    <conditional>
+      <path>../expressions/NOT_CHINA.expn</path>
+    </conditional>
+    <toc>
+      <path>../../toc/Customer_B.toc</path>
+    </toc>
+    <relativeOutputPath type="boolean">false</relativeOutputPath>
+    <index type="boolean">true</index>
+    <glossary>
+      <path>../../glossary/G1.glo</path>
+      <name>G1</name>
+    </glossary>
+    <brs type="array"></brs>
+    <masterpage>
+      <path>../../contents/assets/masterpages/MP1.htt</path>
+    </masterpage>
+    <includeExpandingText type="boolean">true</includeExpandingText>
+    <includeDropdownText type="boolean">true</includeDropdownText>
+  </content>
+  <title>first project</title>
+  <type>kb</type>
+  <outputPath>C:/Users/charu/Documents/My RoboHelp Projects/outputs/first project/Knowledge Base</outputPath>
+  <name>Knowledge Base</name>
+  <starterPage>default.htm</starterPage>
+  <kbtype>
+    <name>aem</name>
+    <displayName>AEM</displayName>
+  </kbtype>
+  <kbtarget>
+    <salesforce>
+      <useinlinestyles type="boolean">true</useinlinestyles>
+      <draft type="boolean">true</draft>
+      <useimages type="boolean">true</useimages>
+      <usedocs type="boolean">true</usedocs>
+      <removetitle type="boolean">true</removetitle>
+    </salesforce>
+    <zendesk>
+      <useinlinestyles type="boolean">true</useinlinestyles>
+      <useimages type="boolean">true</useimages>
+      <draft type="boolean">true</draft>
+      <usedocs type="boolean">true</usedocs>
+      <usejs type="boolean">true</usejs>
+      <useflattoc type="boolean">false</useflattoc>
+      <removetitle type="boolean">true</removetitle>
+    </zendesk>
+    <zoho>
+      <useinlinestyles type="boolean">true</useinlinestyles>
+      <useimages type="boolean">true</useimages>
+      <usedocs type="boolean">true</usedocs>
+      <removetitle type="boolean">true</removetitle>
+      <useflattoc type="boolean">false</useflattoc>
+      <draft type="boolean">true</draft>
+      <usekeywords type="boolean">true</usekeywords>
+      <usedesc type="boolean">true</usedesc>
+    </zoho>
+    <servicenow>
+      <useinlinestyles type="boolean">true</useinlinestyles>
+      <useimages type="boolean">true</useimages>
+      <usedocs type="boolean">true</usedocs>
+      <usetags type="boolean">true</usetags>
+      <draft type="boolean">true</draft>
+      <useflattoc type="boolean">false</useflattoc>
+      <removetitle type="boolean">true</removetitle>
+    </servicenow>
+    <aem>
+      <aemuseinlinestyles type="boolean">false</aemuseinlinestyles>
+      <removetitle type="boolean">true</removetitle>
+      <usecomponents type="boolean">false</usecomponents>
+      <assetrepublish type="boolean">false</assetrepublish>
+      <useimages type="boolean">true</useimages>
+      <usedocs type="boolean">true</usedocs>
+      <usejs type="boolean">false</usejs>
+    </aem>
+    <publishstatus type="array">
+      <publishstatusitem>
+        <path>C:/Users/charu/Documents/My RoboHelp Projects/first_project/toc/Customer_A.toc</path>
+        <data type="array">
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>1. Aritificial intelligence</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>1. Aritificial intelligence</name>
+            <id>Rmlyc3RfVG9waWMuaHRtQCNAYSQxLiBBcml0aWZpY2lhbCBpbnRlbGxpZ2VuY2U=</id>
+            <lastModifiedOnServer></lastModifiedOnServer>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>3. Application</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>3. Application</name>
+            <id>My5odG1AI0BhJDMuIEFwcGxpY2F0aW9u</id>
+            <lastModifiedOnServer></lastModifiedOnServer>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>2.1 Planning</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>2.1 Planning</name>
+            <id>Mi4xX1BsYW5uaW5nLmh0bUAjQGEkMi4xIFBsYW5uaW5n</id>
+            <lastModifiedOnServer></lastModifiedOnServer>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>2. Learning</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>2. Learning</name>
+            <id>Mi5odG1AI0BhJDIuIExlYXJuaW5n</id>
+            <lastModifiedOnServer></lastModifiedOnServer>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>1.2 Early research</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>1.2 Early research</name>
+            <id>MS4yX0Vhcmx5X3Jlc2VhcmNoLmh0bUAjQGEkMS4yIEVhcmx5IHJlc2VhcmNo</id>
+            <lastModifiedOnServer></lastModifiedOnServer>
+          </dataitem>
+          <dataitem>
+            <tocPath type="array">
+              <tocPathitem>1.1 Early concepts</tocPathitem>
+            </tocPath>
+            <checked type="boolean">true</checked>
+            <type>item</type>
+            <name>1.1 Early concepts</name>
+            <id>MS5odG1AI0BhJDEuMSBFYXJseSBjb25jZXB0cw==</id>
+            <lastModifiedOnServer></lastModifiedOnServer>
+          </dataitem>
+        </data>
+      </publishstatusitem>
+    </publishstatus>
+  </kbtarget>
+  <search>
+    <suggestion type="boolean">true</suggestion>
+    <context type="boolean">true</context>
+    <contextLimit type="number">100</contextLimit>
+    <glossary type="boolean">true</glossary>
+    <showSpeclChars type="boolean">false</showSpeclChars>
+    <speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
+    <fuzzy type="boolean">true</fuzzy>
+  </search>
+  <patchHomepage type="boolean">true</patchHomepage>
+  <gdprCompliance type="boolean">true</gdprCompliance>
+  <serversStatus type="array"></serversStatus>
+  <republish type="boolean">false</republish>
+  <generateMapFiles type="boolean">true</generateMapFiles>
+  <generateBRS type="boolean">true</generateBRS>
+</preset>

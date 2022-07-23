@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>    
+<expr>    
+<group flag="Include" op="AND">
+<tag name="Others" value="Online_Only" flag="Exclude" op="AND"></tag>
+<tag name="Others" value="Videos" flag="Exclude" op="AND"></tag></group>    </expr>

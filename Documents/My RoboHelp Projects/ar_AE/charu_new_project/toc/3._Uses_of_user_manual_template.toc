@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map type="booktoc">
+<title>3._Uses_of_user_manual_template</title>
+<page href="../contents/3.htm" format="html" processing-role="normal"></page>
+<page href="../contents/3.2_Working.htm" format="html" processing-role="normal"></page>
+<page href="../contents/3.1_Publish_user_manual.htm" format="html" processing-role="normal"></page>
+</map>

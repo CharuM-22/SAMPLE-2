@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>        
+
+<glossgroup id="G2">          
+<title>Glossary Definitions</title>        
+<glossentry id="G2_SMS">
+<glossterm>SMS</glossterm>
+<glossdef>Short messaging services</glossdef></glossentry>
+<glossentry id="G2_GPS">
+<glossterm>GPS</glossterm>
+<glossdef>Global Positioning system</glossdef></glossentry></glossgroup>

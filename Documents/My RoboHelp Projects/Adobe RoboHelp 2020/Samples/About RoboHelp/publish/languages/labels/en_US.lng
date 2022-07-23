@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <section name="Frameless">
+    <element name="BreadcrumbStart" value="Home &gt; "></element>
+  </section>
+  <section name="ResponsiveHelp">
+    <element name="Search" value="-Search-"></element>
+    <element name="Copyright" value="© Copyright 2017. All rights reserved."></element>
+    <element name="setAsFavorite" value="Set as favorite"></element>
+  </section>
+</configuration>

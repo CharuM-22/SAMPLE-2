@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>    
+<filter displayname="Copy of Dynamic Content Filter Multiple" multiple="yes" withingroup="yes">    
+<group displayname="Company Role" name="">
+<condition name="Others" value="Sales" displayname="Sales" default="no"></condition>
+<condition name="Others" value="Developer" displayname="Software Developer" default="no"></condition></group>
+<group displayname="Travel Market Type" name="">
+<condition name="Others" value="CorporateTravel" displayname="Corporate Travel" default="no"></condition>
+<condition name="Others" value="LeisureTravel" displayname="Leisure Travel" default="no"></condition></group>
+<group displayname="Country Location" name="">
+<condition name="Others" value="US" displayname="US" default="no"></condition>
+<condition name="Others" value="UK" displayname="UK" default="no"></condition>
+<condition name="Others" value="Canada" displayname="Canada" default="no"></condition></group></filter>

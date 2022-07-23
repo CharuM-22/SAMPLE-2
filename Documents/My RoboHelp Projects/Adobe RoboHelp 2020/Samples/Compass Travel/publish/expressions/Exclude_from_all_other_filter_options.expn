@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>    
+<expr>    
+<group flag="Include" op="AND">
+<tag name="Others" value="AuthorContent" flag="Exclude" op="AND"></tag>
+<tag name="Others" value="eBookOnly" flag="Exclude" op="AND"></tag>
+<tag name="Others" value="Print" flag="Exclude" op="AND"></tag>
+<tag name="Others" value="SingleFilter" flag="Exclude" op="AND"></tag>
+<tag name="Others" value="Tip" flag="Exclude" op="AND"></tag></group>    </expr>

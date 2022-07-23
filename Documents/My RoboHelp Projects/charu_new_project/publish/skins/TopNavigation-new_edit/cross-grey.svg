@@ -1,0 +1,29 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+
+
+<defs>
+
+
+<style>.a{fill:#ff13dc;}.a,.d{opacity:0;}.b{fill:#FFFFFF;}.c{fill:none;opacity:0.1;}.d{fill:#fff;}</style></defs>
+
+
+<g transform="translate(0 -0.441)">
+
+
+<g transform="translate(9 9)">
+
+
+<rect class="a" width="22" height="22" transform="translate(0 0.441)"></rect>
+
+
+<path class="b" d="M15.743,4.843,11,9.586,6.257,4.843a.5.5,0,0,0-.707,0l-.707.707a.5.5,0,0,0,0,.707L9.586,11,4.843,15.743a.5.5,0,0,0,0,.707l.707.707a.5.5,0,0,0,.707,0L11,12.414l4.743,4.743a.5.5,0,0,0,.707,0l.707-.707a.5.5,0,0,0,0-.707L12.414,11l4.743-4.743a.5.5,0,0,0,0-.707l-.707-.707a.5.5,0,0,0-.707,0Z" transform="translate(0 -0.458)"></path></g>
+
+
+<rect class="c" width="40" height="40" transform="translate(0 0.441)"></rect>
+
+
+<g transform="translate(9 9)">
+
+
+<rect class="d" width="22" height="22" transform="translate(0 0.441)"></rect></g></g></svg>

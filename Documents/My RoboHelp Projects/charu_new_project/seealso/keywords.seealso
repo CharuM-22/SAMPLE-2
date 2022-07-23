@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  
+<keywords>
+  
+<keyword>
+<name>Paper_format</name>
+<linkedFiles>
+<path>../contents/5.htm</path>
+<path>../contents/5.2_Development.htm</path></linkedFiles>
+<usedInFiles>
+<path>../contents/4.htm</path></usedInFiles></keyword>
+<keyword>
+<name>Safety_warnings</name>
+<linkedFiles>
+<path>../contents/21_Creation_of_image.htm</path>
+<path>../contents/1.2_Adding_navigation.htm</path></linkedFiles>
+<usedInFiles>
+<path>../contents/2.htm</path></usedInFiles></keyword>
+<keyword>
+<name>Web_applications</name>
+<linkedFiles>
+<path>../contents/5.2_Development.htm</path>
+<path>../contents/3.2_Working.htm</path></linkedFiles>
+<usedInFiles>
+<path>../contents/First_Topic.htm</path></usedInFiles></keyword></keywords>

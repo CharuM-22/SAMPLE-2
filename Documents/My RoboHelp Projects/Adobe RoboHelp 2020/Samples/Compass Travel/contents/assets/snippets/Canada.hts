@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="topic-comment" content=""/>
+<meta name="generator" content="Adobe RoboHelp 2020"/>
+<title>Canada</title>
+</head>
+
+<body>
+<table cellspacing="0" data-condition="Others:Canada;Others:Sales;Others:CTYMON;Others:CTYTOR;Others:CTYVC" style="border-collapse:collapse;" width="100%" cellpadding="1">
+	<colgroup><col/>
+	<col/>
+	</colgroup><tbody><tr>
+		<td data-condition="Others:Sales;Others:Canada;Others:CTYMON;Others:CTYTOR;Others:CTYVC"><p data-condition="Others:CTYMON;Others:Sales;Others:Canada;Others:CTYTOR;Others:CTYVC"><img src="../images/Flag-Canada.png" alt="" style="border: none;" border="0" data-condition="Others:CTYTOR;Others:CTYMON;Others:Sales;Others:Canada;Others:CTYVC"/></p></td>
+		<td data-condition="Others:Sales;Others:Canada;Others:CTYMON;Others:CTYTOR;Others:CTYVC"><p style="font-weight: bold;" data-condition="Others:CTYMON;Others:Sales;Others:Canada;Others:CTYTOR;Others:CTYVC">Canada</p>
+		<p data-condition="Others:CTYMON;Others:Sales;Others:Canada;Others:CTYTOR;Others:CTYVC">First 
+		 Avenue</p>
+		<p data-condition="Others:CTYMON;Others:Sales;Others:Canada;Others:CTYTOR;Others:CTYVC">Anytown</p>
+		<p data-condition="Others:CTYMON;Others:Sales;Others:Canada;Others:CTYTOR;Others:CTYVC">Canada.</p></td>
+	</tr>
+</tbody></table>
+
+
+</body></html>

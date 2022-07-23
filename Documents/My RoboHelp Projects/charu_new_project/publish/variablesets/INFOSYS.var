@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  
+<map>
+    
+<title>Variables</title>
+  
+<keydef keys="COMPANY NAME">
+<topicmeta>
+<keywords>
+<keyword>INFOSYS</keyword></keywords></topicmeta></keydef>
+<keydef keys="LOCATION">
+<topicmeta>
+<keywords>
+<keyword>MUMBAI</keyword></keywords></topicmeta></keydef>
+<keydef keys="MANAGER NAME ">
+<topicmeta>
+<keywords>
+<keyword>EINSTEIN</keyword></keywords></topicmeta></keydef></map>

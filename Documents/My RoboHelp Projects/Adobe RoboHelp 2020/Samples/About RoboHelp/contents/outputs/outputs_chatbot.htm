@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <title>Chatbot Output</title>
+  <meta name="topic-status" content="Complete" />
+  <meta name="rh-authors" content="Ann Author" />
+  <meta name="rh-index-keywords" content="Chatbot" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/rh_standard_2020_03.css" />
+</head>
+<body>
+  <h1>Chatbot Output</h1>
+  <p>There are three elements that bring content to chatbot users.</p>
+  <ol class="decimal">
+    <li>Creating the Content. That is done using <a data-xref="{title}" href="../authoring/microcontent.htm">Microcontent</a>.</li>
+    <li>A Chatbot engine for the Chatbot Client, such as Google&#39;s Dialogflow supported by <span data-keyref="ProdName_Generic">Adobe RoboHelp</span>.</li>
+    <li>Your chosen Chatbot Client such as Alexa, Siri or Facebook Messenger. <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> also provides a sample agent so that you can try things out.</li>
+  </ol>
+  <p>The Chatbot Output has connectors to allow Google Dialogflow integration. For other Chatbot engines such as IBM Watson and Alexa Lex, the content will be put into a format that developers can pick up to push to the chatbot engines.</p>
+  <h2>Creating a Chatbot Output</h2>
+  <div data-conref="../assets/snippets/New_Outputs_New_Preset_Types.hts"> </div>
+  <h2>General Settings</h2>
+  <p>The settings here are much the same as other outputs.</p>
+  <p><img src="../assets/images/outputs/chatbot01.png" /></p>
+  <h4>Chatbot Engine</h4>
+  <p>Currently only Google Dialogflow is fully supported but other engines will be added in updates. See Other Chatbot Engines below.</p>
+  <div data-conref="../assets/snippets/Path.hts"> </div>
+  <h4 class="null">Language</h4>
+  <p>Language sets the selected language as metadata for the chatbot output.</p>
+  <h2>Content Settings</h2>
+  <p>Here you select the groups to be included in this output and apply a condition expression and/or variable set if required.</p>
+  <p><img src="../assets/images/outputs/chatbot02.png" /></p>
+  <h2>Publish Settings</h2>
+  <p>The required file path is provided in the Google Dialogflow account.</p>
+  <p class="author_notes"><img src="../assets/images/outputs/chatbot03.png" /></p>
+  <h2>Client Settings</h2>
+  <p>The settings here are for use with the sample agent only. Accept or amend these strings and then generate the chatbot output.</p>
+  <p>To make the chat window appear in your project, there are a number of options.</p>
+  <ol class="decimal">
+    <li>Add the code to the head section of a master page that is used in the output. This will cause an icon to appear on all topics or those linked to the master page, depending on how you set things up.</li>
+    <li>Add the code to the head section of the topics where you want the chat window to be available. This will cause an icon to appear on those topics.</li>
+    <li>To add the chat window to your homepage, go to Skins in the Output tab and right click the skin, then select Show in Explorer. Open homepage.ejs in a text editor and add the code there.</li>
+  </ol>
+  <p><img src="../assets/images/outputs/chatbot04.png" /></p>
+  <h2>Other Chatbot Engines</h2>
+  <p>If your chosen Chatbot Engine is not supported by <span data-keyref="ProdName_Generic">Adobe RoboHelp</span>, you can use the Microhelp preset to create either JSON or XML files and upload those manually.</p>
+  <h2>Webinar</h2>
+  <p><a href="https://microcontent-authoring-in-robohelp.meetus.adobeevents.com/" title="Adobe Chatbot Webinar">Click here</a> to see Adobe&#39;s video about the Chatbot output.</p>
+  <p><a href="  https://www.youtube.com/watch?v=4b7G2OQt2Kw" title="John Daigle&#39;s Chatbot Video">Click here</a> to see John Daigle&#39;s video.</p>
+  <div data-conref="../assets/snippets/Generation.hts"> </div>
+  <p> </p>
+  <p> </p>
+  <p> </p>
+  <p> </p>
+  <p> </p>
+</body>
+</html>

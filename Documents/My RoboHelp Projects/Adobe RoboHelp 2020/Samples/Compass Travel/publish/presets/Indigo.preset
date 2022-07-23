@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <chatbotWelcomeText>Welcome! How may I help you?</chatbotWelcomeText>
+  <chatbotDefaultText>Sorry, I do not have an answer for that.</chatbotDefaultText>
+  <retryMsg>Hold on a minute...</retryMsg>
+  <placeholderText>Type your message here.</placeholderText>
+  <errorMsg>There seems to be a problem, please contact the administrator.</errorMsg>
+  <title>Compass Travel</title>
+  <content>
+    <toc>
+      <name>Compass_Travel</name>
+      <path>../../toc/Compass_Travel.toc</path>
+    </toc>
+    <index type="boolean">true</index>
+    <brs type="array">
+      <brsitem>
+        <name>Compass_Travel</name>
+        <path>../browsesequence/Compass_Travel.brs</path>
+      </brsitem>
+    </brs>
+    <includeExpandingText type="boolean">true</includeExpandingText>
+    <includeDropdownText type="boolean">true</includeDropdownText>
+  </content>
+  <type>html5</type>
+  <glosstermEffect type="number">0</glosstermEffect>
+  <name>Indigo</name>
+  <starterPage>index.htm</starterPage>
+  <defaultTopic>
+    <name>Introduction</name>
+    <path>../../contents/Introduction.htm</path>
+  </defaultTopic>
+  <chatbot>
+    <displayName>Google Dialogflow</displayName>
+    <name>dialogflow</name>
+  </chatbot>
+  <mobileapp>
+    <android type="boolean">true</android>
+    <iOS type="boolean">false</iOS>
+  </mobileapp>
+  <search>
+    <suggestion type="boolean">true</suggestion>
+    <context type="boolean">false</context>
+    <contextLimit type="number">100</contextLimit>
+    <maxSearchresults type="number">20</maxSearchresults>
+    <glossary type="boolean">true</glossary>
+    <showSpeclChars type="boolean">false</showSpeclChars>
+    <speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
+    <fuzzy type="boolean">true</fuzzy>
+  </search>
+  <filter>
+    <name>Dynamic Content Filter Multiple</name>
+    <path>../filters/Dynamic Content Filter Multiple.filter</path>
+  </filter>
+  <sitemap>
+    <use type="boolean">false</use>
+  </sitemap>
+  <skin>
+    <name>html5</name>
+    <path>../skins/Indigo/html5.skn</path>
+  </skin>
+  <createThumbNails type="boolean">false</createThumbNails>
+  <patchHomepage type="boolean">true</patchHomepage>
+  <gdprCompliance type="boolean">true</gdprCompliance>
+</preset>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <meta name="template" content="../../assets/masterpages/Compass_Travel_NoBreadcrumbs.htt"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="condition-tags" content="Others:Developer;Others:EndUser"/>
+  <meta name="generator" content="Adobe RoboHelp 2020"/>
+  <title>Implementing SVG icons with Font Awesome</title>
+  <script src="https://kit.fontawesome.com/1723540194.js" crossorigin="anonymous"></script>
+  
+<link rel="stylesheet" type="text/css" href="../../assets/css/studio.css"/></head>
+<body>
+  <h1><span data-field="title" data-format="default">Implementing SVG icons with Font Awesome</span></h1>
+  <p>Each <a href="https://fontawesome.com/" target="_blank">Font Awesome</a> (FA) icon has a unique embed code that you can copy direct from the FA website. This can be referenced in your pages by placing it inside a HTML element such as &lt;i&gt; or a
+    &lt;span&gt;. The style of the icon can then be customised by applying your own styles. For example, you may want to change the colour or size of the icon.</p>
+  <h4>To insert a FA icon:</h4>
+  <ol class="list-ordered">
+    <li class="list-ordered">Go to <a href="https://fontawesome.com/start">https://fontawesome.com/start</a>.</li>
+    <li class="list-ordered">Enter your email to create a Font Awesome kit and hit <span style="font-weight: bold;">Send Kit Code</span>. You&#39;ll receive an email, from which you&#39;ll need to verify your email address and then create a Font Awesome account.</li>
+    <li class="list-ordered">Copy the Kit Code into the <span style="font-weight: bold;">&lt;head&gt;</span> of your topic (or master page).</li>
+    <li class="list-ordered">Next, go to <a href="https://fontawesome.com/icons?d=gallery&amp;s=solid&amp;m=free">https://fontawesome.com/icons?d=gallery&amp;s=solid&amp;m=free</a> and find the desired icon.</li>
+    <li class="list-ordered">Copy the desired icon&#39;s code and add it into your topic using a HTML element, like <strong>&lt;i&gt;</strong> or<span style="font-family: monospace;"> </span><strong>&lt;span&gt;</strong>. For example:
+      <ul class="list-unordered-condensed">
+        <li class="list-unordered-condensed">&lt;i class=&quot;fas fa-question-circle&quot;&gt;&lt;/i&gt; <span style="font-weight: bold;">OR</span></li>
+        <li class="list-unordered-condensed">&lt;span class=&quot;fas fa-question-circle&quot;&gt;&lt;/span&gt;</li>
+      </ul>
+    </li>
+    <li class="list-ordered">In your style sheet, create a class to style the SVG icon. For example, like <strong>.fa-icon</strong> below.</li>
+  </ol>
+  <p style="margin-left: 80px;">.fa-icon {<br/>  font-size: 128px;<br/>  color: firebrick<br/> }
+  </p>
+  <ol class="list-ordered" start="7">
+    <li class="list-ordered">Apply the style to the HTML element like this: &lt;span <span style="font-weight: bold;">class=&quot;fa-icon</span> fas fa-question-circle&quot;&gt;&lt;/span&gt;. See the example below:</li>
+  </ol>
+  <p><span class="fa-icon fas fa-question-circle"></span></p>
+
+</body></html>

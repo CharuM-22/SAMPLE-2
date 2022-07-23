@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map type="toc">
+  <title></title>
+  <page navtitle="Introduction" condition="Others:CorporateTravel;Others:LeisureTravel" href="../contents/Introduction.htm" format="html" processing-role="resource-only"></page>
+  <page href="../contents/Our_destinations.htm" format="html" processing-role="normal"></page>
+  <page navtitle="All Markets" href="../contents/Leisure_and_Corporate_Markets.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/microcontents/Benefits.mc" format="html" processing-role="resource-only"></page>
+  <book navtitle="eLearning center" condition="Others:Sales" format="html" processing-role="normal">
+    <page condition="Others:Sales" href="../contents/eLearning_center/About_the_eLearning_center.htm" format="html" processing-role="normal"></page>
+  </book>
+  <book navtitle="Corporate travel" condition="Others:CorporateTravel" format="html" processing-role="normal">
+    <page condition="Others:CorporateTravel" href="../contents/Corporate_travel/About_corporate_travel.htm" format="html" processing-role="normal"></page>
+    <page condition="Others:CorporateTravel" href="../contents/Corporate_travel/About_the_corporate_travel_market.htm" format="html" processing-role="normal"></page>
+    <page condition="Others:CorporateTravel" href="../contents/Corporate_travel/What_sets_us_apart_in_the_corporate_travel_market_.htm" format="html" processing-role="normal"></page>
+    <page condition="Others:CorporateTravel" href="../contents/Corporate_travel/What_corporate_services_do_we_offer_.htm" format="html" processing-role="normal"></page>
+  </book>
+  <book navtitle="Leisure travel" condition="Others:LeisureTravel" format="html" processing-role="normal">
+    <page condition="Others:LeisureTravel" href="../contents/Leisure_travel/About_leisure_travel.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Leisure_travel/Exploring_Ancient_Maya_of_Honduras.htm" format="html" processing-role="normal"></page>
+    <page condition="Others:LeisureTravel" href="../contents/Leisure_travel/What_leisure_services_do_we_offer_.htm" format="html" processing-role="normal"></page>
+  </book>
+  <book navtitle="For sales" condition="Others:Sales" format="html" processing-role="normal">
+    <page navtitle="About our software - SalesBuilder" condition="Others:Sales" href="../contents/For_sales/About_our_software_-_SalesBuilder.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/For_sales/New_Chatbot_for_Customer_Service.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/For_sales/Promotional_travel_market_packages.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/For_sales/Touring_by_air,_rail_or_sea.htm" format="html" processing-role="normal"></page>
+    <page condition="Others:Sales" href="../contents/For_sales/Travel_club_amenities.htm" format="html" processing-role="normal"></page>
+    <book navtitle="Using SalesBuilder" condition="Others:Sales" format="html" processing-role="normal">
+      <page condition="Others:Sales" href="../contents/For_sales/Using_SalesBuilder/My_Pipeline_screen_overview.htm" format="html" processing-role="normal"></page>
+      <page condition="Others:Sales" href="../contents/For_sales/Using_SalesBuilder/Opportunities_screen_overview.htm" format="html" processing-role="normal"></page>
+      <book navtitle="New accounts" condition="Others:Sales" format="html" processing-role="normal">
+        <page navtitle="General screen" condition="Others:Sales" href="../contents/For_sales/Using_SalesBuilder/New_Account/New_Account_-_General_screen.htm" format="html" processing-role="normal"></page>
+        <page navtitle="Contacts screen" condition="Others:Sales" href="../contents/For_sales/Using_SalesBuilder/New_Account/New_Account_-_Contacts_screen.htm" format="html" processing-role="normal"></page>
+        <page navtitle="News screen" condition="Others:Sales" href="../contents/For_sales/Using_SalesBuilder/New_Account/New_Account_-_News_screen.htm" format="html" processing-role="normal"></page>
+      </book>
+      <book navtitle="New Contact" condition="Others:Sales" format="html" processing-role="normal">
+        <page navtitle="General screen" condition="Others:Sales" href="../contents/For_sales/Using_SalesBuilder/New_Contact/New_Contact_-_General_screen.htm" format="html" processing-role="normal"></page>
+        <page navtitle="Notes screen" condition="Others:Sales" href="../contents/For_sales/Using_SalesBuilder/New_Contact/New_Contact_-_Notes_screen.htm" format="html" processing-role="normal"></page>
+      </book>
+    </book>
+  </book>
+  <book navtitle="For developers" condition="Others:Developer" format="html" processing-role="normal">
+    <book navtitle="Font Awesome" condition="Others:Developer" format="html" processing-role="normal">
+      <page condition="Others:Developer" href="../contents/For_developers/Font_Awesome/About_Font_Awesome.htm" format="html" processing-role="normal"></page>
+      <page condition="Others:Developer" href="../contents/For_developers/Font_Awesome/Implementing_SVG_icons_with_Font_Awesome.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/microcontents/Robohelp Tips.mc" format="html" processing-role="resource-only"></page>
+    </book>
+    <book navtitle="Typekit" format="html" processing-role="normal">
+      <page href="../contents/For_developers/Typekit/About_Typekit.htm" format="html" processing-role="normal"></page>
+      <page condition="Others:Developer" href="../contents/For_developers/Typekit/Implementing_Web_fonts_with_Typekit.htm" format="html" processing-role="normal"></page>
+    </book>
+  </book>
+  <book navtitle="Human Resources" format="html" processing-role="normal">
+    <page href="../contents/Human_Resources/Attendance.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Human_Resources/Company_Sick_Pay.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Human_Resources/Disciplinary_Procedure.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Human_Resources/Equal_Opportunities.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Human_Resources/Grievances.htm" format="html" processing-role="normal"></page>
+  </book>
+  <page href="../contents/microcontents/OregonChat.mc" format="html" processing-role="resource-only"></page>
+  <page href="../contents/microcontents/FAQs.mc" format="html" processing-role="resource-only"></page>
+  <page href="../contents/microcontents/Amenities.mc" format="html" processing-role="resource-only"></page>
+  <page href="../contents/microcontents/Output Presets.mc" format="html" processing-role="resource-only"></page>
+  <page href="../contents/microcontents/Tooltips.mc" format="html" processing-role="resource-only"></page>
+  <page href="../contents/About.htm" format="html" processing-role="resource-only"></page>
+  <page href="../contents/Features.htm" format="html" processing-role="resource-only"></page>
+  <page href="../contents/Feedback.htm" format="html" processing-role="resource-only"></page>
+</map>

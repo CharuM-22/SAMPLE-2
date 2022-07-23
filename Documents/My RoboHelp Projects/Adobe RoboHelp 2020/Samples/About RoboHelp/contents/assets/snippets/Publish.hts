@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="topic-comment" content="How to publish an output" />
+  <meta name="generator" content="Adobe RoboHelp 2019" />
+  <title>Publish</title>
+</head>
+<body>
+  <h3>Publish</h3>
+  <p>You can create a Publish Location for this output. Typically that will be used to deliver it to developers. How this is set up is described in <a href="../../outputs/publishing.htm">Publishing</a>.</p>
+</body>
+</html>

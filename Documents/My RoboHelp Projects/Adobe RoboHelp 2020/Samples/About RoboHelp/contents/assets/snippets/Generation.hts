@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="topic-comment" content=""/>
+  <meta name="generator" content="Adobe RoboHelp 2019"/>
+  <title>Generating the Preset</title>
+</head>
+<body>
+  <h2>Generating the Output</h2>
+  <p>Once you have defined the preset, click the generate icon.</p>
+  <h2>Cancelling Generation</h2>
+  <p>While an output is being generated, you can click the Cancel icon at any time.</p>
+  <p><img alt="" border="0" src="../images/multi_folder/cancel_generation.png" style="border: none;"/></p>
+  <h2>Generation Errors</h2>
+  <p>When you generate an output using Quick Generate, if it fails for any reason click the Error icon to access the log.</p>
+  <p><img alt="" border="0" src="../images/multi_folder/generate_failure.png" style="border: none;"/></p>
+  <p>If you generated directly from the preset, you will get an error message. Right click the preset and click View Log.</p>
+
+</body></html>

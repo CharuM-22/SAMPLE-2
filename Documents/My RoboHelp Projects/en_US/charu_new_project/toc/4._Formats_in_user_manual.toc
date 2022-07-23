@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map type="booktoc">
+<title>4._Formats_in_user_manual</title>
+<page href="../contents/4.htm" format="html" processing-role="normal"></page>
+<page href="../contents/4.1_Benfits.htm" format="html" processing-role="normal"></page>
+</map>

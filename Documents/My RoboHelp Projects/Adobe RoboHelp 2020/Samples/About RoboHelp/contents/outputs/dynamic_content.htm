@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="topic-status" content="Complete" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <title>Dynamic Content Filtering</title>
+  <meta name="rh-index-keywords" content="Dynamic Content" />
+  <meta name="rh-authors" content="Ann Author" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/rh_standard_2020_03.css" />
+</head>
+<body>
+  <h1>Dynamic Content Filtering</h1>
+  <p>Dynamic Content Filtering is controlled by condition tags alone, build expressions cannot be used. That will support most scenarios with the exception of where the same condition tag has to be used at both topic and content level or you want to include / exclude multiple tags in the same filter.</p>
+  <p>Why would you put content in a topic that is going to be excluded anyway? That can occur where many topics have a Snippet that includes content with condition tags applied  including one that sometimes needs to be applied to a topic. That scenario is no longer supported.</p>
+  <p class="emphasis1"><img alt="" border="0" src="../assets/images/BadgeNew.png" style="border: none;" /> Dynamic Content Filtering can be used in both Responsive HTML5 and Frameless outputs. For Classic users who were generating WebHelp, it replaces Dynamic User-Centric Content.</p>
+  <h2>What is Dynamic Content Filtering?</h2>
+  <p>There are many reasons why you might want your users to see only certain parts of the content:</p>
+  <ul class="Standard_Bullet">
+    <li class="Standard_Bullet">There could be content for many markets and you want the user to be able to select their country.</li>
+    <li class="Standard_Bullet">There could be content for entry level or advanced users and you want the user to select what they need.</li>
+    <li class="Standard_Bullet">The content could cover a wide range of products and you want the user to be able to select one or more subsets.</li>
+  </ul>
+  <p>Filtering allows you to write your content so that users can make those choices.</p>
+  <h2>How Does it Work for the User?</h2>
+  <p>Typically the help will open with all the content available through the table of contents, the index and searching. What Dynamic Content Filtering adds is the ability for the user to choose subsets from the options you give them. It is possible to open the help with a filter applied but keep in mind that does not restrict what the user can access. They can remove the filter and still see the whole content that you have generated.</p>
+  <p>In this example, the user must choose one of the countries listed but the project could be set up to make that multi-choice.<br />
+    <img alt="" border="0" class="spacing_top_and_bottom" src="../assets/images/outputs/dcf01.png" /><br />
+    When the user makes their selection(s), the content is filtered so that here the user would only see topics and content that is either untagged or has the US condition tag applied. It works the opposite way to the usual build expression scenario where content is excluded. Filtering is inclusive, not exclusive.
+  </p>
+  <h2>How Do You Set it Up?</h2>
+  <p>Using the above example where you have different content for users in the US, Canada and the UK, content for those groups is selected in the topics and you apply the relevant condition tag. You can also apply condition tags to topics so the topic is only seen by the relevant groups.</p>
+  <p class="emphasis1"><img alt="" border="0" src="../assets/images/BadgeWarning.png" style="border: none;" /> What you must not do is apply a condition tag at both topic and content level, tags must be applied at one level only.</p>
+  <p>When you are ready to generate your output, go to Output &gt; Output Settings and click the Dynamic Content Filters option.</p>
+  <p>Click the + icon to create a Dynamic Content Filter and you will then see the available condition tags that can be used.</p>
+  <p><img alt="" border="0" class="spacing_bottom_only" src="../assets/images/outputs/dcf02.png" /></p>
+  <p>In this example only one group is required and users are only allowed to choose one country so both options below would be cleared. Also the aim is to only show information about one country at a time so Select By Default has been ticked. The default and delete icons are displayed when you hover over a tag name.</p>
+  <p>The drag bars on the left of the filters let you position them in any order.</p>
+  <p><img alt="" border="0" class="spacing_bottom_only" src="../assets/images/outputs/dcf03.png" /></p>
+  <p>You might just want the user to see a few tags, such as in this example, where the user just chooses between the countries, or you might want to set up a group for countries and another group to further reduce the topics for each country. Maybe options such as Weather, Places to Visit and so on.</p>
+  <ul class="Standard_Bullet">
+    <li class="Standard_Bullet">If you don&#39;t need any groups, just drag the tags to the right in the order you want them to appear. You can tick a check box against any one tag so that the help opens with the filter applied.</li>
+    <li class="Standard_Bullet">If you do want groups, click the Add Group icon on the right to create the groups you want your users to see in this filter. As you drag condition tags, they will initially be shown within their condition tag group. You can then move them to your own group name.</li>
+  </ul>
+  <p>If you tick the Allow Multiple Selection check box, the user will see check boxes for the group and can choose any of them. If you leave it blank, they will see radio buttons and can only choose one option.</p>
+  <p>When you have finished the setup, save your changes and select your output. In the Content settings, select the filter in the Dynamic Content Filter dropdown. Later if you need to change how the filter is set up, you can also access it from there.</p>
+  <h2>Opening the Help with a Filter Applied</h2>
+  <h3>By Default</h3>
+  <p>In both frameless and responsive outputs you can specify a default tag so that the help always opens with that filter applied.</p>
+  <h3>Using a URL</h3>
+  <p>If you need to supply a URL to open the help with a filter applied, format it as below.</p>
+  <p><strong>url?f=taggroup:tagname</strong></p>
+  <p>Where URL is what would open your help without any filter applied. Note that it is the tag group that is used, not any group set up in the Dynamic Content Filters.</p>
+  <p> </p>
+  <p> </p>
+</body>
+</html>

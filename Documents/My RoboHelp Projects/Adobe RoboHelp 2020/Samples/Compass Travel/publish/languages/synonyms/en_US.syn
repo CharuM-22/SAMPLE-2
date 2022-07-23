@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Synonyms FormatVersion="2" FeatureVersion="2">
+<ExcludeWordList/>
+<DirectionalSynList>
+<DirectionalSyn AllForms="1"><From>Graphic</From><To>Image</To></DirectionalSyn>
+<DirectionalSyn AllForms="1"><From>Video</From><To>Movie</To></DirectionalSyn>
+</DirectionalSynList>
+<GroupSynList/>
+</Synonyms>

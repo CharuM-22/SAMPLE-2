@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="topic-status" content="Complete" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <title>Word Output</title>
+  <meta name="rh-index-keywords" content="Printed Documents" />
+  <meta name="rh-authors" content="Ann Author" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/rh_standard_2020_03.css" />
+</head>
+<body>
+  <h1>Word Output</h1>
+  <p>There are some big changes in the generation of printed documents, the key one being you don&#39;t need to have Microsoft Word installed on your computer. The DOCX file created does not use any of the proprietary features of Microsoft Word meaning it can be read in any program that can read a DOCX file.</p>
+  <h2>Creating a Word Output</h2>
+  <div data-conref="../assets/snippets/New_Outputs_Old_Types..hts"> </div>
+  <h2>Preset Configuration</h2>
+  <p>The settings appear in six groups as below.</p>
+  <h3>General</h3>
+  <p><img alt="" border="0" class="spacing_bottom_only" src="../assets/images/outputs/word_preset_01.png" /></p>
+  <div data-conref="../assets/snippets/Path.hts"> </div>
+  <h4 class="null">Word File</h4>
+  <p>The name of the document being generated</p>
+  <h4 class="null">Language</h4>
+  <p>The language should be set for the Table of Contents, Index and Glossary page.</p>
+  <h4 class="null">Post Generation Script</h4>
+  <p>You can select a script to run after the document has been generated.</p>
+  <h3>Content</h3>
+  <p><img alt="" border="0" src="../assets/images/outputs/word_preset_02.png" style="border: none;" /></p>
+  <p>Most of the options here are obvious but be aware of a change from Classic versions. Previously in all versions of RoboHelp, the content has been limited by design to just those topics in the print layout TOC rather than all topics in the project not excluded by a condition expression as in online outputs. Now all outputs are based on the TOC used so any change to the TOC will also affect the print output. You can create a separate TOC if required.</p>
+  <p class="Normal-Single Tighter_Items"><strong>Include All Referenced Topics</strong> sets whether or not topics not in the TOC but with links from topics in the TOC will also get included.</p>
+  <p>Classic versions of RoboHelp had an option to limit the depth of the TOC in printed outputs. That is not available in <span data-keyref="ProdName_Generic">Adobe RoboHelp</span>. After generating your Word document, in Word you can right click alongside the TOC and select Edit Field and click the Table of Contents button. You can then set the level to your requirements. Other editors will have similar functionality.</p>
+  <h3>Metadata</h3>
+  <p><img src="../assets/images/outputs/word_preset_05.png" /></p>
+  <p>Enter any metadata that you required in the Word document.</p>
+  <p>Variables can be included in the Title. Place the cursor where you want the variable and press CTRL + Shift + 9.</p>
+  <h3>Master Pages</h3>
+  <p><span data-keyref="ProdName_Generic">Adobe RoboHelp</span> ships with a Book master page that is linked to book.css. The styles in that css control the appearance of the TOC, the Index and the Glossary in the output.<br />
+    If you want to use master pages with your Word output</p>
+  <ul class="Disc">
+    <li>You can use the supplied master page and leave the topic css files to apply to the topics</li>
+    <li>You can use your own master page and link both your own css and book.css to it.</li>
+    <li>You can also copy the book.css styles into your own css and apply just that to the master page.</li>
+    <li>Note that if you also use a Word template, any header and/or footer in it will not be applied, even if the master page(s) has/have no header(s) or footer(s). Word headers and footers can still be used if you do not apply a master page as well.</li>
+  </ul>
+  <p><img src="../assets/images/outputs/word_preset_06.png" /></p>
+  <p>In a new preset, the Master Pages options will show as above. By default it will be assumed that if a master page is selected, it will apply to all sections of the document as defined in the TOC.</p>
+  <p>Select Specify Separate Master Pages to see further options.</p>
+  <p><img src="../assets/images/outputs/word_preset_07.png" /></p>
+  <ul class="disc">
+    <li>If the options you set for the First Page of the Chapters &amp; Topics are to be applied to all pages in Chapters &amp; Topics, select the Apply To All Pages checkbox.</li>
+    <li>Otherwise clear the Apply To All Pages checkbox and you will be able to apply different master pages to odd and even pages.</li>
+    <li>If the Chapters &amp; Topics settings are to be applied to the whole document, click Apply To All Parts Below. Otherwise click the chevrons alongside and apply the required settings.</li>
+    <li>If you are applying a template in the Word settings, make sure you only apply headers and footers from either the template or from the master page(s) used, not both.</li>
+    <li>If you select None in any of the dropdowns, the hint to Select an option will still show. None will however be applied.</li>
+  </ul>
+  <h3>Layout</h3>
+  <p><img alt="" border="0" src="../assets/images/outputs/word_preset_03.png" style="border: none; cursor: nesw-resize;" /></p>
+  <h3>Word</h3>
+  <p><img alt="" border="0" class="spacing_bottom_only" src="../assets/images/outputs/word_preset_04.png" /></p>
+  <p>Here you can apply a Word template to your document that will be used for mapping.</p>
+  <p>See Style Hierarchy and Headers and Footers below for information on how that will affect your document.</p>
+  <h4>Tables</h4>
+  <p><span data-keyref="ProdName_Generic">Adobe RoboHelp</span> can map to tables that appear in Word&#39;s Table Design ribbon.</p>
+  <p>The tables supplied with Word have three Table Style Options check boxes preselected as shown below. Any tables you create and save in Word will start with the same three check boxes selected.</p>
+  <p>When generating a Word output <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> also applies the three check boxes shown below and in most cases the mapped tables will look correct in the generated Word document.</p>
+  <p class="emphasis1"><img src="../assets/images/BadgeTip.png" /> If when designing you tables in Word you change the check boxes selected, after generating from <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> to Word, you will need to open the document and change the selections to match those in your Word template.</p>
+  <p><img src="../assets/images/outputs/word_tables01.png" /></p>
+  <h4>Headers and Footers</h4>
+  <p>If your template has headers and footers, make sure any master pages you apply do not also have headers and footers.</p>
+  <div data-conref="../assets/snippets/Publish.hts"> </div>
+  <h2>Style Hierarchy and Headers and Footers</h2>
+  <h3>Style Mapping</h3>
+  <p>When you generate a Word document, <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> will automatically try to map the topic styles but you can make changes as required in the Word section of the preset. What you see in the Word document will depend on how you set up the mapping and how the CSS rules impact your document.</p>
+  <p>What you see varies according to certain rules based on whether or not your topics have a single CSS file or multiples CSS, whether or not you use master pages and whether or not you use a Word template. This table explains how it works.</p>
+  <table border="1" cellpadding="1" cellspacing="1" class="blue" style="border-collapse:collapse; width:100%">
+    <colgroup>
+      <col style="width:25%" />
+      <col style="width: 15%;" />
+      <col style="width: 15%;" />
+      <col style="width: 55%;" />
+    </colgroup>
+    <tbody>
+      <tr>
+        <td style="background-color: #E5EAF9">
+          <p class="tableheading">CSS Applied to Topics</p>
+        </td>
+        <td style="background-color: #E5EAF9">
+          <p class="tableheading">Master Pages Applied To Topics Or In The Preset?</p>
+        </td>
+        <td style="background-color: #E5EAF9">
+          <p class="tableheading">Word Template Applied In The Preset?</p>
+        </td>
+        <td style="background-color: #E5EAF9">
+          <p class="tableheading">What You Will See In Word</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="tabletext">Single CSS applied to all topics<br />
+            OR<br />
+            A single topic has multiple CSS files or different topics use different CSS.</p>
+        </td>
+        <td>
+          <p class="tabletext">No</p>
+        </td>
+        <td>
+          <p class="tabletext">No</p>
+        </td>
+        <td>
+          <p class="tabletext"><span style="font-style:italic;">Single CSS</span></p>
+          <p class="tabletext">The same styles in your document.</p>
+          <p class="tabletext" style="font-style: italic">Multiple CSS</p>
+          <p class="tabletext">What you see in the preview will be from the last CSS found when <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> searched the topics for the CSS used.</p>
+          <p class="tabletext">For example, all your topics with one exception have one CSS where H1 is Verdana 18pt Bold Blue but the last topic has a different CSS where the definition is Times New Roman 16pt Bold Red. When you map Times New Roman 16pt Bold Red will be shown in the Preview and applied to all H1 content in Word.</p>
+          <p class="tabletext">If none of the styles are duplicated in the different CSS files, there will be no conflict and the topics in Word will be the same as online.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="tabletext">Single CSS applied to all topics<br />
+            OR<br />
+            A single topic has multiple CSS files or different topics use different CSS</p>
+        </td>
+        <td>
+          <p class="tabletext">Yes</p>
+        </td>
+        <td>
+          <p class="tabletext">No</p>
+        </td>
+        <td>
+          <p class="tabletext" style="font-style: italic">Master page applied to topics but none applied in preset</p>
+          <p class="tabletext">Word will be the same as your online output except if, as above, there is a conflict of styles. Then the last definition found will apply.</p>
+          <p class="tabletext">Headers and footers will not be applied in Word.</p>
+          <p class="tabletext"> </p>
+          <p style="font-style: italic;">One or more master pages applied in the preset</p>
+          <p class="tabletext">Topic styles and any topic masterpage styles are not used. Word will show the styles defined in the master pages defined in the preset.</p>
+          <p class="tabletext">Headers and footers (if any) from the master page(s) will be applied.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="tabletext">Single CSS applied to all topics<br />
+            OR<br />
+            A single topic has multiple CSS files or different topics use different CSS</p>
+        </td>
+        <td>
+          <p class="tabletext">Yes</p>
+        </td>
+        <td>
+          <p class="tabletext">Yes</p>
+        </td>
+        <td>
+          <p class="tabletext">This will depend on how you choose to map. </p>
+          <p class="tabletext">If you map to RoboHelp Style, Word will apply the last example of a style found and apply that definition to all instances of that style in the document.</p>
+          <p class="tabletext">If you map to a template style, that will be applied to all instances of that style in the document.</p>
+          <p class="tabletext">Headers and footers (if any) from the master page(s) will be applied. Headers and footers in the template will not be applied.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="tabletext">Single CSS applied to all topics<br />
+            OR<br />
+            A single topic has multiple CSS files or different topics use different CSS</p>
+        </td>
+        <td>
+          <p class="tabletext">No</p>
+        </td>
+        <td>
+          <p class="tabletext">Yes</p>
+        </td>
+        <td>
+          <p class="tabletext">This will be the same as the row above except of course that no master page styles will be available for mapping.</p>
+          <p class="tabletext">Note that there can be no headers and/or footers as these can only come from master pages.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>Viewing the Output</h2>
+  <p>Click the view icon on the Output Presets toolbar. The document will open in whichever program has been associated with the DOCX format.</p>
+  <div data-conref="../assets/snippets/Generation.hts"> </div>
+  <p> </p>
+  <h2>Viewing the Output</h2>
+  <p>Click the view icon on the Output Presets toolbar. The document will open in whichever program has been associated with the DOCX format.</p>
+  <h2>Demo</h2>
+  <p>Adobe Community Professional Peter Grainge has put more information on his site. </p>
+  <p><a href="https://www.grainge.org/pages/authoring/printing/new_ui_output/frameless/index.htm" target="_blank">Click here</a><span><span> </span>to see how more about printed documentation works in RoboHelp 2020.<span> </span></span><a href="https://www.grainge.org/zips/Word_and_PDF_Project.zip">Click here</a><span><span> </span>to download a zipped copy of project set up with the Word and PDF outputs so that you can try it out.</span></p>
+  <p> </p>
+</body>
+</html>

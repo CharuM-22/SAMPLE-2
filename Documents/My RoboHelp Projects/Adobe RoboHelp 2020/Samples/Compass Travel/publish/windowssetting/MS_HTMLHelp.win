@@ -1,0 +1,27 @@
+<window>
+  <name>MS_HTMLHelp</name>
+  <caption>Travel the Whirls</caption>
+  <tocfile></tocfile>
+  <indexfile></indexfile>
+  <defaultfile></defaultfile>
+  <homefile></homefile>
+  <jump1filename></jump1filename>
+  <jump1text></jump1text>
+  <jump2filename></jump2filename>
+  <jump2text></jump2text>
+  <flags>1074267424</flags>
+  <navpanewidth>0</navpanewidth>
+  <buttons>12294</buttons>
+  <windowplacement>
+    <left>4</left>
+    <top>4</top>
+    <right>1008</right>
+    <bottom>764</bottom>
+  </windowplacement>
+  <windowstyle>0</windowstyle>
+  <windowstyleex>0</windowstyleex>
+  <expandedstate>0</expandedstate>
+  <defaulttab>0</defaulttab>
+  <tabposition>0</tabposition>
+  <showwindow>0</showwindow>
+</window>

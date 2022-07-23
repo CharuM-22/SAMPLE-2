@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aliaslist version="1.0">
+  <alias name="10" value="1" link="../../contents/First_Topic.htm"></alias>
+  <alias name="11" value="2" link="../../contents/1.htm"></alias>
+  <alias name="12" value="3" link="../../contents/1.2_Adding_navigation.htm"></alias>
+  <alias name="13" value="4" link="../../contents/2.htm"></alias>
+  <alias name="14" value="5" link="../../contents/21_Creation_of_image.htm"></alias>
+  <alias name="15" value="6" link="../../contents/2.2_Design_of_template.htm"></alias>
+  <alias name="16" value="7" link="../../contents/3.htm"></alias>
+  <alias name="17" value="8" link="../../contents/3.1_Publish_user_manual.htm"></alias>
+  <alias name="18" value="9" link="../../contents/3.2_Working.htm"></alias>
+  <alias name="19" value="1011" link="../../contents/4.htm"></alias>
+  <alias name="20" value="1012" link="../../contents/4.1_Benfits.htm"></alias>
+  <alias name="21" value="1013" link="../../contents/5.htm"></alias>
+  <alias name="22" value="1014" link="../../contents/5.1_Structure.htm"></alias>
+  <alias name="23" value="1015" link="../../contents/5.2_Development.htm"></alias>
+</aliaslist>

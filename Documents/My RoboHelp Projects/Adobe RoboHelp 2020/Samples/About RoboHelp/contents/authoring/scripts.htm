@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="topic-status" content="Complete" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <title>Scripts</title>
+  <meta name="rh-index-keywords" content="Scripts" />
+  <meta name="rh-authors" content="Ann Author" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/rh_standard_2020_03.css" />
+</head>
+<body>
+  <h1>Scripts</h1>
+  <p><span data-keyref="ProdName_Generic">Adobe RoboHelp</span> supports scripting but in a different format from the Classic version. They were written in ExtendScript while in <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> they are written in JavaScript, which is an open standard.</p>
+  <h2>Supplied Scripts</h2>
+  <p>The scripts included in <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> are:-</p>
+  <table cellpadding="1" cellspacing="1" class="blue" style="border-collapse:collapse;" width="100%">
+    <colgroup>
+      <col style="width: 16.011%;" />
+      <col style="width: 83.989%;" />
+    </colgroup>
+    <tbody>
+      <tr>
+        <td style="background-color: #e5eaf9">
+          <p class="tableheading">Cross Ref Converter</p>
+        </td>
+        <td>
+          <p class="tabletext">Converts existing hyperlinks to cross references. Run the script and a list of all hyperlinks found will display. You can then select all or specific links to convert.</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color: #e5eaf9">
+          <p class="tableheading">Glossary Term Converter</p>
+        </td>
+        <td>
+          <p class="tabletext">Converts text to a glossary hotspot. On running the script, a dialog is presented and you choose which glossary file and term is to be applied. That term is then searched for in the project and each instance is converted to a glossary hotspot. How that term displays in topics is defined in the presets.</p>
+          <p class="tabletext">The script as supplied applies a hotspot to all glossary terms. <a href="../toc_index_glossary/glossary.htm">The Glossary</a> topic describes how to apply hotspots with more control over how they are applied.</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color: #e5eaf9">
+          <p class="tableheading">Open File</p>
+        </td>
+        <td>
+          <p class="tabletext">This script opens RoboHelp&#39;s File Open dialog so that the end user can pick a file to open. This script is supplied to let you see how scripts can be used when added as described below in Using the Scripts.</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color: #e5eaf9">
+          <p class="tableheading">Variable Converter</p>
+        </td>
+        <td>
+          <p class="tabletext">On running the script a dialog is displayed allowing you to select one of your variables. You then enter some text. When you click Apply, the script will search for the text and convert it to the variable.</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color: #e5eaf9">
+          <p class="tableheading">Word Count</p>
+        </td>
+        <td>
+          <p class="tabletext">On running the script a dialog is displayed showing  the number of words in each topic. The details can then be saved as a CSV file if required.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>Using the Scripts</h2>
+  <p>You can run the scripts from the Project Toolbar on the left or select a script in</p>
+  <ul class="Standard_Bullet">
+    <li class="Standard_Bullet">The Post Generation field in the General settings of the Output Presets.</li>
+    <li class="Standard_Bullet">The Advanced settings when importing a Word or FrameMaker document.</li>
+  </ul>
+  <p>To add your own scripts, click Scripts in the Project Toolbar and either import your script or click the + icon. That will open a text editor where you can write or paste in your own script.</p>
+  <h2>Scripting API</h2>
+  <p>Detailed information about scripting can be found in the <a href="https://helpx.adobe.com/content/dam/help/en/pdf/RoboHelp-Scripting-Reference-2019.pdf" target="_blank">API Guide</a>.</p>
+</body>
+</html>

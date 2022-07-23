@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <title>Frameless With Chat Pod</title>
+  <meta name="topic-status" content="Complete" />
+  <meta name="rh-authors" content="Ann Author" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/rh_standard_2020_03.css" />
+</head>
+<body>
+  <h1>Frameless With Chat Pod</h1>
+  <p>Setting up a frameless output is described in the <a data-xref="{title}" href="outputs_frameless.htm">Frameless Output</a> topic. This topic describes how to set a frameless output with a built in chat pod.</p>
+  <h2>Prerequisites</h2>
+  <ol class="decimal">
+    <li>A Dialogflow account. See <a href="https://cloud.google.com/pricing">https://cloud.google.com/pricing.</a> At the time of writing you get US$300 credit to start you off.</li>
+    <li>A project set up in Adobe RoboHelp 2020 with at least Update 2 applied.</li>
+    <li>Some topics that will allow you to create a simple frameless output with a small TOC. </li>
+    <li>Some microcontent such as that set up in the project in Microcontent &gt; pod_q_and_a.</li>
+    <li>Add the pod_q_and_a microcontent to the TOC, in Properties make sure Hide in Output is selected.</li>
+    <li>For the purposes of this tutorial, the structure shown below. <br />
+      <br />
+      <img src="../assets/images/outputs/structure.png" />
+    </li>
+    <li>A web server that you can publish to. If you don&#39;t have a web server, there are various ways you can install one locally such as NodeJS,Python, XAMPP, and many more. You may need assistance from your developers. </li>
+  </ol>
+  <h2>Create a Chatbot Output</h2>
+  <p>This is the first step as the files created are needed in the frameless output. Edit the preset and generate a chatbot output.</p>
+  <table border="1" cellpadding="1" cellspacing="1" class="blue" style="border-collapse:collapse; width:100%">
+    <colgroup>
+      <col style="width:50%" />
+      <col style="width:50%" />
+    </colgroup>
+    <tbody>
+      <tr>
+        <td style="background-color: #E5EAF9">
+          <p class="tableheading">General Settings</p>
+          <p class="tabletext"><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down4" href="#">Show me the screen.</a></p>
+          <div class="droptext" data-targetname="drop-down4">
+            <p><img src="../assets/images/outputs/chatbot01.png" /></p>
+          </div>
+          <p class="tabletext"> </p>
+        </td>
+        <td>
+          <ul class="disc">
+            <li>Currently the only chatbot engine supported is Google Dialogflow.</li>
+            <li>Enter an output path.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color: #E5EAF9">
+          <p class="tableheading">Content Settings</p>
+          <p class="tabletext"><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down5" href="#">Show me the screen.</a></p>
+          <div class="droptext" data-targetname="drop-down5">
+            <p><img src="../assets/images/outputs/chatbot02.png" /></p>
+          </div>
+        </td>
+        <td>
+          <ul class="disc">
+            <li>Select the Microcontent Group.</li>
+            <li>Leave all other field in this simple example.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color: #E5EAF9">
+          <p class="tableheading">Dialogflow Settings</p>
+          <p class="tabletext"><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down6" href="#">Show me the screen.</a></p>
+          <div class="droptext" data-targetname="drop-down6">
+            <p><img src="../assets/images/outputs/chatbot03.png" /></p>
+          </div>
+        </td>
+        <td>
+          <ul class="Disc">
+            <li>You get your JSON file from your Dialogflow account. The link takes you to the Dialogflow site.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color: #E5EAF9">
+          <p class="tableheading">Client Settings</p>
+          <p class="tabletext"><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down7" href="#">Show me the screen.</a></p>
+          <div class="droptext" data-targetname="drop-down7">
+            <p><img src="../assets/images/outputs/chatbot04.png" style="cursor: nesw-resize;" /></p>
+          </div>
+        </td>
+        <td>
+          <ul class="disc">
+            <li>These fields populate the chat pod supplied with RoboHelp. </li>
+            <li>The Embed Code will be needed in the topics or a master page in your frameless output. That will be explained later.</li>
+            <li>You can use third party pods if preferred but how to set that up is not covered here.</li>
+          </ul>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>Add the Chatbot Output to Your Project</h2>
+  <ol class="Decimal">
+    <li>Use File Explorer to go to the chatbot output folder.</li>
+    <li>Select the cbicons folder and the chatbot.css and chatbot.js files.<br />
+      <img class="spacing_top_only" src="../assets/images/outputs/copy02.png" />
+    </li>
+    <li>Paste the files and folders into your project. It should look something like this.<br />
+      <br />
+      <img src="../assets/images/outputs/copy01.png" style="cursor: nwse-resize;" />
+    </li>
+  </ol>
+  <h2>Add the Script</h2>
+  <p>An example of the script you will need is in the Embed Code field of the Chatbot preset. You will need to amend it to reflect the structure of your project.</p>
+  <p>You can have the chat pod on the home page only with or without it being in topics or you can have it in topics only.</p>
+  <h3>In All Topics</h3>
+  <p>If you want the chat pod to appear in all topics, the easiest way is to use a master page. You can either create a master page or add the script to one you already use.</p>
+  <p>Using the structure described in this topic, you will need to amend the script as below.<br />
+    <img class="spacing_top_only" src="../assets/images/outputs/masterpage.png" />
+  </p>
+  <h3>In Specific Topics</h3>
+  <p>If you only want the chat pod to appear in specific topics, you add the script to the head section of those topics. Again you must amend the path to reflect the location of the topic.</p>
+  <h3>On the Home Page</h3>
+  <p>The script needs to be added after you have generated the frameless output.</p>
+  <h2>Generate and Publish the Frameless Output</h2>
+  <ol class="decimal">
+    <li>Next you generate the frameless output.</li>
+    <li>Nothing special here other than for the purposes of this tutorial, generate to the Outputs &gt; Microcontent folder shown in Prerequisites above.</li>
+    <li>When the frameless output has been generated, use File Explorer and go to the chatbot output folder. Copy the mcassets folder.<br />
+      <img class="spacing_top_only" src="../assets/images/outputs/copy04.png" />
+    </li>
+    <li>Go to the Frameless output folder and paste the mcassets folder</li>
+    <li>This step is only required if you want the chat pod on the home page, whether or not it will also be in any topics. Locate the start page of your output (not the default topic), usually index.htm, and open it in a text editor, then add the script as described in the section above. Amend the path as required.</li>
+    <li>Publish to your web server.</li>
+  </ol>
+  <p> </p>
+</body>
+</html>

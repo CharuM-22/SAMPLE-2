@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="topic-status" content="Complete" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <title>PDF Output</title>
+  <meta name="rh-index-keywords" content="PDF" />
+  <meta name="rh-authors" content="Ann Author" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/rh_standard_2020_03.css" />
+</head>
+<body>
+  <h1>PDF Output</h1>
+  <p class="spacer"> </p>
+  <p class="emphasis1"><img alt="" border="0" src="../assets/images/BadgeNew.png" style="border: none;" /> In Classic versions of <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> Microsoft Word was required as part of the process of creating a PDF file, that is no longer a requirement.</p>
+  <h2>Before You Start - Java</h2>
+  <p>PDF generation requires your system to have Java 64 bit Runtime installed.</p>
+  <h3>Windows Machines</h3>
+  <p class="emphasis2"><img src="../assets/images/BadgeWarning.png" /> <strong>If you are in a corporate or government environment, you must not install Java without first liaising with your IT department. They will likely want to undertake this installation themselves.</strong></p>
+  <p>At the time of writing, the current version was Java 8 Update 251 which will install the Java Runtime Environment (JRE) 1.8. You will need that or a later version. The Oracle site offers different downloads according to the specification of your machine.</p>
+  <p>Installing Java should create a registry entry that will allow <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> to generate a PDF output. Should the Java installation fail to create that registry entry you will need to create a system variable.</p>
+  <p class="emphasis2"><img src="../assets/images/BadgeWarning.png" /> <strong>If you are in a corporate or government environment, you must not create this variable without first liaising with your IT department. They will likely want to undertake this task themselves.</strong></p>
+  <ol class="Decimal">
+    <li>Click Settings on the Windows 10 Start icon bottom left.</li>
+    <li>Click About.</li>
+    <li>Under Related Settings top right, click System Info.</li>
+    <li>Click Advanced System Settings.</li>
+    <li>Click Environment Variables in the Advanced tab.</li>
+    <li>Click New under System Variables.</li>
+    <li>Enter the Variable Name as JAVA_HOME.</li>
+    <li>Click Browse Directory.</li>
+    <li>Browse to your Java installation. It should be something like C:\Program Files\Java\jre followed by your version number. For example C:\Program Files\Java\jre1.8.0.251</li>
+  </ol>
+  <h3>Mac Machines</h3>
+  <h4>To set JAVA_HOME on BigSur</h4>
+  <ol class="Decimal">
+    <li>
+      <p style="margin:0cm"><span style="font-size:11pt"><span style="tab-stops:list 36.0pt"><span style="font-family:Calibri,sans-serif">From the menu bar in Finder, select Go &gt; Utilities to display a Finder window showing Mac system utilities.</span></span></span></p>
+    </li>
+    <li>
+      <p style="margin:0cm"><span style="font-size:11pt"><span style="tab-stops:list 36.0pt"><span style="font-family:Calibri,sans-serif"></span></span></span><span style="font-size:11pt"><span style="tab-stops:list 36.0pt"><span style="font-family:Calibri,sans-serif">Double-click on the Terminal application.</span></span></span></p>
+    </li>
+    <li>Create/edit the .profile file in the home folder using the command vim ~/.profile</li>
+    <li>Add this line to the file<br />
+      launchctl setenv JAVA_HOME $(/usr/libexec/java_home)</li>
+    <li>Reboot the machine.</li>
+    <li>Launch <span data-keyref="ProdName_Generic">Adobe RoboHelp</span>.</li>
+  </ol>
+  <h4>On Previous Mac OS Versions</h4>
+  <div class="WordSection1">
+    <ol>
+      <li style="margin-right:0cm"><span style="page:WordSection1"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">In the terminal run the command below<br />
+              echo export &quot;JAVA_HOME=\$(/usr/libexec/java_home)&quot; &gt;&gt; ~/.bash_profile</span></span></span></li>
+      <li style="margin-right:0cm"><span style="page:WordSection1"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">Reboot the machine.</span></span></span></li>
+      <li style="margin-right:0cm"><span style="page:WordSection1"><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">Launch <span data-keyref="ProdName_Generic">Adobe RoboHelp</span>.</span></span></span></li>
+    </ol>
+  </div>
+  <h2>Before You Start - TOC Changes</h2>
+  <p>It is vitally important that before you generate a PDF, you understand the way that TOCs have changed will affect your output.</p>
+  <p>See the <a href="../toc_index_glossary/toc.htm#whychange">Why the Change and What has Changed</a> sections in The Table of Contents topic.</p>
+  <h2>Creating a PDF Output</h2>
+  <div data-conref="../assets/snippets/New_Outputs_Old_Types..hts"> </div>
+  <p>PDF files can be created in two ways:-</p>
+  <ul>
+    <li>If the PDF will not require any editing after generation, you can use the PDF preset.</li>
+    <li>If you need to make any changes then use the <a href="outputs_word.htm">Word (DOCX) Output</a> first. After editing, you can generate your PDF from there using any PDF generator.</li>
+  </ul>
+  <h2>Preset Configuration</h2>
+  <p>The settings appear in seven groups as below. What is entered in many of the fields will be clear and notes have been added to assist with others.</p>
+  <h3>General</h3>
+  <p><img src="../assets/images/outputs/pdf_general.png" /></p>
+  <div data-conref="../assets/snippets/Path.hts"> </div>
+  <h4>Language</h4>
+  <p><strong> </strong>This should be set for the headings of the Index and Glossary pages. The output will then use the terms defined in Labels.</p>
+  <p>The language setting is also used for hyphenation when any word has to be broken across two lines. The rules to hyphenate are language specific.</p>
+  <h4>Post Generation Script</h4>
+  <p>This allows you to select a script to run after the PDF has been generated.</p>
+  <h3>Content</h3>
+  <p><img src="../assets/images/outputs/pdf_content.png" /></p>
+  <p><strong>Table of Contents</strong> Select the required TOC.</p>
+  <p><strong>Include All Referenced Topics</strong> sets whether or not topics that are not in the TOC but have links from topics that are also get included.</p>
+  <h3>Metadata</h3>
+  <p><img src="../assets/images/outputs/pdf_metadata.png" /></p>
+  <p>Enter any required Metadata for the PDF here.</p>
+  <h3>Master Pages</h3>
+  <p><img class="spacing_bottom_only" src="../assets/images/outputs/pdf_masterpages_01.png" /></p>
+  <p class="emphasis1"><img src="../assets/images/BadgeNote.png" /> <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> ships with a Book master page that is linked to book.css. The styles in that css control the appearance of the TOC, the Index and the Glossary.<br />
+    If you want to use master pages with your PDF output<br />
+    - You can use the supplied master page and leave the topic css files to apply to the topics<br />
+    - You can use your own master page and link both your own css and book.css to it.<br />
+    With either of those options make sure your own css does not override what is in book.css.<br />
+    You can also copy the book.css styles into your own css and apply just that to the master page.</p>
+  <p>In a new preset, the Master Pages options will show as above. By default it will be assumed that if a master page is selected, it will apply to all sections of the document as defined in the TOC.</p>
+  <p>Select Specify Separate Master Pages to see further options.</p>
+  <p><img class="spacing_bottom_only" src="../assets/images/outputs/pdf_masterpages_02.png" /></p>
+  <ul class="disc">
+    <li>If the options you set for the First Page of the Chapters &amp; Topics are to be applied to all pages in Chapters &amp; Topics, select the Apply To All Pages checkbox.</li>
+    <li>Otherwise clear the Apply To All Pages checkbox and you will be able to apply different master pages to odd and even pages.</li>
+    <li>If the Chapters &amp; Topics settings are to be applied to the whole document, click Apply To All Parts Below. Otherwise click the chevrons alongside and apply the required settings.</li>
+  </ul>
+  <h3>Layout</h3>
+  <p><img src="../assets/images/outputs/pdf_layout.png" style="cursor: nesw-resize;" /></p>
+  <p><strong>TOC Structure</strong></p>
+  <p>The Table of Contents in a Word document has to follow the Heading styles applied in the topics. That is defined by Microsoft.</p>
+  <p>The PDF format has more flexibility and the Table of Contents can follow the Chapter Names and Topic Titles defined in the TOC or it can use the heading styles in the same way as a Word document.</p>
+  <p>In both cases, nested sections will not show in the TOC.</p>
+  <h3>Advanced</h3>
+  <p><img src="../assets/images/outputs/pdf_advanced.png" style="cursor: nwse-resize;" /></p>
+  <p><strong>Create Accessible (Tagged) PDF </strong>Select if required.</p>
+  <p><strong>Merge PDFs Included in the TOC</strong> If your TOC has any PDFs included, they can be merged with the topics so that you have a complete output.</p>
+  <p><strong>Create Secure PDF </strong>Select this option and you will be able to enter a password that users must enter to read the document.</p>
+  <p><strong>Embed Used Fonts </strong>If you are using non standard fonts, select this option to embed them so the user will see the document as designed.</p>
+  <p><strong>Use Automatic Hyphenation</strong> Words that will not fit on a line will be hyphenated using the Acrobat PDF Engine.</p>
+  <p><strong>Enable JavaScript</strong> If you use JavaScript to render content such as MathML equations in your topics, select this option.</p>
+  <p><strong>Embed Multimedia Files</strong> Any multimedia files linked to will be embedded with this option selected. This will of course increase the file size. Users will get a standard Acrobat warning about viewing multimedia files that they must accept.</p>
+  <p><strong>Use Image Compression to Optimize PDF Size </strong>This will compress your image size to reduce the overall file size. Use this if your PDF contains lots of images but check the quality remains acceptable.</p>
+  <p><strong>Use Custom Resolution (pixels per inch)</strong></p>
+  <p>Select this check box to change the default of 96dpi.</p>
+  <p>HTML pages are measured by pixels when the browser displays them whereas PDF pages are measured in inches. If you increase the setting, it will result in greater screen width fitting onto a page. Note this will result in smaller text and images so it&#39;s a trade off.</p>
+  <p><strong>Show Watermark</strong> Select this field and enter the wording of the watermark you require.</p>
+  <div data-conref="../assets/snippets/Publish.hts"> </div>
+  <h2> PDF Templates</h2>
+  <p>The configuration of the Master Pages and Layout options above can be exported and imported between projects.</p>
+  <p>Right click the preset name in the left panel and select export/import.</p>
+  <div data-conref="../assets/snippets/Generation.hts"> </div>
+  <h2>Viewing the Output</h2>
+  <p>Click the view icon on the Output Presets toolbar. <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> can create a PDF but it does not install a reader unless it is part of Adobe&#39;s Technical Communication Suite. If you don&#39;t have a reader installed, you will need to download one.</p>
+  <h2>Demo</h2>
+  <p>Adobe Community Professional Peter Grainge has put more information on his site. </p>
+  <p><a href="https://www.grainge.org/pages/authoring/printing/new_ui_output/frameless/index.htm" target="_blank">Click here</a><span><span> </span>to see how more about printed documentation works in RoboHelp 2020.<span> </span></span><a href="https://www.grainge.org/zips/Word_and_PDF_Project.zip">Click here</a><span><span> </span>to download a zipped copy of project set up with the Word and PDF outputs so that you can try it out.</span></p>
+  <p> </p>
+  <p> </p>
+  <p> </p>
+</body>
+</html>

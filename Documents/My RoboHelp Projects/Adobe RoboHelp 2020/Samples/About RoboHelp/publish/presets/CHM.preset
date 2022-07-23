@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <title>About RoboHelp</title>
+  <content>
+    <toc>
+      <path>../../toc/Online_TOC.toc</path>
+      <name>Online_TOC</name>
+    </toc>
+    <relativeOutputPath type="boolean">false</relativeOutputPath>
+    <index type="boolean">true</index>
+    <includeExpandingText type="boolean">true</includeExpandingText>
+    <includeDropdownText type="boolean">true</includeDropdownText>
+  </content>
+  <type>chm</type>
+  <outputPath></outputPath>
+  <name>CHM</name>
+  <starterPage>About_RoboHelp.chm</starterPage>
+  <defaultTopic>
+    <name>about_robohelp</name>
+    <path>../../contents/introduction/about_robohelp.htm</path>
+  </defaultTopic>
+  <search>
+    <showSpeclChars type="boolean">false</showSpeclChars>
+    <speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
+  </search>
+  <patchHomepage type="boolean">true</patchHomepage>
+  <gdprCompliance type="boolean">true</gdprCompliance>
+</preset>

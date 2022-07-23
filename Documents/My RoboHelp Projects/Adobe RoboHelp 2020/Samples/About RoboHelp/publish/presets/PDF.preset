@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <title>About RoboHelp {Current Version}</title>
+  <content>
+    <toc>
+      <path>../../toc/Book_TOC.toc</path>
+      <name>Book_TOC</name>
+    </toc>
+    <masterpage>
+      <path>../../contents/assets/masterpages/book.htt</path>
+    </masterpage>
+    <includereftopics type="boolean">true</includereftopics>
+    <includeExpandingText type="boolean">true</includeExpandingText>
+    <includeDropdownText type="boolean">true</includeDropdownText>
+  </content>
+  <metadata>
+    <author>Ann Author</author>
+    <subject>About RoboHelp 2020</subject>
+  </metadata>
+  <type>pdf</type>
+  <outputPath></outputPath>
+  <name>PDF</name>
+  <starterPage>About_RoboHelp.pdf</starterPage>
+  <search>
+    <showSpeclChars type="boolean">false</showSpeclChars>
+    <speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
+  </search>
+  <patchHomepage type="boolean">true</patchHomepage>
+  <gdprCompliance type="boolean">true</gdprCompliance>
+  <pdf>
+    <toclevel>2</toclevel>
+    <pageSize>A4</pageSize>
+    <startChapterFromNewPage type="boolean">true</startChapterFromNewPage>
+    <margin type="array">
+      <marginitem>15mm</marginitem>
+      <marginitem>15mm</marginitem>
+      <marginitem>15mm</marginitem>
+      <marginitem>15mm</marginitem>
+    </margin>
+    <multiheaders type="boolean">true</multiheaders>
+    <useTopicsAndChaptersForToc type="boolean">true</useTopicsAndChaptersForToc>
+    <useHeadingsForToc type="boolean">false</useHeadingsForToc>
+    <portraitLayout type="boolean">true</portraitLayout>
+    <tocmasterpages>
+      <common type="boolean">true</common>
+    </tocmasterpages>
+    <topicmasterpages>
+      <common type="boolean">true</common>
+      <even>../../contents/assets/masterpages/Print General.htt</even>
+      <first>../../contents/assets/masterpages/Print General.htt</first>
+      <odd>../../contents/assets/masterpages/Print General.htt</odd>
+    </topicmasterpages>
+    <embeddFonts type="boolean">true</embeddFonts>
+    <glomasterpages>
+      <common type="boolean">true</common>
+    </glomasterpages>
+    <indexmasterpages>
+      <common type="boolean">true</common>
+    </indexmasterpages>
+    <startTopicsFromNewPage type="boolean">true</startTopicsFromNewPage>
+    <frontTopicsMasterPages>
+      <common type="boolean">true</common>
+    </frontTopicsMasterPages>
+    <backTopicsMasterPages>
+      <common type="boolean">true</common>
+    </backTopicsMasterPages>
+    <mergePdfs type="boolean">true</mergePdfs>
+  </pdf>
+</preset>

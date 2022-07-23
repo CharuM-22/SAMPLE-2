@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>    
+<filter displayname="Apply filters" multiple="yes" withingroup="yes">    
+<group displayname="Company Role" name="Company Role">
+<condition name="Others" value="Sales" displayname="Sales" default="no"></condition>
+<condition name="Others" value="Developer" displayname="Software Developer" default="no"></condition></group>
+<group displayname="Travel Market Type" name="Travel Market Type">
+<condition name="Others" value="CorporateTravel" displayname="Corporate Travel" default="no"></condition>
+<condition name="Others" value="LeisureTravel" displayname="Leisure Travel" default="no"></condition></group>
+<group displayname="Country Location" name="Country Location">
+<condition name="Others" value="US" displayname="US" default="no"></condition>
+<condition name="Others" value="UK" displayname="UK" default="no"></condition>
+<condition name="Others" value="Canada" displayname="Canada" default="no"></condition></group></filter>

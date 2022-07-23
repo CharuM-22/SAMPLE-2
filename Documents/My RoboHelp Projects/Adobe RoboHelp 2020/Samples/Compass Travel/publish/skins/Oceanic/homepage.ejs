@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="version" content="2020.0.0" />
+  <title>
+    <%= output.title %>
+  </title>
+  <% if(favicon && favicon.path && favicon.mediaType) { %>
+  <link rel='shortcut icon' type='<%= favicon.mediaType %>' href='<%= favicon.path %>' />
+  <% } %>
+  <link rel="StyleSheet" href="template/<%= layout.name %>/layout<%= html.rtl ? '-rtl' : '' %>.css" type="text/css" />
+  <link rel="StyleSheet" href="template/<%= layout.name %>/userstyles.css" type="text/css" />
+  <link rel="StyleSheet" href="template/<%= layout.name %>/chatbot.css" type="text/css" />
+  <script type="text/javascript">
+    gRootRelPath = ".";
+    gCommonRootRelPath = ".";
+  </script>
+</head>
+
+<body class="rh-BODY-wrapper">
+  <div class="cookie-widget-holder" id="cookie-status-widget-holder"></div>
+  <main class="rh-main-class">
+    <div class="RH-LAYOUT-HOMEPAGE-TITLEBAR-container">
+      <header class="RH-LAYOUT-HOMEPAGE-TITLEBAR-title-bar">
+        <button class="RH-LAYOUT-HOMEPAGE-TITLEBAR-logo" title="Logo"></button>
+        <div id="project_title" class="RH-LAYOUT-HOMEPAGE-TITLEBAR-title"></div>
+        <div class='RH-LAYOUT-HOMEPAGE-TITLEBAR-toolbar-box' id="rh-toolbar"></div>
+      </header>
+      <div id="homepage_intro_tiles" class="RH-LAYOUT-HOMEPAGE-TITLEBAR-homepage-intro-tiles"></div>
+      <div id="search_with_help_homepage" class="rh-layout-homepage-titlebar-search-with-help-homepage"></div>
+      <div class="rh-layout-selectdetails" id="rh-selectdetails"></div>
+    </div>
+    <div class="rh-layout-homepage-searchresults-searchresultpop" id="RH-LAYOUT-HOMEPAGE-searchresultpop"></div>
+    <section class="RH-LAYOUT-HOMEPAGE-TOC-container" id="RH-LAYOUT-HOMEPAGE-TOCTILES"></section>
+    <div class="RH-LAYOUT-HOMEPAGE-SIDEBAR-container rh-layout-overlay" role="dialog"  id="rh-rightpanel"></div>
+    <article data-region="topic" class="RH-LAYOUT-HOMEPAGE-TOPICAREA-container RH-LAYOUT-CENTERPANEL-topic-box"></article>
+    <div id="rh-homepage"></div>
+    <div class="RH-LAYOUT-HOMEPAGE-FOOTER-container" id="rh-footer"></div>
+    <script type="text/javascript" src="template/scripts/homepage.js" charset="utf-8"></script>
+    <script src="whxdata/layoutconfig.js"></script>
+  </main>
+</body>
+
+</html>

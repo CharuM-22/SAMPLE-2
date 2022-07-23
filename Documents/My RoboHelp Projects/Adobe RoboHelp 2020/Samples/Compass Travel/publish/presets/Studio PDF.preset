@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <content>
+    <conditional>
+      <name>Custom</name>
+      <path>../expressions/Custom.expn</path>
+    </conditional>
+    <toc>
+      <name>Book_TOC</name>
+      <path>../../toc/Book_TOC.toc</path>
+    </toc>
+    <includereftopics type="boolean">true</includereftopics>
+    <includeExpandingText type="boolean">false</includeExpandingText>
+    <includeDropdownText type="boolean">false</includeDropdownText>
+  </content>
+  <title>Compass Travel</title>
+  <type>pdf</type>
+  <name>Studio PDF</name>
+  <starterPage>Compass_Travel.pdf</starterPage>
+  <search>
+    <showSpeclChars type="boolean">false</showSpeclChars>
+    <speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
+  </search>
+  <patchHomepage type="boolean">true</patchHomepage>
+  <gdprCompliance type="boolean">true</gdprCompliance>
+  <pdf>
+    <toclevel type="number">1</toclevel>
+    <startChapterFromNewPage type="boolean">true</startChapterFromNewPage>
+    <margin type="array">
+      <marginitem>15mm</marginitem>
+      <marginitem>15mm</marginitem>
+      <marginitem>15mm</marginitem>
+      <marginitem>15mm</marginitem>
+    </margin>
+    <multiheaders type="boolean">true</multiheaders>
+    <useTopicsAndChaptersForToc type="boolean">true</useTopicsAndChaptersForToc>
+    <portraitLayout type="boolean">true</portraitLayout>
+    <tocmasterpages>
+      <common type="boolean">false</common>
+      <even>../../contents/assets/masterpages/Studio_Even_TOC.htt</even>
+      <first>../../contents/assets/masterpages/Studio_Even_TOC.htt</first>
+      <odd>../../contents/assets/masterpages/Studio_Odd_TOC.htt</odd>
+    </tocmasterpages>
+    <topicmasterpages>
+      <common type="boolean">false</common>
+      <even>../../contents/assets/masterpages/Studio_Even_Pages.htt</even>
+      <first>../../contents/assets/masterpages/Studio_Even_Pages.htt</first>
+      <odd>../../contents/assets/masterpages/Studio_Odd_Pages.htt</odd>
+    </topicmasterpages>
+    <embeddFonts type="boolean">true</embeddFonts>
+    <compression type="boolean">false</compression>
+    <glomasterpages>
+      <common type="boolean">false</common>
+      <even>../../contents/assets/masterpages/Studio_Even_Pages.htt</even>
+      <first>../../contents/assets/masterpages/Studio_Even_Pages.htt</first>
+      <odd>../../contents/assets/masterpages/Studio_Odd_Pages.htt</odd>
+    </glomasterpages>
+    <indexmasterpages>
+      <common type="boolean">false</common>
+      <even>../../contents/assets/masterpages/Studio_Even_Pages.htt</even>
+      <first>../../contents/assets/masterpages/Studio_Even_Pages.htt</first>
+      <odd>../../contents/assets/masterpages/Studio_Odd_Pages.htt</odd>
+    </indexmasterpages>
+    <startTopicsFromNewPage type="boolean">false</startTopicsFromNewPage>
+    <createTagged type="boolean">true</createTagged>
+    <useEncryption type="boolean">false</useEncryption>
+    <zoomOptions>
+      <displayName>Fit Page</displayName>
+      <name>fit-page</name>
+    </zoomOptions>
+    <resolution>96</resolution>
+    <useCustomResoultion type="boolean">false</useCustomResoultion>
+    <showWatermark type="boolean">false</showWatermark>
+    <frontTopicsMasterPages>
+      <common type="boolean">false</common>
+    </frontTopicsMasterPages>
+    <backTopicsMasterPages>
+      <common type="boolean">false</common>
+    </backTopicsMasterPages>
+    <embedMultimedia type="boolean">false</embedMultimedia>
+    <mergePdfs type="boolean">false</mergePdfs>
+  </pdf>
+</preset>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <content>
+    <conditional>
+      <path>../expressions/Custom.expn</path>
+      <name>Custom</name>
+    </conditional>
+    <toc>
+      <path>../../toc/Book_TOC_for_Sales.toc</path>
+      <name>Book_TOC_for_Sales</name>
+    </toc>
+    <index type="boolean">false</index>
+    <masterpage>
+      <name>Studio</name>
+      <path>../../contents/assets/masterpages/Studio.htt</path>
+    </masterpage>
+    <includereftopics type="boolean">true</includereftopics>
+    <includeExpandingText type="boolean">false</includeExpandingText>
+    <includeDropdownText type="boolean">false</includeDropdownText>
+  </content>
+  <title>Compass Travel</title>
+  <type>word</type>
+  <name>Word</name>
+  <starterPage>Compass_Travel.docx</starterPage>
+  <search>
+    <showSpeclChars type="boolean">false</showSpeclChars>
+    <speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
+  </search>
+  <patchHomepage type="boolean">true</patchHomepage>
+  <gdprCompliance type="boolean">true</gdprCompliance>
+  <word>
+    <stylemapping>{&quot;selectorMap&quot;:{},&quot;discardSelectors&quot;:[],&quot;identityMappedSelectors&quot;:[]}</stylemapping>
+    <insertTopicBreak type="boolean">false</insertTopicBreak>
+    <displayChapter type="boolean">false</displayChapter>
+  </word>
+</preset>

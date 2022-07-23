@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>        
+
+<glossgroup id="G1">          
+<title>Glossary Definitions</title>        
+<glossentry id="G1_CPU">
+<glossterm>CPU</glossterm>
+<glossdef>Central Processing unit</glossdef></glossentry>
+<glossentry id="G1_UM">
+<glossterm>UM</glossterm>
+<glossdef>User manual</glossdef></glossentry></glossgroup>

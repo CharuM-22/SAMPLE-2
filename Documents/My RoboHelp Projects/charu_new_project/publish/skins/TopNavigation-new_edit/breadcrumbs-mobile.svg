@@ -1,0 +1,30 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="6" height="8" viewBox="0 0 6 8">
+  
+
+
+<defs>
+    
+
+
+<clipPath id="clip-path">
+      
+
+
+<rect width="6" height="8" fill="none"></rect>
+    </clipPath>
+  </defs>
+  
+
+
+<g id="Chevron" clip-path="url(#clip-path)">
+    
+
+
+<rect id="Frame" width="6" height="8" fill="#f0f" opacity="0"></rect>
+    
+
+
+<path id="Shape" d="M5.5-626a.749.749,0,0,0-.22-.531c-.577-.606-2.038-1.969-3.239-3.239a.747.747,0,0,0-.531-.22.75.75,0,0,0-.75.75.745.745,0,0,0,.22.53L3.688-626l-2.71,2.709a.749.749,0,0,0-.22.531.75.75,0,0,0,.75.75.747.747,0,0,0,.531-.22l3.239-3.24A.745.745,0,0,0,5.5-626Z" transform="translate(0.002 629.997)" fill="#FFFFFF"></path>
+  </g>
+</svg>

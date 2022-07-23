@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>        
+
+<glossgroup id="glossary">          
+<title>Glossary Definitions</title>        
+<glossentry id="glossary_An_Example Glossary">
+<glossterm>An Example Glossary</glossterm>
+<glossdef>This glossary is not intended to be a full glossary for this sample project. It is to show how a glossary will appear in your project.</glossdef></glossentry>
+<glossentry id="glossary_Book">
+<glossterm>Book</glossterm>
+<glossdef>Historically the term has referred to the way a group of topics are organised in an output.
+Book now refers to a type of TOC as described in The Table of Contents topic.</glossdef></glossentry>
+<glossentry id="glossary_Browse_Sequence">
+<glossterm>Browse Sequence</glossterm>
+<glossdef>Browse sequences allow the author to take the user through any or all of the topics in a particular order.</glossdef></glossentry>
+<glossentry id="glossary_Chapter">
+<glossterm>Chapter</glossterm>
+<glossdef>For PDF, Word and ePub outputs, the topics are organised into Chapters.</glossdef></glossentry>
+<glossentry id="glossary_Chatbot">
+<glossterm>Chatbot</glossterm>
+<glossdef>Wikepedia describes a chatbot as below.
+A computer program designed to simulate conversation with human users, especially over the Internet.
+&quot;chatbots often treat conversations like they&#39;re a game of tennis: talk, reply, talk, reply&quot;</glossdef></glossentry>
+<glossentry id="glossary_Command_Line Generation">
+<glossterm>Command Line Generation</glossterm>
+<glossdef>A means of creating an output from the Command Line in Windows. The mechanics are described in the Command Line Generation topic.</glossdef></glossentry>
+<glossentry id="glossary_Context_Sensitive Help">
+<glossterm>Context Sensitive Help</glossterm>
+<glossdef>Context Sensitive Help (usually abbreviate to CSH) allows the user to request help in an application and be taken to a topic related to what they are working on.</glossdef></glossentry>
+<glossentry id="glossary_Dropdowns_and Expanding Text">
+<glossterm>Dropdowns and Expanding Text</glossterm>
+<glossdef>A means of including content that is not displayed on opening a topic. The user clicks a link that displays further information below or alongside the link.
+Typically used to contain information that only new or advanced users require and/or screenshots.</glossdef></glossentry>
+<glossentry id="glossary_Dynamic_Content Filtering - DCF">
+<glossterm>Dynamic Content Filtering - DCF</glossterm>
+<glossdef>DCF allows the user to apply filters to see only topics relevant to those filters. These might be for geographical regions, product types and suchlike.</glossdef></glossentry>
+<glossentry id="glossary_Generating_and Publishing">
+<glossterm>Generating and Publishing</glossterm>
+<glossdef>Generation
+An output is initially generated to a folder that RoboHelp will empty before adding the content.
+Publishing
+After generating, you can optionally also publish to various locations. This may be direct to a website, for example, or to a network location where the developers can pick up the content. Note, publishing will overwrite files of the same name and add new files but it does not remove files no longer required. You can choose to overwrite all files of the same name or just changed files.
+</glossdef></glossentry>
+<glossentry id="glossary_Links">
+<glossterm>Links</glossterm>
+<glossdef>Links enable users to quickly access another topic, an external website or a file to be downloaded.</glossdef></glossentry>
+<glossentry id="glossary_Master_Pages">
+<glossterm>Master Pages</glossterm>
+<glossdef>Master Pages can be selected when creating a topic and will give the topic a header and footer and inject initial content. They can also be applied later to give the required header and footer or an overriding CSS.</glossdef></glossentry>
+<glossentry id="glossary_Merged_Help">
+<glossterm>Merged Help</glossterm>
+<glossdef>A means of keeping content in different projects but presenting to the end user as if it were from one project.</glossdef></glossentry>
+<glossentry id="glossary_Microcontent">
+<glossterm>Microcontent</glossterm>
+<glossdef>Small amounts of information that can be used for Microhelp outputs. They can be used in various ways that are described in those topics.</glossdef></glossentry>
+<glossentry id="glossary_Section">
+<glossterm>Section</glossterm>
+<glossdef>Sections provide the same functionality in online outputs as Books did previously.</glossdef></glossentry>
+<glossentry id="glossary_Snippets">
+<glossterm>Snippets</glossterm>
+<glossdef>Snippets allow you to add a paragraph with the same content to multiple topics. If the snippet is changed, it gets changed in all the topics. 
+See Variables as well.</glossdef></glossentry>
+<glossentry id="glossary_Variables">
+<glossterm>Variables</glossterm>
+<glossdef>Variables allow you to add the same content in multiple topics within a paragraph and various settings in RoboHelp.
+Sets can be created so that for say the US prices can be expressed in dollars while in the UK they can be expressed in sterling.</glossdef></glossentry></glossgroup>

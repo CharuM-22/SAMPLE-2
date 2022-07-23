@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="topic-status" content="Complete" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <title>The Table of Contents</title>
+  <meta name="rh-index-keywords" content="Table of Contents" />
+  <meta name="rh-authors" content="Ann Author" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/rh_standard_2020_03.css" />
+</head>
+<body>
+  <h1> The Table of Contents</h1>
+  <p class="emphasis2">This topic covers the full Table of Contents. See <a href="../bits_and_pieces/bits_and_pieces.htm">Bits and Pieces</a> for in-topic Mini TOCs.</p>
+  <p>In <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> the TOC controls to what goes into your build. The key thing to understand is that anything that is to be included in the build must be in the TOC. That does not mean users have to see all topics in the TOC. This is explained in <a href="#toccontrols">The TOC Controls Your Outputs</a> below.</p>
+  <p>Also <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> now structures the TOC in different ways for Online and Book outputs.</p>
+  <ul class="disc">
+    <li>Online is for any output that will be viewed online, such as frameless, responsive and ePub.</li>
+    <li>Book is for PDF and Word outputs.</li>
+  </ul>
+  <p>There is some degree of using online TOCs for PDF and Word outputs and using a book TOC for an online output. That is described in this topic.</p>
+  <h2><a id="whychange"></a>Online and Book TOCs - Why the Change?</h2>
+  <p>Previously there was one TOC structure that could be used for all types of output. However, that created some issues with Word outputs.</p>
+  <ul class="disc">
+    <li>TOCs in the authoring world are made up of books that contain nested books that may also contain nested books. </li>
+    <li>Books in the real world do not contain other books.</li>
+  </ul>
+  <p>The naming convention was wrong. Of more practical relevance though is the issues it caused in Word outputs.</p>
+  <p>Microsoft Word bases its TOC on heading levels. In Classic versions of  <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> that could be handled in one of two ways.</p>
+  <ol class="decimal">
+    <li>You could select a check box Maintain HTML Heading Levels. If all your topics started in the usual way with the heading being set to the H1 style, that would be maintained and all books no matter what their level of nesting would also be H1. However, it meant that the book name was in a lower level style than the following topic. <a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down1" href="#">Click to see this example</a>.<div class="droptext" data-targetname="drop-down1">
+        <p> </p>
+        <p>
+          <img src="../assets/images/toc_index_glossary/word_levels_maintain_set.png" />
+        </p>
+      </div>
+    </li>
+    <li>If you did not select that, in Word you got a nested TOC but the heading levels were all changed from what they were in the topics. <a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down" href="#">Click to see this example</a>.<div class="droptext" data-targetname="drop-down">
+        <p> </p>
+        <p>
+          <img src="../assets/images/toc_index_glossary/word_levels_maintain_not_set.png" />
+        </p>
+      </div>
+    </li>
+  </ol>
+  <p>For those reasons the best solution in Classic versions was to create a TOC that flattened all the books to one level. That way book titles were all H1 style in line with the topic headings that followed.</p>
+  <p>Because of those issues, changes have been made.</p>
+  <h2>How Does It Work?</h2>
+  <p>In Classic versions, there were two ways of working. You either had a separate TOC for online and print to avoid some of the problems or you used one TOC that worked in your scenario, maybe you didn&#39;t have many levels of nesting in the TOC.</p>
+  <p>The changes do not radically change that but do remove the problems that many levels of nesting could cause in printed documents. This will become clearer as you read on.</p>
+  <p>Now two types of TOC can be set up, online and book.</p>
+  <h3>Online TOCs</h3>
+  <p>These are clearly meant for any online output, frameless, responsive, CHM and so on. The books are now known as sections and can be nested in the same way as in Classic versions.</p>
+  <h3>Book TOCs</h3>
+  <p>These are meant for the PDF and Word outputs. There are two key differences.</p>
+  <ol class="Decimal">
+    <li>Book TOCs enable Front and Back Matter to be included.</li>
+    <li>Whilst sections can be indented, you must be aware that the names of indented sections will not show in a Word output and may not show in a PDF output depending on the options you choose.</li>
+  </ol>
+  <p>Both are described in more detail in <a href="#booktoc">Book TOCs</a> below.</p>
+  <h2>Setting Up a TOC</h2>
+  <p>According to how you want to work, set up one or both types by clicking the + icon to display the New Table of Contents dialog. TOCs upgraded from earlier versions, Classic or 2019 New UI, will automatically be set to be online TOCs but you can change that by right clicking the TOC name and changing the type.</p>
+  <p><img class="spacing_top_and bottom" src="../assets/images/toc_index_glossary/toc_04.png" /></p>
+  <p>The TOC will open in the Authoring area.</p>
+  <p>If you want to set up more than one TOC, you can duplicate an existing TOC and, if required, change the type.</p>
+  <p>Right click the TOC in the left panel and select Duplicate, then right click the duplicate and select Properties where you can change the type. After you click Done and Save, the icon in the TOC panel will change.</p>
+  <h2>Online TOCs</h2>
+  <p>Above the blank TOC, you will see these icons that let you add topics and sections.</p>
+  <p><img src="../assets/images/toc_index_glossary/toc_05.png" /></p>
+  <h3>Sections</h3>
+  <p>Sections enable you to group your topics in the way you want your users to see them. The easiest way to think of these is to think of them is as nested books in older versions.</p>
+  <p>To add a section, click the right icon and enter the required name.</p>
+  <p>If you want the section linked to a topic, that can be done in the Section properties.</p>
+  <p>You can use the arrow icons on the toolbar to create sections within sections and have as many levels of nesting as you require for your online outputs. Beware of having too many levels as that can get frustrating for users.</p>
+  <h3>Topics</h3>
+  <p>Click the left icon in the toolbar to add the topics. You can also drag from the Contents panel. If you drag a folder, it will bring all that folders topics and create a section with the folder name, it can be changed in Properties. Any underscores in the folder name will be removed in the TOC.</p>
+  <h3>Auto-Create</h3>
+  <p>There is an Auto-Create icon that will create a TOC based on your folder structure. You can also right click to auto-create a TOC.</p>
+  <h2>Online TOC Properties</h2>
+  <p>The only property of the TOC itself is whether it is an Online or Book TOC. You can change that by right clicking the TOC name in the Table of Contents panel on the left. Settings for one type are saved if you change to the other type.</p>
+  <p>With Online Properties selected, when you click on a section you will see the properties shown below. When a topic is selected, the Type will be Page and there will be a single field for the TOC icon.</p>
+  <p><img src="../assets/images/toc_index_glossary/toc_11.png" /></p>
+  <h3>Title</h3>
+  <p>When you add items to the TOC their folder or topic title will be applied by default. You can change that in the Title field.</p>
+  <h3>Source</h3>
+  <p>The path to a topic will be shown here. If you want to link Sections to topics, you can add them here.</p>
+  <h3>Hide in Output</h3>
+  <p>Topics have to be in the TOC to be included in the build when you generate. However, you may not want all topics to show in the TOC, particularly if you have a large number of topics and it is only intended that some are accessed from other topics.</p>
+  <p>Select this option and the topic will be included in the build but will not show in the TOC. An alternative way is to apply a Condition Tag as described below.</p>
+  <h3>Condition Tags</h3>
+  <p>An alternative method to hide topics in the TOC but include them in the build is to apply a Condition Tag.</p>
+  <h3>Tile Image</h3>
+  <p>Frameless outputs can include a Home Page with tiles. By default these are controlled from the skin. In the Skin Editor you can go to the Layout tab &gt; Home Page options and select Manage Tiles from TOC. The skin images will then be disabled.</p>
+  <p>In the Tile Image field you can then browse to your own image for the section or topic selected in the TOC and select your own image(s).</p>
+  <p>If you do not define a tile for a specific section or topic in the TOC, there will be no tile for that section or topic enabling you to control which appear as tiles.</p>
+  <h3>TOC Icon</h3>
+  <p>When the user has reached the topic linked from the TOC, they will see a traditional TOC on the left where they will either see the skin&#39;s default icons or the icons defined for sections and topics in the TOC icon field.</p>
+  <h3>HTML Help Icon</h3>
+  <p>This property will only be seen if Enable Advanced HTML Help Options is selected in <a href="../authoring/project_settings.htm">Project Settings</a>.</p>
+  <ul class="Disc">
+    <li class="null">The Auto Setting will also apply the traditional book icon to Sections and the page icon to topics to all sections and topics by default</li>
+    <li class="null">For individual sections and topics you can select either select an option from the dropdown or you can select the Mark as New checkbox to apply an icon to highlight sections and topics that have changed.</li>
+  </ul>
+  <h2><a id="booktoc"></a>Book TOCs</h2>
+  <p>The set up is the same but the toolbar icons are for Topics, Sections, Front Matter and Back Matter from left to right in the screenshot below.</p>
+  <p>Front Matter and Back Matter are new terms within <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> but they are standard publishers terminology. See  <a href="http://www.publishmybook.online/what-is-front-matter-and-back-matter.html">http://www.publishmybook.online/what-is-front-matter-and-back-matter.html</a></p>
+  <p><img class="spacing_top_and bottom" src="../assets/images/toc_index_glossary/toc_10.png" /></p>
+  <h3>Front Matter</h3>
+  <p>All Front Matter content is optional.</p>
+  <p>The Front Matter icon lets you add a Cover Page, a TOC and a New Page. The New Page allows you to add one or more pages in the front of the PDF or Word document.</p>
+  <p>Both Cover Page and New Pages must be in HTM or HTML format.</p>
+  <p class="emphasis1"><img src="../assets/images/BadgeTip.png" /> If you have upgraded from a Classic version and have a cover page in DOCX format, open it in Word and save it in Web Page - Filtered format.</p>
+  <h3>Sections</h3>
+  <p>In a Book TOC you have sections in the same way as in an Online TOC but there is a difference in how they work.</p>
+  <p>In the TOC editor they can be nested to allow the same TOC to be used for online outputs. However, in PDF and Word outputs the contents of the top level sections will be flattened so that all the topics in that top level section are at the same level as if the lower level sections were not there.</p>
+  <p>A TOC structure as below would ignore Section Three and show the TOC in the output with the Section Three topics listed below the Section Two topics.</p>
+  <table border="1" cellpadding="1" cellspacing="1" style="border-collapse:collapse;width:100%;border-width:1px;border-style:none;border-color:transparent;border-left-width:1px;border-left-style:none;border-left-color:transparent;border-top-width:1px;border-top-style:none;border-top-color:transparent;border-right-width:1px;border-right-style:none;border-right-color:transparent;border-bottom-width:1px;border-bottom-style:none;border-bottom-color:transparent">
+    <colgroup>
+      <col style="width: 394px;" />
+      <col style="width: 672px;" />
+    </colgroup>
+    <tbody>
+      <tr>
+        <td style=""><img src="../assets/images/toc_index_glossary/toc_01.png" /></td>
+        <td style=""><img src="../assets/images/toc_index_glossary/pdf_02.png" /></td>
+      </tr>
+    </tbody>
+  </table>
+  <p>If you link a topic to a section, in a PDF or Word output the topic will appear immediately below the section (think Chapter) name as it did in Classic versions.</p>
+  <h3>Topics</h3>
+  <p>Click the left icon in the toolbar to add the topics. You can also drag from the Contents panel. If you drag a folder, it will bring all that folders topics and create a section with the folder name, it can be changed in Properties.</p>
+  <h3>Back Matter</h3>
+  <p>All Back Matter content is optional.</p>
+  <p>The Back Matter icon lets you add an Index, a Glossary and a New Page. The New Page allows you to add one or more pages in the back of the PDF or Word document.</p>
+  <p>New Page(s) must be in HTM or HTML format.</p>
+  <h3>Auto-Create</h3>
+  <p>There is also an Auto-Create icon that will create a TOC based on your folder structure.</p>
+  <h2>Example of the Mixed Use of TOCs</h2>
+  <p>This TOC has Folder Two nested within Folder One.</p>
+  <p><img src="../assets/images/toc_index_glossary/toc_13.png" /></p>
+  <h3>Online Outputs</h3>
+  <p>The TOC in your outputs will have the same structure.</p>
+  <h3>Book Outputs</h3>
+  <p>As shown above, you would just get a document with the contents shown as straight list.</p>
+  <ul class="disc">
+    <li>Folder One (as a section heading)</li>
+    <li>First Topic</li>
+    <li>Second Topic</li>
+    <li>Third Topic</li>
+    <li>Fourth Topic</li>
+    <li>Fifth Topic</li>
+    <li>Sixth Topic.</li>
+  </ul>
+  <p>What you would do with the Properties set to Book TOC is add Front Matter and Back Matter in addition to any sections required.</p>
+  <p class="emphasis1"><img src="../assets/images/BadgeWarning.png" /> If you change the section or topic names or the order of the topics, it will affect both online and book outputs using the same TOC.</p>
+  <h2><a id="toccontrols"></a>The TOC Controls Your Outputs</h2>
+  <p>There is a big change in what goes into an output.</p>
+  <ul>
+    <li>In earlier versions, an output contained everything that was in Project Manager that was not excluded by the build expression.</li>
+    <li>In  <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> it is controlled by the table of contents.</li>
+  </ul>
+  <p class="emphasis1"><img alt="" border="0" src="../assets/images/BadgeNew.png" style="border: none;" /> <span style="font-weight: bold;">Every topic that you want in the output must be in the TOC or have a link from a topic that is in the TOC.</span></p>
+  <p>You may not want users to see a TOC with every topic that can be accessed, some you may just want to be links from other topics. Not every topic has to be included in the TOC.</p>
+  <ul class="Standard_Bullet">
+    <li class="Standard_Bullet">Topics with links from other topics or the index will be included whether or not they are in the TOC.</li>
+    <li class="Standard_Bullet">Topics that you do not want users to see in the TOC and that do not have links from other topics or the index must be included. There is a check box to hide such items in the TOC that the user sees. Baggage files are included in this way as described below.</li>
+  </ul>
+  <p>Let&#39;s say you have a topic that has links to say twenty others that give supplementary information. Only that one topic needs to be in the TOC as the links will automatically pull in the twenty supplementary topics. That does not prevent you from including any or all of the twenty, it&#39;s just that you don&#39;t have to.</p>
+  <h3>Baggage Files</h3>
+  <p>Because the TOC controls what goes into an output, you also use it to add baggage files to the output. Baggage files are files you want in the build when you generate but that are not referenced anywhere.</p>
+  <p>When you click Insert Topic while editing a TOC, as shown below in Adding Items to the TOC, there will be an option Local Files. Select the baggage file you want to add and it will be uploaded when you generate. If you don&#39;t want the baggage file to appear in the TOC, just tick Hide in Output in the Properties panel.</p>
+  <h2>Editing a TOC</h2>
+  <p>When you create a TOC, it opens in the Authoring area. Thereafter you can open it there for editing or you can edit in the TOC pane on the left. Typically the TOC pane will be used for simpler edits.</p>
+  <p>If you have multiple TOCs, when you expand one of them, the others are temporarily hidden so that you can focus on the open TOC. As soon as you collapse a TOC, the others will be displayed again.</p>
+  <p>You can duplicate an existing TOC as the base for a new TOC and you can copy/cut/ paste items between TOCs.</p>
+  <p class="emphasis1"><img alt="" border="0" src="../assets/images/BadgeWarning.png" style="border: none;" /> <span style="font-weight: bold;">Editing the TOC in the TOC pane on the left and editing in the authoring area have an important difference. </span><br />
+    <br />
+    - In the TOC panel any changes made there are autosaved and you will see the changes mirrored in the authoring area if you also have the TOC open there. There are two ways to reverse any changes made in the TOC pane. The quickest way if you have made many changes is to click in the panel and keep using CTRL Z until you get back to where you want to be. You can also right click and use the Undo and Redo options in the context menu.<br />
+    <br />
+    - In the authoring area changes are not autosaved. As you make changes, an asterisk will display in the tab to show there are unsaved changes. The changes will only show in the TOC panel when you save the changes.
+  </p>
+  <h2>Adding eMails to a TOC</h2>
+  <p class="emphasis1"><img alt="" border="0" src="../assets/images/BadgeNew.png" style="border: none;" /> Creating emails is new. The title will appear in the TOC. Clicking that topic will open the email in the users default email program.</p>
+  <p><img class="spacing_none" src="../assets/images/toc_index_glossary/email.png" /></p>
+  <h2>TOC Titles In Sync With Topic Titles</h2>
+  <p>When you add a topic to your TOC it defaults to using the topic title. Change the topic title and the TOC will automatically sync with the new title. This will not override a topic title you enter into the TOC.</p>
+  <h4>How does this work?</h4>
+  <p>Within the <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> internal files, the topic title is left empty by default. If you do not manually enter a string <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> will display the TOC title as the topic title.</p>
+  <p>When you generate an output, RoboHelp will check the internal file to see if the TOC title is empty and if it is, it will use the topic title. If you have entered a string though, that will take priority and be used.</p>
+  <h4>I entered a string but now I want the two in sync.</h4>
+  <p>In the TOC, delete what you entered and click Apply.</p>
+  <h4>Does this work in projects upgraded from earlier versions?</h4>
+  <p>Yes. During the upgrade <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> compares the TOC title with the topic title. If they are the same, internally the TOC title will be empty and work the same way as in a new project. If they differ, the TOC title will use your original title.</p>
+  <h2>Broken Links</h2>
+  <p>Red Xs will show against any item in the TOC where the link is broken.</p>
+  <p> </p>
+  <p> </p>
+  <p> </p>
+</body>
+</html>

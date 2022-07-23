@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <title>Translations</title>
+  <meta name="topic-status" content="Complete" />
+  <meta name="rh-authors" content="Ann Author" />
+  <meta name="rh-index-keywords" content="Translations" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/rh_standard_2020_03.css" />
+</head>
+<body>
+  <h1>Translations</h1>
+  <p>Translation has long been a difficult area for authors. It has now been greatly simplified and should significantly reduce the costs.</p>
+  <p>The creation of separate projects in different languages is automated and machine translation can be used. Whilst, as always, it is best checked by a native speaker, the task will be far less time consuming.</p>
+  <p>Let&#39;s look at how it works.</p>
+  <h2>Creating the Foreign Language Projects</h2>
+  <p>The start point is to click Translations in the Author left panel shown below and click the + icon. Here German has been selected from the list of languages.</p>
+  <p><img class="spacing_top_and bottom" src="../assets/images/authoring/translations02.png" style="cursor: nwse-resize;" /></p>
+  <p>A default path is created but you can change it at this point if required. If you need to change it later, move the project using Explorer and then browse to the new location in Properties.</p>
+  <p>Click Done and the Properties panel will be shown as described in Setting the Properties below.</p>
+  <p>You only create one translated project for any particular language. If you need different outputs for a language, that can be set up using build tags, variable sets and so on.</p>
+  <p>Initially the authoring areas will show everything that needs to be translated. This screenshot shows just a few topics and the fact that at this point, the German project has not been translated.</p>
+  <p>Topics can be excluded from the translation process by selecting No in Properties &gt; General &gt; Attributes &gt; Translate.</p>
+  <p><img class="spacing_top_only" src="../assets/images/authoring/translations04.png" /></p>
+  <h2>Setting the Properties</h2>
+  <table border="1" cellpadding="1" cellspacing="1" class="blue" style="border-collapse:collapse; width:100%">
+    <colgroup>
+      <col style="width: 292px;" />
+      <col style="width: 529px;" />
+    </colgroup>
+    <tbody>
+      <tr>
+        <td style="">
+          <p><img height="831" src="../assets/images/authoring/translations03.png" style="cursor: nesw-resize;" width="283" /></p>
+        </td>
+        <td style="">
+          <p class="tableheading">Translation Type</p>
+          <p class="tabletext">You can select either Manual or Machine Translation. If you select Machine Translation, you will need to click the Edit icon and create a Profile as shown below.</p>
+          <p class="tableheading">Translation Project Path</p>
+          <p class="tabletext">The location of the foreign language project.</p>
+          <p class="tableheading">Topic Status</p>
+          <p class="tabletext">Initially this will show only Draft as a filter. As work progresses and the status of topics changes, In Sync, Out of Sync and Missing will be included.</p>
+          <p class="tableheading">Author</p>
+          <p class="tabletext">If author names have been assigned to topics, they will be listed here allowing you to select one or more for filtering.</p>
+          <p class="tableheading">Folder</p>
+          <p class="tabletext">You can limit the translation to a specific folder by selecting it here.</p>
+          <p class="tableheading">TOC</p>
+          <p class="tabletext">You can filter the topics shown by selecting a TOC.</p>
+          <p class="tableheading">Translation Status</p>
+          <p class="tabletext">Any of the items you see in the authoring area can be In Sync, Out of Sync or Missing. Select the status you want to see and it will be shown below the field.</p>
+          <p class="tableheading">Modified After</p>
+          <p class="tabletext">You can set a date to show only items that were modified after a certain date.</p>
+          <p class="tableheading">Columns</p>
+          <p class="tabletext">Select the columns you want to see displayed in the authoring area.</p>
+          <p class="tabletext"> </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <p> </p>
+  <h3>Creating a Profile</h3>
+  <p>When you click the pencil icon next to Machine Translation Profile, the dialog below will be displayed.</p>
+  <p>Enter a name for the profile and choose one of the APIs in the dropdown list. There are a number of sites where you can register to use their services in line with their terms and conditions. Yandex Translate is supported but Yandex Cloud Translate (an EU only service) is not supported.</p>
+  <p>You can use one of those in the list or you can use others by selecting Custom API. The common requirement is that they will all require you to enter at least an API key and an Endpoint.</p>
+  <p><a href="https://cloud.google.com/docs/authentication?_ga=2.36464617.-878103868.1620851413" target="_blank" title="Google&#39;s Authentication Guide.">Click here to see Google&#39;s Authentication Guide.</a></p>
+  <p>Add Headers will enable you to send some extra information in the form of headers that may be required by the chosen translation tool. </p>
+  <p>On completing these details, click Validate and <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> will check they are correct. When you have confirmation they are correct, click Save and your foreign language project is created, albeit still in the first language at this stage.</p>
+  <p><img class="spacing_top_only" src="../assets/images/authoring/translations05.png" style="cursor: nwse-resize;" /></p>
+  <h2>The Authoring Area</h2>
+  <p>When you Save the profile, the authoring area will split your content into four tabs.</p>
+  <h3>Topics</h3>
+  <p>This will list all the HTML files that comprise your topics. This will include any PDF or Word cover pages and some other items such as Microcontent Group files depending on what is in your project.</p>
+  <p><img src="../assets/images/authoring/translations04.png" /></p>
+  <p>Initially all the topics will show as Out of Sync as nothing has been translated yet. Later they will appear as:-</p>
+  <ul class="disc">
+    <li>In Sync - where the topic has not changed since the last translation.</li>
+    <li>Out of Sync - where the topic has changed or been added since the last translation.</li>
+    <li>Missing - where the topic has been deleted since the last translation.</li>
+  </ul>
+  <h3>Author</h3>
+  <p>This will list all the items you see in the Project Toolbar on the left. Items such as snippets.</p>
+  <h3>Output</h3>
+  <p>This will list terms that appear in the outputs such as labels and preset names.</p>
+  <h3>Assets</h3>
+  <p>This will show any images and other assets used in the project.</p>
+  <h2>Generating the Foreign Language Project</h2>
+  <p>Having set all the items listed in the tab, the project can now be sent for translation.</p>
+  <h3>Machine Translation</h3>
+  <p class="tabletext">Machine translation has improved enormously in recent years but it is still recommended that you have the translation verified by a native speaker of the language.</p>
+  <h4>Initial Translation</h4>
+  <p>In the authoring area, select all the items that are listed in all the tabs, then click the Machine Translate icon on the right of the top toolbar.</p>
+  <p><img src="../assets/images/authoring/translations06.png" /></p>
+  <p>The foreign language project will be translated.</p>
+  <h4>Updating</h4>
+  <p>In the authoring area all the items that have been changed since the project was last translated will show as Out of Sync or Missing. Select those items only and then run the machine generation again to machine translate the Out of Sync topics and remove any Missing items.</p>
+  <p>The first and foreign language projects will again be in sync.</p>
+  <h3>Manual Translation</h3>
+  <h4>Initial Translation</h4>
+  <p>In the authoring area, select all the items that are listed, then click the Export icon on the top toolbar to create an XLIFF file. That is then sent to a translation agency or translator who will return a translated version for import into the foreign language project.</p>
+  <p><img src="../assets/images/authoring/translations07.png" /></p>
+  <h4>Updating</h4>
+  <ul class="disc">
+    <li>Select the items that are Out of Sync and generate an XLIFF file to send to the agency or translator.<br />
+      Import the file they return to update those topics.</li>
+    <li>Select the items that are Missing and generate a separate XLIFF file. Import that file to into the foreign language project and <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> will remove them.</li>
+  </ul>
+  <p> </p>
+</body>
+</html>

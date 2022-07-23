@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="topic-status" content="Complete" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <title>Master Pages</title>
+  <meta name="rh-index-keywords" content="Master Pages" />
+  <meta name="rh-authors" content="Ann Author" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/rh_standard_2020_03.css" />
+</head>
+<body>
+  <h1>Master Pages</h1>
+  <h2>What Are Master Pages?</h2>
+  <p>If you want certain information to appear as a header or footer in your topics, you can use master pages to save you creating that content in every topic. This can include standard text and various placeholders for features such as breadcrumbs.</p>
+  <p>In the master page you can also add default content that will be added if you link the topic to the master page when you create the topic. Any subsequent changes to the master page content section will not be applied to existing topics.</p>
+  <p class="emphasis1"><img alt="" border="0" src="../assets/images/BadgeNew.png" style="border: none;" />  <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> ships with an optimized Book master page for use with the <a href="../outputs/outputs_pdf.htm">PDF Output</a> and the <a href="../outputs/outputs_word.htm">Word Output</a>. To use it in an existing project you will need to create a new project in the updated installation and then copy both the Book master page and book.css to your existing project.</p>
+  <h2>How Do I Set Up Master Pages?</h2>
+  <p>Click the Master Page icon in the Project Toolbar and then click the + icon alongside Master Pages in the Project Component Panel. Enter a name for the master page in the dialog that appears and then your master page opens ready to be set up.</p>
+  <p><img alt="" border="0" class="spacing_bottom_only" src="../assets/images/authoring/master_pages_01.png" style="cursor: nwse-resize;" /></p>
+  <p>Additional icons will be displayed in the standard toolbar above. These allow you to switch between editing the header and footer and to insert various placeholders such as breadcrumbs. Hover over each one to see what it does.</p>
+  <p>You can enter text in the header and/or footer in the usual way and you can format it in the Properties panel.</p>
+  <p class="emphasis1"><img alt="" border="0" src="../assets/images/BadgeTip.png" style="border: none;" /> If you only use one master page and want it applied to all topics, you don&#39;t have to apply it to each one. When you generate an output there is an option in the preset to apply a master page to all topics.<br />
+    <br />
+    If you have set a different master page for any topic, the master page in the preset will override that. That can be useful in some scenarios.
+  </p>
+  <h2>Style Sheets - CSS</h2>
+  <p>When creating a master page you can apply a CSS style sheet to it. When you generate an output, the hierarchy will be:</p>
+  <ul style="list-style: disc;">
+    <li>Where topics have master pages applied but no master page is defined in the preset, the CSS of the master page(s) set in the topics will apply. If there are topics without a master page defined, they will display using their own CSS.</li>
+    <li>Where a master page is defined in a preset, that will override the CSS of both the topics and the master page(s) applied to them.</li>
+  </ul>
+  <h2>Breadcrumbs</h2>
+  <p>To add breadcrumbs to a master page, place the cursor where you want the breadcrumbs to be positioned and click the breadcrumb icon on the toolbar.</p>
+  <p><img alt="" border="0" class="spacing_none" src="../assets/images/authoring/breadcrumbs_icon.png" /></p>
+  <p>To format the breadcrumbs click in the breadcrumbs in the master page and go to Properties. Check the type is &quot;Breadcrumbs&quot; and edit as required in the General settings.<br />
+    <img alt="" border="0" class="spacing_top_only" src="../assets/images/authoring/breadcrumbs_style_edit.png" />
+  </p>
+  <h2>Properties</h2>
+  <p>You can open a Master Page to edit its properties or you can right click the master page in the Master Page Panel to see its Properties without opening it.</p>
+  <p> </p>
+  <p> </p>
+  <p> </p>
+  <p> </p>
+</body>
+</html>

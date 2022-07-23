@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aliaslist version="1.0">
+  <alias name="01" value="1" link="../../contents/First_Topic.htm"></alias>
+  <alias name="02" value="2" link="../../contents/1.htm"></alias>
+  <alias name="03" value="3" link="../../contents/1.2_Early_research.htm"></alias>
+  <alias name="04" value="4" link="../../contents/2.htm"></alias>
+</aliaslist>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="topic-status" content="Complete" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <title>Tables</title>
+  <meta name="rh-index-keywords" content="Tables" />
+  <meta name="rh-authors" content="Ann Author" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/rh_standard_2020_03.css" />
+</head>
+<body>
+  <h1>Tables</h1>
+  <p><span data-keyref="ProdName_Generic">Adobe RoboHelp</span> comes with a number of pre-formatted tables that can be edited to suit your own requirements or you can create your own from scratch.</p>
+  <p class="emphasis1"><img src="../assets/images/BadgeTip.png" /> Create a copy of the supplied table styles and edit the copy. Then if anything goes wrong, you can switch back to the original.</p>
+  <h2>Creating a Table Using the Templates</h2>
+  <p>In the screenshot below, a table has been added to a topic using the Insert Table icon in the standard toolbar. The breadcrumbs highlighted can be useful when editing.</p>
+  <p><img class="spacing_top_only" src="../assets/images/authoring/tables07.png" style="cursor: nwse-resize;" /></p>
+  <p><img align="left" height="97" src="../assets/images/authoring/tables12.png" style="margin-left: 0px; margin-right: 15px;" width="64" />When you insert a table, some inline styling is automatically applied to give the appearance shown above, rather than the default HTML table style shown on the left.</p>
+  <p> </p>
+  <p> </p>
+  <p><br />
+    Before you apply a style from the templates, click the Clear Formatting icon highlighted below.The table will change but when you apply a template or create your own style, it will not have any inline styling overriding your definitions.<br />
+    <br />
+    With the cursor in the table, the Properties panel will display an additional icon.
+  </p>
+  <p><img src="../assets/images/authoring/tables08.png" /></p>
+  <p>You can apply width and height settings to specific columns and rows or to all columns and rows.</p>
+  <p>The caption setting defines whether captions are required and, if so, whether they appear above or below the image. By default CSS3 centers the caption above or below the table. You can change it to left or right in the table properties.</p>
+  <p>There are also a number of templates that you can use as supplied or you can edit them to suit your own requirements as described in below.</p>
+  <h2>Inserting and Deleting Rows and Columns</h2>
+  <p>In the context menu, use the Insert and Delete options to add/delete single rows and columns where required.</p>
+  <p>If you select a number of rows/columns first, that number of rows/columns will be added or removed.</p>
+  <h2>Column Width</h2>
+  <p>There are four options in the context menu. The table and column widths can be set in various units of measurement but percentages work best.</p>
+  <p><strong>Autofit to Contents</strong> - The width of the table and the columns will be adjusted to the best fit for their content.</p>
+  <p><strong>Autofit to Window</strong> - The width of the table will be set to 100% to always fit the width of the window. The proportions of the columns will be maintained.</p>
+  <p><strong>Fixed Width</strong> - Within the set width of the table, the column widths will be fixed to maintain their proportions. In a maximized window, the defined widths will be as set, in a minimized windows the table and columns will be sized to maintain the proportions.</p>
+  <p><strong>Distribute Evenly</strong> - The width of the table will be whatever has been set and all columns will be the same width.</p>
+  <h2>Creating Your Own Table Style</h2>
+  <p>The easiest solution is probably to start with a supplied template and edit that. However if you want to start from scratch, this section describes how to do it.</p>
+  <p>In the screenshot below a table has been added to a topic using the Insert Table icon in the standard toolbar but the CSS used for the topic does not have a table defined.</p>
+  <p><img alt="" border="0" class="spacing_bottom_only" src="../assets/images/authoring/tables01.png" /></p>
+  <p>Click the + icon to create a table style.</p>
+  <p>Select table as the tag and enter your name for the table class to be created, in this example it is blue_border.</p>
+  <p><img alt="" border="0" class="spacing_bottom_only" src="../assets/images/authoring/tables02.png" /></p>
+  <p>The default Properties will then be displayed for editing.</p>
+  <p><img alt="" border="0" class="spacing_bottom_only" src="../assets/images/authoring/tables03.png" /></p>
+  <h2>Defining the Table Style</h2>
+  <p>It is very important to note what has been selected in the Apply Formatting To dropdown and Whole Table is often misunderstood.</p>
+  <ul style="list-style: disc;">
+    <li>Generally anything you set here with Whole Table selected will apply to all the cells in the table with the exception of the border. For borders Whole Table means the outer borders of the table, not the individual cells.</li>
+    <li>If you change the dropdown to one of the other options shown, then the formatting will apply only to whatever you have selected.<br />
+      <br />
+      <img alt="" border="0" class="spacing_none" src="../assets/images/authoring/tables04.png" />
+    </li>
+  </ul>
+  <p>You will need to experiment a little to get what you want but you will soon find it is simpler than it may appear.</p>
+  <p class="emphasis1"><img alt="" border="0" src="../assets/images/BadgeTip.png" style="border: none;" /> Try setting up fonts and shading with Whole Table selected and then select any exceptions in the dropdown shown above. Maybe you want all cells to have one color as the background but the First Row to have another color. Set the first color with Whole Table selected, then select First Row and select the second color.</p>
+  <h2>Defining the Borders</h2>
+  <p>Easy when you know how!</p>
+  <p>Let&#39;s say this table is to have a 1pt wide border around all cells and a 2pt border the same color around the outer edges.</p>
+  <p>Set the border as below.</p>
+  <p><img alt="" border="0" class="spacing_top_and bottom" src="../assets/images/authoring/tables05.png" /></p>
+  <p>Then set the cells.</p>
+  <p><img src="../assets/images/authoring/tables09.png" /></p>
+  <p>In Preview the table will look like this.</p>
+  <p><img src="../assets/images/authoring/tables10.png" /></p>
+  <p>In the General settings for the table, set Border Collapse to Collapse. </p>
+  <p>Here&#39;s that table back in the topic.</p>
+  <p><img alt="" border="0" class="spacing_none" src="../assets/images/authoring/tables06.png" style="cursor: nwse-resize;" /></p>
+  <p class="emphasis1"><img height="19" src="../assets/images/BadgeTip.png" width="39" /> Use the breadcrumbs above the topic to select the part of the table you want to edit.</p>
+  <h2>Different Formatting in Columns, Rows or Cells</h2>
+  <p>No matter how well you design your table in the editor, there will often be occasions when a particular column, row or cell need something different.</p>
+  <p>You can apply an overriding style by clicking the Styles icon and applying changes to individual cells either using inline styling or applying a style from your CSS.</p>
+  <h2 class="null">Aligning the Table and Cell Content</h2>
+  <p>This table has been set to 75% width and the first row has been set to 150pt height.</p>
+  <table border="1" cellpadding="1" cellspacing="1" style="border-collapse: collapse;width: 75%;margin-right: auto;margin-left: auto;vertical-align: middle">
+    <colgroup>
+      <col style="width:33.33%" />
+      <col style="width:33.33%" />
+      <col style="width:33.33%" />
+    </colgroup>
+    <tbody>
+      <tr style="height: 150pt;">
+        <td style="vertical-align: middle"> </td>
+        <td style="vertical-align: middle;text-align: center">Some sample text.</td>
+        <td style="vertical-align: middle">
+          <p style="text-align: center"><img src="../assets/images/authoring/tables13.png" /></p>
+        </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top">
+          <p class="tableheading">Table Position</p>
+          <p class="tabletext">To position any table that is set to less than 100% width, click anywhere in the table and then click the Horizontal Alignment icon in Table Properties &gt; Layout and set it to Left, Center or Right alignment.</p>
+          <p class="tabletext">To indent the table to a specific position, go to Table Properties &gt; Layout and apply the required margin. </p>
+        </td>
+        <td colspan="2" rowspan="1" style="vertical-align: top">
+          <p class="tableheading">Text and Image Position</p>
+          <p class="tabletext">In the two cells above, two settings have been configured to get the text centered horizontally and vertically.</p>
+          <p class="tabletext"> </p>
+          <p class="tabletext">To apply <strong>Horizontal </strong>alignment to click in the text and then go to Content Properties &gt; Font &gt; Text Alignment.</p>
+          <p class="tabletext"> </p>
+          <p class="tabletext">To apply <strong>Vertical </strong>alignment select a row/column/cell and then go to Content Properties &gt; Font &gt; Vertical Alignment.</p>
+          <p class="tabletext">Select a row, column or multiple cells by dragging the mouse, select a single cell by right clicking selecting Select &gt; Cell. You can also use the breadcrumbs.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>Table Header</h2>
+  <p><span data-keyref="ProdName_Generic">Adobe RoboHelp</span> can be set up to use the TH style to a cell to make it a header cell but note that is not the same thing as a THEAD tag to make a row a header row. THEAD will be added in an update.</p>
+  <h2>Updating the Style and Clear Formatting</h2>
+  <p>If you make amendments to a table style while working in a topic, they will be applied inline. If you want to update the style to reflect those changes, click the Update Style icon on the left.</p>
+  <p><img src="../assets/images/authoring/tables11.png" /></p>
+  <p>To remove all styling from the table, click the Clear Formatting icon on the right. This will remove all styling from the table you are working on but will not affect the style unless, of course, you then also click Update Style.</p>
+  <p> </p>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="topic-status" content="Complete" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <title>Merged Help</title>
+  <meta name="rh-index-keywords" content="Merged Help" />
+  <meta name="rh-authors" content="Ann Author" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/rh_standard_2020_03.css" />
+</head>
+<body>
+  <h1>Merged Help</h1>
+  <p>There are various reasons for creating a merged project setup.</p>
+  <ul class="Disc">
+    <li>You are writing content for modular software and you only want the installed help to cover what has been installed. You would write the help for the modules in separate projects. Then you can merge the required combination of projects for each installation.</li>
+    <li>You have a large number of topics overall. By writing parts into different projects, you can see things more clearly.</li>
+    <li>You have more than one author but do not use source control. Merged help enables each author to have part of the total output in a separate project.</li>
+  </ul>
+  <h2>Key Points</h2>
+  <h3>Generating</h3>
+  <p>The parent project only needs to be generated first when you generate the merge the first time and when you add or remove the projects to be merged.</p>
+  <p>Child outputs only need to be generated when they change.</p>
+  <h3>Parent/Child Links</h3>
+  <p>If you need parent/child links they still need to be configured manually to avoid breaks in the output but you can now avoid them by having all your content in child projects so that the parent is effectively just a shell. The child projects are defined in the parent TOC and the skin for the parent will be applied to the whole merge. In the child project you need to define a skin so that you can generate an output but it does not need to be customized in the same way as the parent, unless you will also need to generate the child as a standalone output.</p>
+  <p>In Classic versions to avoid having content in the parent it is necessary to add a script so that the default topic could be a topic from a child project. In <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> you can select a child project in the preset and that child&#39;s default topic will be the default for the merge.</p>
+  <p>You can of course have content in the parent by including it in the parent TOC. However, it is recommended that if you do, then avoid links in either direction between parent/child topics. If they are essential for some reason, then do test them carefully in the output.</p>
+  <h3>Using Child Projects Standalone</h3>
+  <p>With the exception of Merged CHMs, child outputs cannot be copied to another location and used standalone. Instead duplicate the preset in the child project and change the output path to a location outside the merge output.</p>
+  <h2>How to Merge Projects</h2>
+  <p>Adobe Community Professional Peter Grainge has information on his <a href="http://www.grainge.org/pages/authoring/merging_webhelp/merged_help.htm" target="_blank">site</a> about merging all types of output.</p>
+  <p> </p>
+  <p> </p>
+</body>
+</html>

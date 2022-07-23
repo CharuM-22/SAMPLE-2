@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  
+<map>
+    
+<title>Variables</title>
+  
+<keydef keys="Current Version">
+<topicmeta>
+<keywords>
+<keyword>2020.7</keyword></keywords></topicmeta></keydef>
+<keydef keys="ProdName_2019">
+<topicmeta>
+<keywords>
+<keyword>Adobe RoboHelp 2019</keyword></keywords></topicmeta></keydef>
+<keydef keys="ProdName_2020">
+<topicmeta>
+<keywords>
+<keyword>Adobe RoboHelp 2020</keyword></keywords></topicmeta></keydef>
+<keydef keys="ProdName_Generic">
+<topicmeta>
+<keywords>
+<keyword>Adobe RoboHelp</keyword></keywords></topicmeta></keydef></map>

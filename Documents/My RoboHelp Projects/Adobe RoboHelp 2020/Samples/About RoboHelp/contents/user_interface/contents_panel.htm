@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="topic-status" content="Complete" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <title>Contents Panel</title>
+  <meta name="rh-index-keywords" content="Assets Folder,Contents Panel,Assets Folder" />
+  <meta name="rh-authors" content="Ann Author" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/rh_standard_2020_03.css" />
+</head>
+<body>
+  <h1>Contents Panel</h1>
+  <p>The Contents Panel shows all the topics in the project, rather like Project Manager in older versions of <span data-keyref="ProdName_Generic">Adobe RoboHelp</span>.</p>
+  <ul style="list-style: disc;">
+  </ul>
+  <h2>Working In The Contents Panel</h2>
+  <p>This is rather like Project Files in Project Manager as seen in RoboHelp Classic versions but there is a big difference. In Classic versions anything that was in Project Manager went into your output unless excluded by an expression. Now what goes into an output is controlled by the Table of Contents used. How that works is described in <a href="contents_panel.htm">The Table of Contents</a>.</p>
+  <p>What you will see here is an assets folder containing any images moved there during the upgrade from a Classic version, if applicable, along with your CSS files, masterpages, skins and suchlike. There is more about what gets moved below.</p>
+  <p>If you paste images into a topic they will be saved in assets &gt; images but you can move them to your preferred folder.</p>
+  <p><img alt="" border="0" class="spacing_top_and bottom" src="../assets/images/multi_folder/contents_01.png" /></p>
+  <p class="emphasis1"><img src="../assets/images/BadgeNew.png" /> The new search field lets you quickly find topics or file types. Enter part of the name of the file you are looking for or the file type preceded by a dot. This can save a lot of time finding what you want to work on.<br />
+    <img class="spacing_top_only" src="../assets/images/user_interface/contents_02.png" />
+  </p>
+  <ul style="list-style: disc;">
+    <li>If you look at the project in File Explorer, you will see the structure is different. The root folder contains the rhpj file that opens the project. This replaces the XPJ file from earlier versions and there is no longer a CPD file.</li>
+  </ul>
+  <ul style="list-style: disc;">
+    <li>Your files are in the Contents folder where you will also find the Assets folder. All the other folders are for the <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> internal files.</li>
+    <li>You may also see JSON files in your project. These are files used by <span data-keyref="ProdName_Generic">Adobe RoboHelp</span>. Don&#39;t touch!</li>
+  </ul>
+  <p>The Assets folder is new. The idea is to keep your images, CSS and suchlike separate from your topics with their own organizational structure.</p>
+  <p>Right click any folder or file and you will see the various options available, similar to previous versions.</p>
+  <p class="emphasis1"><img alt="" border="0" src="../assets/images/BadgeWarning.png" style="border: none;" /><br />
+    PRIOR TO 2020 UPDATE 1<br />
+    When you upgraded prior to Update 1 all the image, media and CSS files in your Classic project were moved from their existing locations into the &quot;assets&quot; folder you see below. The folder structure for such items was retained for the folders containing such files. <br />
+    For example, if you had all your images in a folder named Images and your media files in a folder named Media, in <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> you would see Assets &gt; Images and Assets &gt; Media. Wherever they were pre-upgrade, the structure was mirrored within Assets.<br />
+    After the upgrade, it was up to you where you saved the assets but using the Assets folder was recommended.<br />
+    FROM 2020 UPDATE 1<br />
+    If you upgrade using Update 1 or higher, only such files in the root of your project get moved to Assets in the same way as described above. Any image, media and CSS files that were in sub-folders in Classic will be left where they were.</p>
+  <p>When you open a topic that is in the Contents Panel, the content appears alongside with its properties in the Properties Panel. See <a href="working_on_topics.htm">Working on Topics</a></p>
+  <h2>The Contents Panel Context Menus</h2>
+  <p>In the Contents Panel the context menu changes according to whether you have focus on a blank area, a folder or a file.</p>
+  <p>Context menus can also be accessed by clicking in area required and pressing Shift + F10.</p>
+  <h3>Blank Area</h3>
+  <p>Blank Area means anywhere below or to the left of the list of contents.</p>
+  <p><img alt="" border="0" class="spacing_bottom_only" src="../assets/images/user_interface/context01.png" /></p>
+  <p class="emphasis1"><img alt="" border="0" src="../assets/images/BadgeNew.png" style="border: none;" /> There&#39;s a great new feature here - Import Folder. Click that and you can then browse to any available drive and select a whole folder of, for example, images or you can browse and select multiple images and add them in one go. The same option is in the Folder context menu.<br />
+    Don&#39;t confuse this with Resource Linking, it&#39;s an alternative way of adding to the pool of resources without having links.</p>
+  <h3>Folder Menu</h3>
+  <p>Right click on any folder to see this context menu.</p>
+  <p><img alt="" border="0" class="spacing_bottom_only" src="../assets/images/user_interface/context02.png" style="cursor: nwse-resize;" /></p>
+  <p>Expand will expand the folder with focus and all of its sub-folders.</p>
+  <h3>File Menu</h3>
+  <p>The options will vary according to the file type selected. The menu shown below is for topics.</p>
+  <p><img alt="" border="0" class="spacing_bottom_only" src="../assets/images/user_interface/context03.png" /></p>
+  <p>The context menu has various options including Locate in Topic in a TOC and Show in Explorer to see the topic File Explorer.</p>
+  <p>Save As PDF allows you to quickly create a PDF of that topic only. The PDF will include any master page applied to the topic. You can also Save as PDF from a topic context menu.</p>
+  <p class="emphasis1"><img alt="" border="0" src="../assets/images/BadgeTip.png" style="border: none;" /> If the Locate in TOC option does not show, it is because the topic is not in any TOC. That&#39;s a useful way of checking.</p>
+  <h2>Properties</h2>
+  <p>With a topic open, the Properties Panel on the right of the screen shows the properties and allows them to be edited.</p>
+  <p><img src="../assets/images/user_interface/properties_all.png" /></p>
+  <ul style="list-style: disc;">
+    <li><span style="font-weight: bold;">Content </span>displays the properties of whatever is selected.</li>
+    <li><span style="font-weight: bold;">Topic</span> displays to topic properties.</li>
+    <li><span style="font-weight: bold;">Styles</span> displays the styles in the selected CSS.</li>
+    <li><strong>Spell Check</strong> accesses the spell check options.</li>
+  </ul>
+  <h2>Zoom</h2>
+  <p>On the View menu can select various options to make the authoring area content larger or smaller.</p>
+  <ul class="disc">
+    <li>You can use the shortcuts CTRL = to zoom in or CTRL - to zoom out on the alpha keyboard.</li>
+    <li>You can use CTRL with the mouse wheel.</li>
+    <li>You can use CTRL 0 to return to 100%.</li>
+    <li>You will see the size as you zoom in the bottom right corner.</li>
+  </ul>
+  <p> </p>
+</body>
+</html>

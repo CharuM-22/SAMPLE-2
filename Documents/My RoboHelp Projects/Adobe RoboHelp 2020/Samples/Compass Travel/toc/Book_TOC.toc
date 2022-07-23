@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map type="booktoc">
+  <title>Book_TOC</title>
+  <frontmatter navtitle="Front Matter" format="html" processing-role="normal">
+    <coverpage href="../contents/Front_Cover_Studio.htm" format="html" processing-role="normal"></coverpage>
+    <toc-marker navtitle="Contents" format="html" processing-role="normal"></toc-marker>
+  </frontmatter>
+  <page href="../contents/Introduction.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/Our_destinations.htm" format="html" processing-role="normal"></page>
+  <book navtitle="Corporate travel" format="html" processing-role="normal">
+    <page href="../contents/Corporate_travel/About_corporate_travel.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Corporate_travel/About_the_corporate_travel_market.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Corporate_travel/What_corporate_services_do_we_offer_.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Corporate_travel/What_sets_us_apart_in_the_corporate_travel_market_.htm" format="html" processing-role="normal"></page>
+  </book>
+  <book navtitle="Leisure travel" format="html" processing-role="normal">
+    <page href="../contents/Leisure_travel/About_leisure_travel.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Leisure_travel/About_the_leisure_travel_market.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Leisure_travel/Exploring_Ancient_Maya_of_Honduras.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/Leisure_travel/What_leisure_services_do_we_offer_.htm" format="html" processing-role="normal"></page>
+  </book>
+  <book navtitle="For sales" format="html" processing-role="normal">
+    <page href="../contents/For_sales/About_our_software_-_SalesBuilder.htm" format="html" processing-role="normal"></page>
+    <book navtitle="eLearning center" format="html" processing-role="normal">
+      <page href="../contents/eLearning_center/About_the_eLearning_center.htm" format="html" processing-role="normal"></page>
+    </book>
+    <page href="../contents/For_sales/Promotional_travel_market_packages.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/For_sales/Touring_by_air,_rail_or_sea.htm" format="html" processing-role="normal"></page>
+    <page href="../contents/For_sales/Travel_club_amenities.htm" format="html" processing-role="normal"></page>
+    <book navtitle="Using SalesBuilder" format="html" processing-role="normal">
+      <page href="../contents/For_sales/Using_SalesBuilder/My_Pipeline_screen_overview.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/For_sales/Using_SalesBuilder/Opportunities_screen_overview.htm" format="html" processing-role="normal"></page>
+      <book navtitle="New account" format="html" processing-role="normal">
+        <page href="../contents/For_sales/Using_SalesBuilder/New_Account/New_Account_-_General_screen.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/For_sales/Using_SalesBuilder/New_Account/New_Account_-_Contacts_screen.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/For_sales/Using_SalesBuilder/New_Account/New_Account_-_News_screen.htm" format="html" processing-role="normal"></page>
+      </book>
+      <book navtitle="New contact" format="html" processing-role="normal">
+        <page href="../contents/For_sales/Using_SalesBuilder/New_Contact/New_Contact_-_General_screen.htm" format="html" processing-role="normal"></page>
+        <page href="../contents/For_sales/Using_SalesBuilder/New_Contact/New_Contact_-_Notes_screen.htm" format="html" processing-role="normal"></page>
+      </book>
+    </book>
+  </book>
+  <book navtitle="For developers" format="html" processing-role="normal">
+    <book navtitle="Font Awesome" format="html" processing-role="normal">
+      <page href="../contents/For_developers/Font_Awesome/About_Font_Awesome.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/For_developers/Font_Awesome/Implementing_SVG_icons_with_Font_Awesome.htm" format="html" processing-role="normal"></page>
+    </book>
+    <book navtitle="Typekit" format="html" processing-role="normal">
+      <page href="../contents/For_developers/Typekit/About_Typekit.htm" format="html" processing-role="normal"></page>
+      <page href="../contents/For_developers/Typekit/Implementing_Web_fonts_with_Typekit.htm" format="html" processing-role="normal"></page>
+    </book>
+  </book>
+  <backmatter navtitle="Back Matter" format="html" processing-role="normal">
+    <index navtitle="Index" format="html" processing-role="normal"></index>
+    <glossary navtitle="Glossary" href="../glossary/Compass_Travel.glo" format="html" processing-role="normal"></glossary>
+    <page href="../contents/Back_Cover_Studio.htm" format="html" processing-role="resource-only"></page>
+  </backmatter>
+</map>

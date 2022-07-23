@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="topic-status" content="Complete"/>
+  <meta name="generator" content="Adobe RoboHelp 2020"/>
+  <title>Command Line Generation</title>
+  <meta name="rh-index-keywords" content="Command Line"/>
+  <meta name="rh-authors" content="Ann Author"/>
+  <link rel="stylesheet" type="text/css" href="../assets/css/rh_standard_2020_03.css"/>
+</head>
+<body>
+  <h1>Command Line Generation</h1>
+  <p>Command line generation is available in <span data-keyref="ProdName_Generic">Adobe RoboHelp</span>. This can be done on any machine with a licensed copy of <span data-keyref="ProdName_Generic">Adobe RoboHelp</span> installed.</p>
+  <h2>Syntax</h2>
+  <p>The command line syntax is:-</p>
+  <p><span style="font-weight: bold; color: #ff0000;">RoboHelp.exe</span> <span style="font-weight: bold; color: #0000ff;">--cl</span> <span style="font-weight: bold; color: #008000;">“Input project absolute path”</span><span style="color: #ff00ff; font-weight: bold;"> -o “output preset name”</span> <span style="color: #800080; font-weight: bold;">-p “output  path”</span> <span style="font-weight: bold; color: #008080;">-l “log  file path”</span></p>
+  <ol style="list-style: decimal;">
+    <li>The first parameter “--cl” indicates that RoboHelp.exe would be running in command  line</li>
+    <li>The second parameter is the absolute path of the robohelp project (.rhpj) file.</li>
+    <li>The third parameter is -o OR --output followed by preset name in double quotes.</li>
+    <li>The fourth parameter is optional. -p OR --path which is followed by the absolute folder path for the output. This parameter allows you to define a path other than what is defined in the preset. If not defined here, then the path in the preset will be used.</li>
+    <li>The fifth parameter is optional. -l (lower case L) OR --log which is the absolute path of the log file with extension .html. If this parameter is not set, the log details will be created within the command prompt.</li>
+  </ol>
+  <h2>Examples</h2>
+  <h4>All parameters defined</h4>
+  <p><span style="font-weight: bold; color: #ff0000;">&quot;C:\Program Files\Adobe\Adobe RoboHelp 2020 RoboHelp.exe&quot;</span> <span style="font-weight: bold; 
+												 color: #0000ff;">--cl</span> <span style="font-weight: bold; color: #008000;">&quot;C:\MyProjectFolder\MyProjectName.rhpj&quot;</span> <span style="font-weight: bold; color: #ff00ff;">-o &quot;MyPresetName&quot;</span> <span style="color: #800080; font-weight: bold;">-p &quot;C:\MyoutputFolder&quot;</span> <span style="color: Transparent;"> </span><span style="font-weight: bold; 
+												 color: #008080;">-l &quot;C:\MyLogFilesFolder\MyProjectNameLog.html&quot;</span></p>
+  <h4>Mandatory parameters only defined</h4>
+  <p><span style="font-weight: bold; color: #ff0000;">&quot;C:\Program Files\Adobe\Adobe RoboHelp 2020 RoboHelp.exe&quot;</span> <span style="font-weight: bold; 
+												 color: #0000ff;">--cl</span> <span style="font-weight: bold; color: #008000;">&quot;C:\MyProjectFolder\MyProjectName.rhpj&quot;</span> <span style="color: #ff00ff; font-weight: bold;">-o &quot;MyPresetName&quot;</span></p>
+  <p>The output will be generated to the path defined in the preset.</p>
+  <p>The log details will be created within the command prompt.</p>
+  <h2>Generating Multiple Outputs</h2>
+  <p>You can create a batch file to generate multiple outputs.</p>
+  <p> </p>
+
+</body></html>

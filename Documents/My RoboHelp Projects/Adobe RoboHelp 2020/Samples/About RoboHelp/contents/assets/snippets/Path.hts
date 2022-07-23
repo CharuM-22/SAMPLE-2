@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <meta name="topic-comment" content="Absolute v Relative Path" />
+  <title>Path</title>
+  <link rel="stylesheet" type="text/css" href="../css/rh_standard_2020_03.css" />
+</head>
+<body>
+  <h4>Output Path</h4>
+  <p>By default the Output path will be created as an absolute path but you can choose to create a relative path.</p>
+  <p>Select or deselect the Save Output Path As Relative To Project to change the setting. Adobe RoboHelp will open Explorer to the current folder where you can either click Save Folder to retain the same path or browse to somewhere else.</p>
+  <ul class="Disc">
+    <li>If you are a lone author always working on the same machine, you can choose either but the absolute option is recommended so that you can see exactly where the output will be saved.</li>
+    <li>If there are multiple authors and/or you work on more than one machine in a non source controlled environment, then the relative path option may suit you better.<br />
+      This will enable each author to generate to different folders as long as the same relative relationship is maintained.</li>
+    <li>The relative path option will work better if a project will be worked on using both Windows and Mac machines.</li>
+  </ul>
+</body>
+</html>

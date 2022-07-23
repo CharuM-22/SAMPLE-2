@@ -1,0 +1,57 @@
+/*Created with Adobe RoboHelp*/
+.RH-LAYOUT-CENTERPANEL-topic-box a, .RH-LAYOUT-FOOTER-container a {
+  text-decoration: underline;
+}
+/*TOC Styling*/
+.RH-LAYOUT-CENTERPANEL-topic-box div.pdf-toc-body, .RH-LAYOUT-FOOTER-container div.pdf-toc-body {}
+.RH-LAYOUT-CENTERPANEL-topic-box h1.pdf-toc-title, .RH-LAYOUT-FOOTER-container h1.pdf-toc-title {}
+.RH-LAYOUT-CENTERPANEL-topic-box a.pdf-toc-level-1, .RH-LAYOUT-FOOTER-container a.pdf-toc-level-1 {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.RH-LAYOUT-CENTERPANEL-topic-box a.pdf-toc-level-2, .RH-LAYOUT-FOOTER-container a.pdf-toc-level-2 {
+  font-size: 16px;
+  text-decoration: none;
+}
+.RH-LAYOUT-CENTERPANEL-topic-box a.pdf-toc-level-3, .RH-LAYOUT-FOOTER-container a.pdf-toc-level-3 {
+  font-size: 14px;
+  text-decoration: none;
+}
+.RH-LAYOUT-CENTERPANEL-topic-box a.pdf-toc-level-4, .RH-LAYOUT-FOOTER-container a.pdf-toc-level-4 {
+  font-size: 14px;
+  text-decoration: none;
+}
+.RH-LAYOUT-CENTERPANEL-topic-box a.pdf-toc-level-5, .RH-LAYOUT-FOOTER-container a.pdf-toc-level-5 {
+  font-size: 14px;
+  text-decoration: none;
+}
+.RH-LAYOUT-CENTERPANEL-topic-box a.pdf-toc-level-6, .RH-LAYOUT-FOOTER-container a.pdf-toc-level-6 {
+  font-size: 14px;
+  text-decoration: none;
+}
+/*Index Styling*/
+.RH-LAYOUT-CENTERPANEL-topic-box div.book-idx-body, .RH-LAYOUT-FOOTER-container div.book-idx-body {
+  column-count: 2;
+  column-fill: balance;
+}
+.RH-LAYOUT-CENTERPANEL-topic-box h1.book-idx-title, .RH-LAYOUT-FOOTER-container h1.book-idx-title {
+  column-span: all;
+}
+.RH-LAYOUT-CENTERPANEL-topic-box div.book-idx-unit, .RH-LAYOUT-FOOTER-container div.book-idx-unit {}
+.RH-LAYOUT-CENTERPANEL-topic-box p.book-idx-keyword, .RH-LAYOUT-FOOTER-container p.book-idx-keyword {}
+.RH-LAYOUT-CENTERPANEL-topic-box span.book-idx-name, .RH-LAYOUT-FOOTER-container span.book-idx-name {}
+.RH-LAYOUT-CENTERPANEL-topic-box a.book-idx-link, .RH-LAYOUT-FOOTER-container a.book-idx-link {
+  text-decoration: none;
+}
+.RH-LAYOUT-CENTERPANEL-topic-box div.book-idx-child, .RH-LAYOUT-FOOTER-container div.book-idx-child {
+  padding-left: 10px;
+}
+/*Glossary Styling*/
+.RH-LAYOUT-CENTERPANEL-topic-box div.book-glo-body, .RH-LAYOUT-FOOTER-container div.book-glo-body {}
+.RH-LAYOUT-CENTERPANEL-topic-box h1.book-glo-title, .RH-LAYOUT-FOOTER-container h1.book-glo-title {}
+.RH-LAYOUT-CENTERPANEL-topic-box div.book-glo-unit, .RH-LAYOUT-FOOTER-container div.book-glo-unit {}
+.RH-LAYOUT-CENTERPANEL-topic-box p.book-glo-term, .RH-LAYOUT-FOOTER-container p.book-glo-term {
+  font-weight: bold;
+}
+.RH-LAYOUT-CENTERPANEL-topic-box p.book-glo-definition, .RH-LAYOUT-FOOTER-container p.book-glo-definition {}

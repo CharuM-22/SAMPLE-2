@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <content>
+    <index type="boolean">true</index>
+    <toc>
+      <path>../../toc/2._Information_in_user_manual.toc</path>
+      <name>Default</name>
+    </toc>
+    <glossary>
+      <path>../../glossary/G1.glo</path>
+      <name>Default</name>
+    </glossary>
+    <masterpage></masterpage>
+    <brs type="array"></brs>
+    <mapFiles type="array"></mapFiles>
+    <includeExpandingText type="boolean">false</includeExpandingText>
+    <includeDropdownText type="boolean">false</includeDropdownText>
+    <relativeOutputPath type="boolean">false</relativeOutputPath>
+  </content>
+  <starterPage>Default.epub</starterPage>
+  <ebooktype>
+    <displayName>EPUB</displayName>
+    <name>EPUB</name>
+  </ebooktype>
+  <search>
+    <context type="boolean">false</context>
+    <contextLimit></contextLimit>
+    <showSpeclChars type="boolean">false</showSpeclChars>
+    <speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
+  </search>
+  <sitemap>
+    <use type="boolean">false</use>
+    <changeFrequency></changeFrequency>
+    <helpBaseURL></helpBaseURL>
+  </sitemap>
+  <name>eBook</name>
+  <type>epub</type>
+  <defaultTopic></defaultTopic>
+  <title>charu new project</title>
+  <outputPath>C:/Users/charu/Documents/My RoboHelp Projects/outputs/charu new project/eBook</outputPath>
+  <patchHomepage type="boolean">true</patchHomepage>
+</preset>

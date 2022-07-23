@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>        
+
+<glossgroup id="G1">          
+<title>Glossary Definitions</title>        
+<glossentry id="G1_AI">
+<glossterm>AI</glossterm>
+<glossdef>Artificial intelligence</glossdef></glossentry>
+<glossentry id="G1_ML">
+<glossterm>ML</glossterm>
+<glossdef>Machine learning</glossdef></glossentry>
+<glossentry id="G1_SI">
+<glossterm>SI</glossterm>
+<glossdef>Swarm intelligence</glossdef></glossentry></glossgroup>

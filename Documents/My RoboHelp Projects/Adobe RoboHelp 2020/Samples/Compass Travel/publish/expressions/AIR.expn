@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>    
+<expr>    
+<group flag="Include" op="AND">
+<tag name="Others" value="Mode_AIR" flag="Include" op="OR"></tag>
+<tag name="Others" value="ALL" flag="Include" op="AND"></tag>
+<tag name="Others" value="Mode_RAIL" flag="Exclude" op="AND"></tag>
+<tag name="Others" value="Mode_SEA" flag="Exclude" op="AND"></tag></group>    </expr>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="topic-status" content="Complete" />
+  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <title>Calling Context Sensitive Help</title>
+  <meta name="rh-index-keywords" content="Context Sensitive Help" />
+  <meta name="rh-authors" content="Ann Author" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/rh_standard_2020_03.css" />
+</head>
+<body>
+  <h1>Calling Context Sensitive Help</h1>
+  <h2>Frameless Skins</h2>
+  <h3>Using Map IDs</h3>
+  <p>The call needs to be in the format</p>
+  <p>path/index.htm?rhmapno=123</p>
+  <p>If you are using context sensitive help and want the topic to open with the TOC, add &quot;&amp;rhmapfs=false&quot; to the call. For example:-</p>
+  <p>path<span style="font-family: Calibri, sans-serif; font-size: 11pt;">/index.htm?rhmapno=123&amp;rhmapfs=false</span></p>
+  <h3>Using URLs</h3>
+  <p>Each topic has a unique URL and the help will open with all the navigation components.</p>
+  <h2>Responsive Skins</h2>
+  <h3>Using Map IDs</h3>
+  <p>The call needs to be in the format - path/index.htm?rhmapno=123</p>
+  <h3>Using URLs</h3>
+  <p>If you use the URL of the topic in the format path/topic_name.htm, the topic will open without the navigation controls, the user will have to click a link to open the TOC and other controls.</p>
+  <p>To open the help with the navigation controls, you need a path that includes the start page of the help, by default that is index.htm.</p>
+  <p>You then append #t= followed by the rest of the path to the required topic. For example - path/index.htm#t=path/topic_name.htm</p>
+  <h2>WebHelp</h2>
+  <p>The difference between responsive help and webhelp is simply that latter does not change as the screen is resized. Now instead of using webhelp skins, responsive skins are used but you can choose to disable the Responsiveness option.</p>
+  <p class="emphasis1"><img alt="" border="0" src="../assets/images/BadgeWarning.png" style="border: none;" /> This does mean your help calls will need to change.</p>
+  <h4>Using Map IDs</h4>
+  <p>In Classic Versions, the format of the call was path/index.htm#&lt;id=123&gt;&gt;newwnd=false</p>
+  <p>Now the format is path/index.htm?rhmapno=123</p>
+  <p>Thus <span style="color: #ff0000; font-weight: bold;">#&lt;id=123&gt;&gt;newwnd=false</span> is replaced by <span style="font-weight: bold; color: #008080;">?rhmapno=123</span></p>
+  <h4>Using URLs</h4>
+  <p>The format of URLs in Classic versions was path/index.htm#path/target_topic_1.htm.</p>
+  <p>Now the format is path/index.htm#t=path/topic_name.htm. Note that the <span style="font-weight: bold; color: #008000;">#</span> symbol is followed by <span style="color: #008000; font-weight: bold;">t=</span>.</p>
+  <h2>Merged Help</h2>
+  <h3>Using Map IDs</h3>
+  <p>If you call topics using map ids, the parent and all the child projects should have unique map ids in their map files. </p>
+  <p>If a child topic uses a map id which is same as a parent topic, then using Parent/index.htm?rhmapno=123 will result in loading the parent’s topic (if it exists). </p>
+  <p>If for some reason you cannot avoid duplication, then use the child project’s own index.htm file path.</p>
+  <p>For example - Parent/mergedProjects/child_one/index.htm?rhmapno=123</p>
+  <h3>Using URLs</h3>
+  <h4>Frameless Skins</h4>
+  <p>Each topic has a unique URL and the help will open with all the navigation components.</p>
+  <h4>Responsive Skins</h4>
+  <p>If you use the URL of the topic in the format path/topic_name.htm, the topic will open without the navigation controls, the user will have to click a link to open the TOC and other controls.</p>
+  <p>To open the help with the navigation controls, you need a path that includes the start page of the help, by default that is index.htm. </p>
+  <p>You then append #t= followed by the rest of the path to the required topic.</p>
+  <p>For example - path/index.htm#t=path/topic_name.htm</p>
+  <h2>CHMs</h2>
+  <p>To create CSH with CHMs (Microsoft HTML Help), use the RoboHelp CSH API described below.</p>
+  <h3>Using Map IDs</h3>
+  <p>To call a topic using a map number, make a call to the HTML Help API using the following syntax</p>
+  <p>HWND HtmlHelp(Window(), “c:\path\helpfile.chm”, HH_HELP_CONTEXT, Number);</p>
+  <h3>Using a File Name</h3>
+  <p>To call a topic using the file name, make a call to the HTML Help API using the following syntax</p>
+  <p>HWND HtmlHelp (Dialog(), “c:\path\helpfile.chm”, HH_DISPLAY_TOPIC, &quot;topicfile.htm&quot;);</p>
+  <h2>Creating Map IDs</h2>
+  <p>Creating Map IDs is described in <a href="mapping.htm">Mapping</a>.</p>
+  <p> </p>
+  <p> </p>
+</body>
+</html>

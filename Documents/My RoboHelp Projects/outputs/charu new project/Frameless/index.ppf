@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ppfml version="2.00" project="charu new project" type="4">
+  <contextmap>
+    
+    <contextentry id="1" page="C:/Users/charu/Documents/My RoboHelp Projects/charu_new_project/contents/First_Topic.htm">
+    </contextentry>
+    
+    <contextentry id="2" page="C:/Users/charu/Documents/My RoboHelp Projects/charu_new_project/contents/1.htm">
+    </contextentry>
+    
+    <contextentry id="3" page="C:/Users/charu/Documents/My RoboHelp Projects/charu_new_project/contents/1.2_Adding_navigation.htm">
+    </contextentry>
+    
+    <contextentry id="4" page="C:/Users/charu/Documents/My RoboHelp Projects/charu_new_project/contents/2.htm">
+    </contextentry>
+    
+    <contextentry id="5" page="C:/Users/charu/Documents/My RoboHelp Projects/charu_new_project/contents/21_Creation_of_image.htm">
+    </contextentry>
+    
+    <contextentry id="6" page="C:/Users/charu/Documents/My RoboHelp Projects/charu_new_project/contents/2.2_Design_of_template.htm">
+    </contextentry>
+    
+    <contextentry id="7" page="C:/Users/charu/Documents/My RoboHelp Projects/charu_new_project/contents/3.htm">
+    </contextentry>
+    
+    <contextentry id="8" page="C:/Users/charu/Documents/My RoboHelp Projects/charu_new_project/contents/3.1_Publish_user_manual.htm">
+    </contextentry>
+    
+    <contextentry id="9" page="C:/Users/charu/Documents/My RoboHelp Projects/charu_new_project/contents/3.2_Working.htm">
+    </contextentry>
+    
+    <contextentry id="1011" page="C:/Users/charu/Documents/My RoboHelp Projects/charu_new_project/contents/4.htm">
+    </contextentry>
+    
+    <contextentry id="1012" page="C:/Users/charu/Documents/My RoboHelp Projects/charu_new_project/contents/4.1_Benfits.htm">
+    </contextentry>
+    
+    <contextentry id="1013" page="C:/Users/charu/Documents/My RoboHelp Projects/charu_new_project/contents/5.htm">
+    </contextentry>
+    
+    <contextentry id="1014" page="C:/Users/charu/Documents/My RoboHelp Projects/charu_new_project/contents/5.1_Structure.htm">
+    </contextentry>
+    
+    <contextentry id="1015" page="C:/Users/charu/Documents/My RoboHelp Projects/charu_new_project/contents/5.2_Development.htm">
+    </contextentry>
+    
+  </contextmap>
+  <topiclist defaulttopic="First_Topic.htm">
+    
+    <topic>
+      First_Topic.htm
+    </topic>
+    
+    <topic>
+      2.2_Design_of_template.htm
+    </topic>
+    
+    <topic>
+      21_Creation_of_image.htm
+    </topic>
+    
+    <topic>
+      2.htm
+    </topic>
+    
+    <topic>
+      1.2_Adding_navigation.htm
+    </topic>
+    
+    <topic>
+      1.htm
+    </topic>
+    
+    <topic>
+      3.htm
+    </topic>
+    
+    <topic>
+      3.1_Publish_user_manual.htm
+    </topic>
+    
+    <topic>
+      3.2_Working.htm
+    </topic>
+    
+    <topic>
+      4.htm
+    </topic>
+    
+    <topic>
+      4.1_Benfits.htm
+    </topic>
+    
+    <topic>
+      5.htm
+    </topic>
+    
+    <topic>
+      5.1_Structure.htm
+    </topic>
+    
+    <topic>
+      5.2_Development.htm
+    </topic>
+    
+  </topiclist>
+  <filenamemap>
+    <filenameentry moniker="wh_languagetype">
+      <filename>
+        en_US
+      </filename>
+    </filenameentry>
+    <filenameentry moniker="wh_stoplist">
+      <filename>
+        whxdata/stopwords.xml
+      </filename>
+    </filenameentry>
+    <filenameentry moniker="startpage">
+      <filename>
+        I.htm
+      </filename>
+    </filenameentry>
+        
+  </filenamemap>
+</ppfml>

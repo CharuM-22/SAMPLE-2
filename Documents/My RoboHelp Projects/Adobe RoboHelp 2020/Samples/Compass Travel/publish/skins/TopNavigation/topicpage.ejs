@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes" />
+  <meta name="version" content="2020.0.0" />
+  <link rel="StyleSheet" href="<%= relPath %>template/styles/topic.min.css" type="text/css" />
+  <link rel="StyleSheet" data-skin="true" type="text/css" href="<%= relPath %>template/<%= skinName %>/layout.css" />
+  <link rel="StyleSheet" data-skin="true" href="<%= relPath %>template/<%= skinName %>/userstyles.css" type="text/css" />
+  <% if(favicon && favicon.path && favicon.mediaType) { %>
+    <link rel="shortcut icon" type="<%= favicon.mediaType %>" href="<%= relPath %><%= favicon.path %>" />
+    <% } %>
+</head>
+
+<body class="rh-BODY-wrapper">
+  <div class="cookie-widget-holder" id="cookie-status-widget-holder"></div>
+  <div class="RH-LAYOUT-HEADER-skip-content-container" id="skip-to-content"></div>
+  <header class="RH-LAYOUT-HEADER-container" role="banner">
+    <div class="rh-layout-HEADER-top-row">
+      <div class="RH-LAYOUT-HEADER-logo-box">
+        <div class="RH-LAYOUT-HEADER-logo" id="logo-holder"></div>
+        <div class="RH-LAYOUT-HEADER-title" id="topic-title-holder"></div>
+      </div>
+      <nav role="navigation" aria-label="Site" class="RH-LAYOUT-MENUBAR-container" id="rh-menubar"></nav>
+    </div>
+    <div class="rh-layout-HEADER-bottom-row">
+      <div class="rh-layout-modern-search-placeholder"  id="rh-modern-search-with-help"></div>
+    </div>
+  </header>
+  <main role="main" class='RH-LAYOUT-BODY-container'>
+    <div class="rh-layout-BODY-main" id="rh-layout-main">
+      <div id="rh-main-content">
+        <div class='RH-LAYOUT-TOOLBAR-toolbar-box' id="rh-modern-toolbar"></div>
+        <div class="RH-LAYOUT-FILTERS-applied" id="rh-filters-applied"></div>
+        <div class="rh-layout-BODY-body">
+          <div class="RH-LAYOUT-CENTERPANEL-container">
+            <div class="RH-LAYOUT-CENTERPANEL-topic-box" id="rh-topic"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer role="contentinfo" class="RH-LAYOUT-FOOTER-container" id="rh-footer"></footer>
+  <script type="text/javascript">
+    gRootRelPath = "<%= rootRelPath %>"
+    gCommonRootRelPath = "<%= rootRelPath %>"
+    gTopicId = "<%= topicID %>"
+  </script>
+
+
+  <script src="<%= relPath %>template/scripts/topicpage.js"></script>
+  <script src="<%= relPath %>whxdata/layoutconfig.js"></script>
+  <script src="<%= relPath %>whxdata/brsdata.js"></script>
+  <%
+      			var allAssetFiles = skinAssets || [];
+      		%>
+    <% for(var i=0; i<allAssetFiles.length; i++) { %>
+      <% if (allAssetFiles[i].substr(allAssetFiles[i].length - 3).toLowerCase()  === ".js") { %>
+        <script src="<%= relPath %>template/<%= skinName %>/<%= allAssetFiles[i] %>" type="text/javascript"></script>
+        <% } %>
+          <% } %>
+
+            <% for(var i=0; i<allAssetFiles.length; i++) { %>
+              <% if (allAssetFiles[i].substr(allAssetFiles[i].length - 4).toLowerCase()  === ".css") { %>
+                <link rel="StyleSheet" href="<%= relPath %>template/<%= skinName %>/<%= allAssetFiles[i] %>" type="text/css" />
+                <% } %>
+                  <% } %>
+</body>
+
+</html>

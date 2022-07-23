@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  
+<map>
+    
+<title>Variables</title>
+  
+<keydef keys="COMPANY NAME">
+<topicmeta>
+<keywords>
+<keyword>WIPRO</keyword></keywords></topicmeta></keydef>
+<keydef keys="LOCATION">
+<topicmeta>
+<keywords>
+<keyword>BANGALORE</keyword></keywords></topicmeta></keydef>
+<keydef keys="MANAGER NAME ">
+<topicmeta>
+<keywords>
+<keyword>CHARU</keyword></keywords></topicmeta></keydef></map>

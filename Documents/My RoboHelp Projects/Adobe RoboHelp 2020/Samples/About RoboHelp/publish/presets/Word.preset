@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <content>
+    <conditional>
+      <name>NOT_Exclude</name>
+      <path>../expressions/NOT_Exclude.expn</path>
+    </conditional>
+    <toc>
+      <path>../../toc/Book_TOC.toc</path>
+      <name>Book_TOC</name>
+    </toc>
+    <index type="boolean">false</index>
+    <masterpage>
+      <path>../../contents/assets/masterpages/book.htt</path>
+    </masterpage>
+    <includereftopics type="boolean">true</includereftopics>
+    <includeExpandingText type="boolean">true</includeExpandingText>
+    <includeDropdownText type="boolean">true</includeDropdownText>
+  </content>
+  <title>About RoboHelp</title>
+  <metadata>
+    <author>Ann Author</author>
+    <subject>About RoboHelp</subject>
+  </metadata>
+  <type>word</type>
+  <outputPath></outputPath>
+  <name>Word</name>
+  <starterPage>About_RoboHelp.docx</starterPage>
+  <search>
+    <showSpeclChars type="boolean">false</showSpeclChars>
+    <speclChars>0;1;2;3;4;5;6;7;8;9</speclChars>
+  </search>
+  <patchHomepage type="boolean">true</patchHomepage>
+  <gdprCompliance type="boolean">true</gdprCompliance>
+  <word>
+    <stylemapping>{&quot;selectorMap&quot;:{},&quot;discardSelectors&quot;:[],&quot;identityMappedSelectors&quot;:[]}</stylemapping>
+    <insertTopicBreak type="boolean">true</insertTopicBreak>
+    <displayChapter type="boolean">true</displayChapter>
+  </word>
+</preset>

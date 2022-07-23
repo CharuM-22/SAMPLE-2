@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="version" content="2020.0.0" />
+  <title>
+    <%= output.title %>
+  </title>
+  <% if(favicon && favicon.path && favicon.mediaType) { %>
+  <link rel='shortcut icon' type='<%= favicon.mediaType %>' href='<%= favicon.path %>' />
+  <% } %>
+  <link rel="StyleSheet" href="template/<%= layout.name %>/layout<%= html.rtl ? '-rtl' : '' %>.css" type="text/css" />
+  <link rel="StyleSheet" href="template/<%= layout.name %>/userstyles.css" type="text/css" />
+  <script type="text/javascript">
+    gRootRelPath = ".";
+    gCommonRootRelPath = ".";
+  </script>
+</head>
+<body class="rh-BODY-wrapper">
+  <div class="cookie-widget-holder" id="cookie-status-widget-holder"></div>
+  <div class="RH-LAYOUT-HEADER-skip-content-container" id="skip-to-content"></div>
+  <header class="RH-LAYOUT-HEADER-container" role="banner">
+    <div class="rh-layout-HEADER-top-row">
+      <div class="RH-LAYOUT-HEADER-logo-box">
+        <div class="RH-LAYOUT-HEADER-logo" id="logo-holder"></div>
+        <div class="RH-LAYOUT-HEADER-title" id="topic-title-holder"></div>
+      </div>
+      <nav role="navigation" aria-label="Site" class="RH-LAYOUT-MENUBAR-container" id="rh-menubar"></nav>
+    </div>
+  </header>
+  <main role="main" class='RH-LAYOUT-BODY-container'>
+    <div class="rh-layout-BODY-main-homepage" id="rh-layout-main">
+      <div id="rh-main-content-homepage">
+        <div class="rh-layout-BODY-body">
+          <div class="RH-LAYOUT-CENTERPANEL-container">
+            <div data-region="topic" class="RH-LAYOUT-CENTERPANEL-topic-box" id="rh-topic"></article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer role="contentinfo" class="RH-LAYOUT-FOOTER-container" id="rh-footer"></footer>
+  <script type="text/javascript" src="template/scripts/homepage.js" charset="utf-8"></script>
+  <script src="whxdata/layoutconfig.js"></script>
+  <% var allAssetFiles = html.assets || []; %>
+  <% for(var i=0; i<allAssetFiles.length; i++) { %>
+    <% if (allAssetFiles[i].substr(allAssetFiles[i].length - 3).toLowerCase()  === ".js") { %>
+          <script src="template/<%= layout.name %>/<%= allAssetFiles[i] %>" type="text/javascript"></script>
+    <% } %>
+  <% } %>
+
+  <% for(var i=0; i<allAssetFiles.length; i++) { %>
+    <% if (allAssetFiles[i].substr(allAssetFiles[i].length - 4).toLowerCase()  === ".css") { %>
+          <link rel="StyleSheet" href="template/<%= layout.name %>/<%= allAssetFiles[i] %>" type="text/css" />
+    <% } %>
+  <% } %>
+</body>
+</html>
